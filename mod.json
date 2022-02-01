@@ -1,0 +1,6 @@
+name: "Altanic"
+author: "swirek3331" 
+description:  "Mod dodający między innymi większe ściany i przetwórstwo stali"
+version: "OH NO 1.6"
+minGameVersion: 130
+hidden: false
