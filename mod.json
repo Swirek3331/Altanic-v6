@@ -4,3 +4,6 @@ description:  "Mindustry mod that adds alternative methods to make already exist
 version: "OH NO 1.6"
 minGameVersion: 130
 hidden: false
+dependencies: [
+  multi-lib
+]
