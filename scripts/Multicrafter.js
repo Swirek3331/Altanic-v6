@@ -38,6 +38,7 @@ const furnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCraf
     {
         input: {
             items: ["coal/2", "ironore/1"],
+            power: 1.5,
         },
         output: {
             items: ["stal/1"],
