@@ -1,6 +1,6 @@
 name: "Altanic"
 author: "swirek3331" 
-description:  "Mod dodający między innymi większe ściany i przetwórstwo stali"
+description:  "Mindustry mod that adds alternative methods to make already existing item. Modification also change vanilla content requirements like you need first make iron and steel to unlock plastanium compressor"
 version: "OH NO 1.6"
 minGameVersion: 130
 hidden: false
