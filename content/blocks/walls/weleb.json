@@ -1,0 +1,16 @@
+type: Wall
+name: Ogromna ściana z elektrum
+description: Ekstremalnie wytrzymały blok obronny. Ma niewielką szanse na wywołanie błyskawicy w kierunku atakującego.
+health: 8280
+size: 3
+requirements: [
+  surge-alloy/54
+]
+category: defense
+lightningChance: 0.08
+research: {
+ parent: wtorb
+ requirements: [
+   surge-alloy/1400
+  ]
+}

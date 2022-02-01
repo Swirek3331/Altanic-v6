@@ -1,0 +1,34 @@
+type: ImpactReactor
+name: Generator ropy
+description: Pozyskuje energie ze spalania ropy
+liquidCapacity: 5
+hasLiquids: true
+size: 2
+powerProduction: 10
+plasma1: 60605B
+plasma2: 40403E
+consumes: {
+  power: 2
+  liquid: {
+    liquid: oil
+    amount: 0.1
+  }
+}
+requirements: [
+  metaglass/50
+  copper/35
+  lead/40
+  silicon/35
+  graphite/20
+]
+category: power
+research: {
+  parent: steam-generator
+  requirements: [
+    copper/3500
+    metaglass/5000
+    lead/4000
+    silicon/3500
+    graphite/2000
+  ]
+}

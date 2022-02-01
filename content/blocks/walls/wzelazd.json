@@ -1,0 +1,15 @@
+type: Wall
+name: Duża żelazna ściana
+description: Duża ściana z żelaza. 
+health: 500
+size: 2
+requirements: [
+  zelazo/24
+]
+category: defense
+research: {
+  parent: wzelazm
+  requirements: [
+    zelazo/2400
+  ]
+}

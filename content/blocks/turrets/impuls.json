@@ -1,0 +1,52 @@
+type: PowerTurret
+name: Impuls
+description: Strzela wiązkami energetycznymi
+size: 3
+health: 2000
+recoilAmount: 3
+reloadTime: 40
+cooldown: 0.06
+shootY: 7
+shake: 4
+rotaterSpeed: 6
+ejectEffect: casing1
+shots: 2
+spacing: 17
+range: 90
+powerUse: 5
+shootShake: 4
+heatColor: 7FC9FF
+targetAir: true
+shootSound: shotgun
+shootType: {
+  type: ShrapnelBulletType
+  fromColor: 7FC9FF
+  toColor: 7FC9FF
+  shotEffect: smokeEffect
+  length: 90f
+  damage: 150
+  width: 25f
+  serrationLenScl: 7f
+  serrationSpaceOffset: 60f
+  serrationFadeOffset: 0f
+  serrations: 10
+  serrationWidth: 6f
+}
+requirements: [
+  silicon/150
+  stal/200
+  phase-fabric/80
+  plastanium/100
+]
+category: turret
+research: {
+  parent: oskar
+  requirements: [
+    silicon/15000
+    stal/20000
+    phase-fabric/8000
+    plastanium/10000
+  ]
+}
+
+

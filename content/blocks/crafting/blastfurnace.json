@@ -1,0 +1,33 @@
+name: Wielki piec
+description: Wytapia stal przy użyciu żelaza i koksu.
+type: genericCrafter
+drawer: DrawSmelter
+size: 3
+health: 750
+crafTime: 120
+consumes: {
+  items: {
+    items: [
+      ironore/5
+      cokecoal/5
+    ]
+  }
+}
+outputItem: stal/5
+outputLiquid: slag/10
+category: crafting
+requiremenets: [
+  zelazo/85
+  lead/115
+  titanium/65
+  metaglass/105
+]
+research: {
+  parent: odlewnias
+  requirements: [
+    zelazo/8500
+    lead/11500
+    titanium/6500
+    metaglass/10500
+  ]
+}

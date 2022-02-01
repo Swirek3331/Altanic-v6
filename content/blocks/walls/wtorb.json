@@ -1,0 +1,15 @@
+type: Wall
+name: Ogromna ściana z toru
+description: Silny blok obronny. Dobra ohrona przed wrogami. Obejmuje wiele kratek.
+health: 7200
+size: 3
+requirements: [
+  thorium/54
+]
+category: defense
+research: {
+ parent: wtytanb
+ requirements: [
+   thorium/1400
+  ]
+} 

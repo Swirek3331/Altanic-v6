@@ -1,0 +1,15 @@
+type: Wall
+name: Gigantyczna stalowa ściana
+description: Gigantyczna ściana ze stali. 
+health: 13600
+size: 4
+requirements: [
+  stal/96
+]
+category: defense
+research: {
+  parent: wstalb
+  requirements: [
+    stal/9600
+  ]
+}

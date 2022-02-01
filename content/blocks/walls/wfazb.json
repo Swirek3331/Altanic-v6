@@ -1,0 +1,18 @@
+type: Wall
+name: Ogromna ściana z włókna fazowego
+description: Ściana pokryta specjalną mieszanką opartą o włókno fazowe, która obija większość pocisków.
+health: 5400
+size: 3
+requirements: [
+  phase-fabric/54
+  ]
+category: defense
+chanceDeflect: 12
+flashHit: true
+research: {
+ parent: weleb
+ requirements: [
+   phase-fabric/1400
+  ]
+}
+ 

@@ -1,0 +1,8 @@
+type: OreBlock
+itemDrop: ironore
+mapColor: B59177
+hasColor: true
+oreDefault: true
+
+
+

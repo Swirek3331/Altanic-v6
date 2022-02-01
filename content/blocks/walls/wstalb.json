@@ -1,0 +1,15 @@
+type: Wall
+name: Ogromna stalowa ściana
+description: Ogromna ściana ze stali. 
+health: 7650
+size: 3
+requirements: [
+  stal/54
+]
+category: defense
+research: {
+  parent: wzelazb
+  requirements: [
+    stal/5400
+  ]
+}

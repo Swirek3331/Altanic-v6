@@ -1,0 +1,41 @@
+type: Separator
+name: Separator ropy
+description: Używając ropy i piasku tworzy piratian i węgiel
+heath: 400
+size: 3
+liquidCapacity: 60
+ItemCapacity: 20
+hasLiquids: true
+craftTime: 15
+consumes: {
+   power: 1.3
+   items: {
+     items: [
+       sand/2
+     ]
+  }
+    liquid: {
+      liquid: oil
+      amount: 0.1
+   }
+}
+results: [
+  pyratite/2
+  coal/5
+]
+category: crafting
+requirements: [
+  zelazo/70
+  titanium/85
+  silicon/65
+  lead/130
+]
+research: {
+  parent: coal-centrifuge
+  requirements: [
+    zelazo/7000
+    titanium/8500
+    silicon/6500
+    lead/13000
+  ]
+}

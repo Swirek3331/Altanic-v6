@@ -1,0 +1,37 @@
+type: ImpactReactor
+Name: Reaktor fuzyjny
+description: Reaktor fuzyjny. Wymaga dużych ilości wody i prądu.
+liquidCapacity: 118
+size: 3
+hasLiquids: true
+powerProduction: 300
+plasma1: 94efff
+plasma2: 45e3ff
+consumes: {
+  power: 8
+  liquid: {
+    liquid: water
+    amount: 6
+  }
+}
+requirements: [
+  stal/250
+  metaglass/100
+  zelazo/100
+  surge-alloy/250
+  silicon/100
+]
+category: power
+ambientSound: pulse
+ambientSoundVolume: 0.2
+research: {
+  parent: bpgenp
+  requirements: [
+    stal/25000
+    metaglass/10000
+    zelazo/10000
+    surge-alloy/25000
+    silicon/10000
+  ]
+}
+

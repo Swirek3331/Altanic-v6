@@ -1,0 +1,15 @@
+type: Wall
+name: Gigantyczna żelazna ściana
+description: Gigantyczna ściana z żelaza. 
+health: 8000
+size: 4
+requirements: [
+  zelazo/96
+]
+category: defense
+research: {
+  parent: wzelazb
+  requirements: [
+    zelazo/9600
+  ]
+}

@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Mieszacz koksu
+decription: Tworzy piratiat, wykorzystując do tego koks i piasek
+health: 300
+size: 2
+craftTime: 90
+consumes: {
+   power: 1
+   items: {
+     items: [
+       cokecoal/1
+       sand/2
+     ]
+  }
+}
+category: crafting
+requirements: [
+  copper/50
+  lead/25
+]
+research: {
+  parent: pyratite-mixer
+  requirements: [
+    copper/2500
+    lead/2500
+  ]
+}
+outputItem: pyratite/1

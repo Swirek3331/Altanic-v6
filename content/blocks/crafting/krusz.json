@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: rozkruszacz żelaza
+description: przerwarza złom w rudę żelaza.
+health: 150
+drawer: DrawRotator
+size: 1
+rotateSpeed: 0
+itemCapacity: 10
+craftTime: 30
+hasItems: 5
+consumes: {  
+  power: 0.2
+  items: {
+    items: [
+      scrap/1
+    ]
+  }
+}
+category: crafting
+requirements: [
+  copper/20
+  lead/10
+  graphite/10
+]
+research: {
+  parent: graphite-press
+  requirements: [
+    graphite/1000
+    lead/1000
+    copper/2000
+  ]
+}
+ambientSound: griding
+ambientSoundVolume: 0.02
+outputItem: ironore/2

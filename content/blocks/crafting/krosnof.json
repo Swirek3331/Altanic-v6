@@ -1,0 +1,39 @@
+name: Krosno fazowe
+description: Ulepszona fabryka włókna fozowego
+type: GenericCrafter
+size: 3
+craftTime: 150
+drawer: DrawWeave
+ambientSound: techloop
+itemCapacity: 40
+ambientSoundVolume: 0.02
+consumes: {
+  power: 5.5
+  items: {
+    items: [
+      sand/20
+      thorium/10
+    ]
+  }
+}
+outputItem: phase-fabric/4
+category: crafting
+requirements: [
+  surge-alloy/20
+  phase-fabric/40
+  silicon/100
+  thorium/75
+  lead/60
+]
+research: {
+  parent: phase-weaver
+  requirements: [
+    surge-alloy/2000
+    phase-fabric/4000
+    silicon/10000
+    thorium/7500
+    lead/6000
+   ]
+} 
+
+  

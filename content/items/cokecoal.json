@@ -1,0 +1,9 @@
+name: koks węglowy
+description: Węgiel poddany suchej destylacji.
+color: 706F74
+research: {
+  parent: coal
+  requirements: [
+    titanium/1
+  ]
+}

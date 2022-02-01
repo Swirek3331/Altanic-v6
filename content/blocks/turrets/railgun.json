@@ -1,0 +1,50 @@
+type: itemTurret
+name: Railgun
+description: Wystrzeliwuje pociski z dużą szybkością
+targetAir: true
+targetGround: true
+heath: 2500
+restitution: 0.04
+recoilAmount: 2
+size: 4
+cooldown: 0.1
+reloadTime: 90
+shots: 1
+shootSound: railgun
+heatColor: FF0000
+shootCone: 20
+burstSpacing: 3
+rotateSpeed: 4
+maxAmoo: 30
+range: 500
+ammoTypes: {
+  surge-alloy: {
+    type: PointBulletType
+    pierce: true
+    hitEffect: railHit
+    trailEffect: instTrail
+    trailSpacing: 20
+    damage: 1000
+    tileDamageMultiplier: 0.3
+    speed: 25
+    ammoMultiplier: 1
+}
+}
+category: turret
+requirements: [
+  silicon/600
+  surge-alloy/300
+  thorium/200
+  metaglass/150
+  stal/400
+]
+research: {
+  parent: promien
+  requirements: [
+    silicon/60000
+    surge-alloy/30000
+    thorium/20000
+    metaglass/15000
+    stal/40000
+  ]
+}

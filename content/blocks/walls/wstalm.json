@@ -1,0 +1,15 @@
+type: Wall
+name: Stalowa ściana
+description: ściana ze stali. 
+health: 850
+size: 1
+requirements: [
+  stal/6
+]
+category: defense
+research: {
+  parent: wzelazd
+  requirements: [
+    stal/600
+  ]
+}

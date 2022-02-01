@@ -1,0 +1,39 @@
+name: Promień
+description: Wystrzeliwuje potężny promień
+size: 4
+type: PowerTurret
+range: 80
+health: 2200
+reloadTime: 100
+shootSound: laser
+rotateSpeed: 2
+heatColor: FF0000
+chargeTime: 20
+range: 180
+recoilAmount: 1
+shots: 1
+powerUse: 8
+shootType: {
+  type: LaserBulletType
+  ammoMultiplier: 1
+  lenght: 200
+  damage: 100
+  lifeTime: 55
+  collidesAir: true
+  colors: [ffffff, ffffff, ffffff]
+  hitSize: 5
+  drawSie: 400
+  hitEffect: hitLancer
+}
+category: turret
+requirements: [
+  silicon/50
+  stal/200
+]
+research: {
+  parent: impuls
+  requirements: [
+    silicon/5000
+    stal/20000
+  ]
+}

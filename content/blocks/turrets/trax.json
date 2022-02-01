@@ -1,0 +1,30 @@
+type: TractorBeamTurret
+name: trax
+desription: lądowy parallax
+size: 2
+hasPower: true
+range: 200
+health: 200
+targetAir: false
+targetGround: true
+force: 12
+scaledForce: 6
+damage: 0.5
+rotateSpeed: 10
+consumes: {
+  power: 4
+}
+requirements: [
+  silicon/120
+  zelazo/60
+  graphite/40
+]
+category: turret
+research: {
+  parent: oskar
+  requirements: [
+    silicon/12000	
+    zelazo/6000
+    graphite/4000
+  ]
+}

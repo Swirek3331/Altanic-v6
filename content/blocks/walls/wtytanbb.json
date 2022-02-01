@@ -1,0 +1,15 @@
+type: Wall
+name: Gigantyczna ściana z tytanu
+description: Umiarkowanie silny blok ohronny. Zapewnia umiarkowaną ochrone przed wrogami. Obejmuje wiele kratek
+health: 7040
+size: 4
+requirements: [
+  titanium/72
+]
+category: defense
+research: {
+ parent: wtytanb
+ requirements: [
+   titanium/2800
+  ]
+} 

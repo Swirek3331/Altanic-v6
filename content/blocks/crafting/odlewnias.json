@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: Odlewnia stali
+description: Łączy żelazo z węglem tworząc stal
+health: 700
+drawer: DrawSmelter
+size: 3
+craftTime: 90
+hasItems: 16
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      ironore/2
+      coal/1
+    ]
+  }
+}
+category: crafting
+requirements: [
+  copper/120
+  graphite/90
+  silicon/50
+  zelazo/60
+]
+research: {
+  parent: hutairon
+  requirements: [
+    copper/12000
+    graphite/9000
+    silicon/5000
+    zelazo/6000
+  ]
+}
+outputItem: stal/1
+  
+

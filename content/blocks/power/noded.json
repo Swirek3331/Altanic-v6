@@ -1,0 +1,23 @@
+type: PowerNode
+name: Ogromny węzeł prądu
+description: Większy węzeł prądu. Oparty o tor
+health: 200
+size: 3
+laserRange: 20
+maxNodes: 30
+laserColor1: ffffff
+laserColor2: ffffff
+requirements: [
+  silicon/25
+  thorium/25
+  lead/50
+]
+category: power
+research: {
+  parent: power-node-large
+  requirements: [
+    silicon/2500
+    thorium/2500
+    lead/5000
+  ]
+}

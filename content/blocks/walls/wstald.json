@@ -1,0 +1,15 @@
+type: Wall
+name: Duża stalowa ściana
+description: Duża ściana ze stali. 
+health: 850
+size: 2
+requirements: [
+  stal/24
+]
+category: defense
+research: {
+  parent: wstalm
+  requirements: [
+    stal/2400
+  ]
+}

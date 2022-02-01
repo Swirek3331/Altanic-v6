@@ -1,0 +1,62 @@
+name: Vus
+description: Potężne laserowe działo podobne do tego z którym corvus kroczy. Zalecana pomoc altylerią przeciw lotniczą
+type: itemTurret
+size: 4
+health: 2500
+range: 480
+reloadTime: 120
+rotateSpeed: 2
+shootSound: laserblast
+heatColor: FF0000
+maxAmmo: 60
+burstSpacing: 2
+ammoPerShot: 5
+recoilAmount: 1
+shots: 1
+consumes: {
+  power: 12
+}
+ammoTypes: {
+  surge-alloy: {
+    type: LaserBulletType
+    ammoMultiplier: 1
+    length: 500
+    damage: 500
+    width: 75
+    lifetime: 65
+    lightningSpacing: 40
+    lightningLength: 12
+    lightningDelay: 1.0
+    lightningLengthRand: 21
+    lightningDamage: 65
+    lightningAngleRand: 30
+    largeHit: true
+    shootEffect: greenLaserCharge
+    collidesTeam: true
+    sideAngle: 15
+    sideWidth: 0
+    sideLength: 0
+    colors: [F3E979, E8D174, D99F6B]
+  }
+}
+category: turret
+requirements: [
+  silicon/1200
+  plastanium/500
+  phase-fabric/250
+  surge-alloy/400
+  thorium/400
+  metaglass/150
+]
+research: {
+  parent: railgun
+  requirements: [
+    silicon/120000
+    plastanium/50000
+    phase-fabric/250
+    surge-alloy/40000
+    thorium/40000
+    metaglass/15000
+  ]
+}
+    

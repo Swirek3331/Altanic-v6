@@ -1,0 +1,29 @@
+type: genericCrafter
+name: Ekstraktor kwarcu
+description: Odziela kwarc od piasku
+health: 200
+size: 2
+craftTime: 60
+consumes: {
+   power: 0.6
+   items: {
+     items: [
+       sand/5
+      ]
+   }
+}
+category: crafting
+requirements: [
+  lead/50
+  copper/50
+  graphite/15
+]
+research: {
+  parent: krusz
+  requirements: [
+    lead/5000
+    copper/5000
+    graphite/1500
+  ]
+}
+outputItem: quartz/2

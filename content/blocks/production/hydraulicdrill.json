@@ -1,0 +1,30 @@
+name: Wiertło hydrauliczne
+description: Wiertło używające wody
+type: drill
+size: 3
+drillTime: 340
+tier: 4
+hasPower: false
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.2
+  }
+}
+requirements: [
+  copper/40
+  metaglass/50
+  graphite/40
+  titanium/60
+]
+category: production
+research: {
+  parent: pneumatic-drill
+  requirements: [
+    copper/4000
+    metaglass/5000
+    graphite/4000
+    titanium/6000
+  ]
+}
+  

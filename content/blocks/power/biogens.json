@@ -1,0 +1,25 @@
+type: SingleTypeGenerator
+name: Generator zarodników
+description: Generator spalający zarodniki.
+health: 100
+size: 1
+powerProduction: 2
+consumes: {
+  items: {
+    items: [
+      spore-pod/1
+    ]
+  }
+}
+requirements: [
+  zelazo/50
+  lead/25
+]
+category: power
+research: {
+  parent: hutairon
+  requirements: [
+    zelazo/5000
+    lead/2500
+  ]
+}

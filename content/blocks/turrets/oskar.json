@@ -1,0 +1,33 @@
+name: oskarżyciel
+description: Działko podobne do pioruna ale wystrzela więcej błyskawic
+size: 1
+health: 200
+range: 100
+shots: 25
+type: PowerTurret
+shootSound: spark
+shootCone: 20
+shootType: {
+  type: LightningBulletType
+  lightingLength: 10
+  damage: 25
+}
+rotateSpeed: 10
+powerUse: 4
+shooteffect: lightningShoot
+recoilAmount: 1
+heatColor: FF0000
+cooldown: 0.02
+restitution: 0.02
+requirements: [
+  zelazo/20
+  lead/30
+]
+category: turret
+research: {
+  parent: zuo
+  requirements: [
+    zelazo/2000
+    lead/3000
+   ]
+}

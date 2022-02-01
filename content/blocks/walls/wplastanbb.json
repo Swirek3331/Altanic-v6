@@ -1,0 +1,19 @@
+type: Wall
+name: Gigantyczna ściana z plastanu
+description: Specjalny typ ściany, który pochłania łuki elektryczne oraz blokuje. Obejmuje wiele kratek
+health: 8320
+size: 4
+requirements: [
+  plastanium/60
+  metaglass/24
+]
+category: defense
+insulated: true
+absorbLasers: true
+research:{
+ parent: wplastanb
+ requirements: [
+   plastanium/2800
+  ]
+}
+ 

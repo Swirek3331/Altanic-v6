@@ -1,0 +1,43 @@
+type: ImpactReactor
+name: Reaktor elekrumowy
+description: Reaktor zasilany elektrum
+liquidCapacity: 60
+hasLiquid: true
+size: 4
+powerProduction: 500
+plasma1: E8D074
+plasma2: F2E878
+consumes: {
+  power: 10
+  items: {
+    items: [
+      surge-alloy/1
+   ]
+}
+   liquid: {
+     liquid: cryofluid
+     amount: 0.2
+  }
+}
+ambientSound: pulse
+ambientSoundVolume: 0.2
+requirements: [
+  lead/500
+  metaglass/300
+  graphite/400
+  thorium/100
+  silicon/400
+  surge-alloy/300
+]
+category: power
+research: {
+  parent: impact-reactor
+  requirements: [
+   lead/50000
+   metaglass/30000
+   graphite/40000
+   thorium/10000
+   silicon/40000
+   surge-alloy/30000
+ ]
+}

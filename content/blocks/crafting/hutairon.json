@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Huta żelaza
+description: Przekształca rude żelaza w przetopione żelazo
+health: 500
+size: 2
+craftTime: 40
+hasItems: 10
+drawer: DrawSmelter
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      ironore/2
+    ]
+  }
+}
+category: crafting
+requirements: [
+  graphite/60
+  lead/45
+  copper/60
+]
+research: {
+  parent: krusz
+  requirements: [
+    copper/6000
+    graphite/6000
+    lead/4500
+  ]
+}
+outputItem: zelazo/1
+    
+      

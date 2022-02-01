@@ -1,0 +1,10 @@
+name: kwarc
+description: kwarc
+color: ffffff
+research: {
+  parent: sand
+  requirements: [
+    graphite/5
+  ]
+}
+hardness: 1

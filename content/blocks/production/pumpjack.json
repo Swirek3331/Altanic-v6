@@ -1,0 +1,29 @@
+type: Fracker
+name: Odwiert naftowy
+description: Wydobywa pokłady ropy znajdujące się podziemią
+size: 2
+baseEfficiency: 0
+consumes: {
+   power: 3.5
+}
+attribute: oil
+pumpAmount: 0.25
+result: oil
+category: production
+requirements: [
+  copper/65
+  metaglass/85
+  titanium/50
+  lead/70
+  silicon/45
+]
+research: {
+  parent: rotary-pump
+  requirements: [
+    copper/6500
+    metaglass/8500
+    titanium/5000
+    lead/7000
+    silicon/4500
+  ]
+}

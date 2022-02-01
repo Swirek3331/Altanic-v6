@@ -1,0 +1,35 @@
+type: MendProjector
+localizedName: Ściana z polem naprawczym
+description: Ściana z polem naprawczym oparta na ścianie tytanowej. Wymaga prądu.
+size: 2
+health: 1500
+range: 50
+reload: 1
+healPercent: 0.1
+useTime: 45
+baseColor: 6874C4
+phaseColor: 6874C4
+consumes: {
+  power: 1.2
+  items: {
+    items: [
+      phase-fabric/1
+    ]
+    booster: false
+    optional: true
+  }
+}
+requirements: [
+  lead/100
+  silicon/100
+  titanium/50
+]
+category: defense
+research: {
+ parent: tree-exwp
+ requiremenst: [
+   lead/2000
+   silicon/3000
+   titanim/8000
+  ]
+}

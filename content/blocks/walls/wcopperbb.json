@@ -1,0 +1,16 @@
+type: Wall
+name: Gigantyczna ściana z miedzi
+description: Tani blok ochrony. Przydatny w pierwszych falach. Obejmuje wiele kratek.
+health: 5120
+size: 4
+requirements: [
+  copper/72
+]
+category: defense
+research: {
+  parent: wcoperb
+  requirements: [
+    copper/2800
+  ]
+}
+  

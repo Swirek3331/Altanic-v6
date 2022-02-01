@@ -1,0 +1,10 @@
+name: ruda żelaza
+description: Ruda żelaza. Nie przetworzone żelazo
+color: C6A890
+research: {
+  parent: graphite
+  requirements: [
+     ironore/1
+  ]
+}
+hardess: 2

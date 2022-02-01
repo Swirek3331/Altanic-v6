@@ -1,0 +1,15 @@
+type: Wall
+name: Żelazna ściana
+description: ściana z żelaza. 
+health: 500
+size: 1
+requirements: [
+  zelazo/6
+]
+category: defense
+research: {
+  parent: zuo
+  requirements: [
+    zelazo/600
+  ]
+}
