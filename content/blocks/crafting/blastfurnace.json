@@ -1,6 +1,6 @@
 name: Wielki piec
-description: Wytapia stal przy użyciu żelaza i koksu.
-type: genericCrafter
+description: Wytapia stal przy użyciu żelaza i koksu
+type: GenericCrafter
 drawer: DrawSmelter
 size: 3
 health: 750
