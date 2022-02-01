@@ -1,0 +1,15 @@
+localizedName: Induction furnce
+description: Induction smelter use power to smelt even faster, and also can use more advanced metalurgic proces
+itemCapacity: 40
+liquidCapacity: 20
+size: 3
+health: 500
+category: crafting
+requirements: [
+  copper/45
+  silicon/75
+  metaglass/55
+  lead/65
+  zelazo/55
+  graphite/40
+]
