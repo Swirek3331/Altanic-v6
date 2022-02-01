@@ -51,7 +51,7 @@ const furnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCraf
             power: 1.5,
         },
         output: {
-            items: ["metaglass"],
+            items: ["metaglass/1"],
         },
         craftTime: 30
     },
@@ -90,4 +90,4 @@ furnace.health = 100;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 furnace.dumpToggle = false;
-furnace.requirements(Category.crafting, ItemStack.with(Items.copper, 75, lead, 65, graphite, 50, metaglass, 30, zelazo, 55));
+furnace.requirements(Category.crafting, ItemStack.with(Items.copper, 75, lead, 65, graphite, 50, metaglass, 30, altanic-zelazo, 55));
