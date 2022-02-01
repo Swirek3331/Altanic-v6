@@ -17,7 +17,7 @@ consumes: {
 outputItem: stal/5
 outputLiquid: slag/10
 category: crafting
-requiremenets: [
+requirements: [
   zelazo/85
   lead/115
   titanium/65
