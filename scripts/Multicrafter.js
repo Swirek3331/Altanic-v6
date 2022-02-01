@@ -17,11 +17,11 @@ const furnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCraf
     },*/
     {
         input: {
-            items: ["ironore/1"],
+            items: ["altanic-ironore/1"],
             power: 0.5,
         },
         output: {
-            items: ["zelazo/1"],
+            items: ["altanic-zelazo/1"],
         },
         craftTime: 30
     },
@@ -31,17 +31,17 @@ const furnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCraf
             power: 0.51,
         },
         output: {
-            items: ["lead/1", "sand/1"],
+            items: ["lead/1"],
         },
         craftTime: 30
     },
     {
         input: {
-            items: ["coal/2", "ironore/1"],
+            items: ["coal/2", "altanic-ironore/1"],
             power: 1.5,
         },
         output: {
-            items: ["stal/1"],
+            items: ["altanic-stal/1"],
         },
         craftTime: 30
     },
