@@ -1,0 +1,14 @@
+localizedName: Electric arc furnace
+description: Electric arc furnace is a masive structure that requires lots of power to work, but is very fast
+size: 4
+health: 1000
+category: crafting
+requirements: [
+  copper/350
+  silicon/385
+  lead/275
+  meteglass/145
+  graphite/235
+  stal/245
+  zelazo/125
+]
