@@ -165,7 +165,7 @@ const inductionFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Ge
         },
         output: {
             items: ["altanic-stal/5"],
-            liquids: ["slag/1"],
+            liquids: ["slag/3"],
         },
         craftTime: 60
     },
