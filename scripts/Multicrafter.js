@@ -71,7 +71,7 @@ hasLiquids
 hasPower
 */
 //using example without .json file. I don't recommand this way because you can't use mod item as requirements.
-furnace.localizedName = "Electric Furnace":
+furnace.localizedName = "Electric Furnace";
 furnace.description = "Electric use power to smelt items";
 furnace.itemCapacity = 20;
 furnace.size = 2;
