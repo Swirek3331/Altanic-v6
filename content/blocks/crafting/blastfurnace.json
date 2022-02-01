@@ -6,6 +6,7 @@ size: 3
 health: 750
 crafTime: 120
 consumes: {
+   power: 3
   items: {
     items: [
       ironore/5
