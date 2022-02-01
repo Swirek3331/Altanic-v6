@@ -1,7 +1,7 @@
 localizedName: Electric Furnace
 description: Electir Furnace use power to smelt items
 size: 2
-health: 100
+health: 250
 category: crafting
 requirements: [
   copper/75
