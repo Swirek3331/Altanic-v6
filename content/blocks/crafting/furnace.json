@@ -1,0 +1,12 @@
+localizedName: Electric Furnace
+description: Electir Furnace use power to smelt items
+size: 2
+health: 100
+category: crafting
+requirements: [
+  copper/75
+  lead/65
+  graphite/50
+  metaglass/35
+  zelazo/25
+]
