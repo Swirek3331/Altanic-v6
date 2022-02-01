@@ -6,7 +6,7 @@ drawer: DrawSmelter
 size: 2
 craftTime: 120
 consumes: {
-  power: 2.5
+  power: 1
   items: {
     items: [
       coal/5
