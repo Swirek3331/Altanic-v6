@@ -48,7 +48,7 @@ const furnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCraf
     {
         input: {
             items: ["lead/1", "sand/1"],
-            power: 1.5,
+            power: 0.5,
         },
         output: {
             items: ["metaglass/1"],
@@ -83,11 +83,10 @@ hasPower
 */
 //using example without .json file. I don't recommand this way because you can't use mod item as requirements.
 furnace.localizedName = "Electric Furnace";
-furnace.description = "Electric use power to smelt items";
+furnace.description = "Electir Furnace use power to smelt items";
 furnace.itemCapacity = 20;
 furnace.size = 2;
 furnace.health = 100;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 furnace.dumpToggle = false;
-furnace.requirements(Category.crafting, ItemStack.with(Items.copper, 75, Item.lead, 65, Item.graphite, 50, Item.metaglass, 30));
