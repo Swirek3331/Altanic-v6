@@ -90,4 +90,4 @@ furnace.health = 100;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 furnace.dumpToggle = false;
-furnace.requirements(Category.crafting, ItemStack.with(Items.copper, 75, Item.lead, 65, Item.graphite, 50, Item.metaglass, 30, Item.altanic-zelazo, 55));
+furnace.requirements(Category.crafting, ItemStack.with(Items.copper, 75, Item.lead, 65, Item.graphite, 50, Item.metaglass, 30));
