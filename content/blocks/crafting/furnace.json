@@ -10,3 +10,13 @@ requirements: [
   metaglass/35
   zelazo/25
 ]
+research: {
+  parent: hutairon
+  requirements: [
+    copper/7500
+    lead/6500
+    graphite/5000
+    metaglass/3500
+    zelazo/2500
+  ]
+}
