@@ -1,0 +1,7 @@
+name: steam
+description: Steam
+heatCapacity: 0
+temperature: 1
+viscosity: -1
+color: ffffff
+alwaysUnlocked: true
