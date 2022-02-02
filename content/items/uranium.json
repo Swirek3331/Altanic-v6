@@ -1,0 +1,8 @@
+name: uranium
+description: It's uranium
+explosiveness: 2.5
+hardness: 4
+radioactivity: 12.5
+research: {
+  parent: thorium
+}
