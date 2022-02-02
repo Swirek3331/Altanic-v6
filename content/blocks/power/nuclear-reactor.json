@@ -4,7 +4,7 @@ itemCapacity: 20
 liquidCapacity: 30
 size: 3
 health: 1000
-category: liquids
+category: liquid
 requirements: {
       parent: thorium-reactor
       requirements: [
