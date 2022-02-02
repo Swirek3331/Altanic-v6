@@ -5,3 +5,5 @@ research: {
 }
 flammability: 0.3
 explosiveness: 1
+color: ffffff
+hardness: 2
