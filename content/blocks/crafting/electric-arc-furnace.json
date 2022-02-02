@@ -7,7 +7,7 @@ requirements: [
   copper/350
   silicon/385
   lead/275
-  meteglass/145
+  metaglass/145
   graphite/235
   stal/245
   zelazo/125
@@ -18,7 +18,7 @@ research: {
     copper/35000
     silicon/38500
     lead/27500
-    meteglass/14500
+    metaglass/14500
     graphite/23500
     stal/24500
     zelazo/12500
