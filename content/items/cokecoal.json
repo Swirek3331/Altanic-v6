@@ -1,8 +1,8 @@
 name: koks węglowy
 description: Węgiel poddany suchej destylacji.
 color: 706F74
-explosiveness = 0.3
-flammability = 13
+explosiveness: 0.3
+flammability: 13
 research: {
   parent: coal
   requirements: [
