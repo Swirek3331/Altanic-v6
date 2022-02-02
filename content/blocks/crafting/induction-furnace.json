@@ -6,10 +6,21 @@ size: 3
 health: 500
 category: crafting
 requirements: [
-  copper/45
-  silicon/75
+  copper/115
+  silicon/85
   metaglass/55
-  lead/65
-  zelazo/55
-  graphite/40
+  lead/75
+  zelazo/65
+  graphite/50
 ]
+research: {
+  parent: furnace
+  requirements: [
+    copper/11500
+    silicon/8500
+    metaglass/5500
+    lead/7500
+    zelazo/6500
+    graphite/5000
+  ]
+}
