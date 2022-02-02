@@ -6,3 +6,4 @@ radioactivity: 12.5
 research: {
   parent: thorium
 }
+color: ffffff
