@@ -28,7 +28,7 @@ const nuclearReactor = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gene
             liquids:["altanic-steam/6"],
         },
         craftTime: 120,
-    }
+    },
 ], {
     /*you can customize block here. ex) load()*/
 },
@@ -60,8 +60,8 @@ nuclearReactor.localizedName = "Nuclear reactor";
 nuclearReactor.description = "Nuclear reactor that can't explode, but requires much more collant";
 nuclearReactor.itemCapacity = 20;
 nuclearReactor.liquidCapacity = 30;
-nuclearReactor.size = 2;
-nuclearReactor.health = 750;
+nuclearReactor.size = 3;
+nuclearReactor.health = 1000;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 nuclearReactor.dumpToggle = false;
