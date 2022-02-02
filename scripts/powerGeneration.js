@@ -22,7 +22,7 @@ const nuclearReactor = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gene
    {
         input:{
             items:["thorium/5"],
-            liquids:["water/6"],
+            liquids:["water/6", "cryofliud/6"],
         },
         output:{
             liquids:["altanic-steam/6"],
