@@ -1,0 +1,7 @@
+name: Sulfur
+description: Sulfur
+research: {
+  parent: pyratite
+}
+flammability: 0.3
+explosiveness: 1
