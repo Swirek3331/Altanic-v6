@@ -4,7 +4,7 @@ description: Wydobywa pokłady ropy znajdujące się podziemią
 size: 2
 baseEfficiency: 0
 consumes: {
-   power: 3.5
+   power: 2.5
 }
 attribute: oil
 pumpAmount: 0.25
@@ -18,7 +18,7 @@ requirements: [
   silicon/45
 ]
 research: {
-  parent: rotary-pump
+  parent: oil-extractor
   requirements: [
     copper/6500
     metaglass/8500
