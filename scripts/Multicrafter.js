@@ -349,7 +349,7 @@ const macerator = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
             power: 0.4
         },
         output: {
-            items: ["altani-ironore/2"],
+            items: ["altanic-ironore/2"],
         },
         craftTime: 30
     },
