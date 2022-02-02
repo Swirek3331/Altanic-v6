@@ -335,7 +335,7 @@ const macerator = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
     },*/
     {
         input: {
-            items: ["scrap"],
+            items: ["scrap/1"],
             power: 0.4
         },
         output: {
@@ -345,7 +345,7 @@ const macerator = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
     },
     {
         input: {
-            items: ["scrap"],
+            items: ["scrap/1"],
             power: 0.4
         },
         output: {
