@@ -4,7 +4,7 @@
 //advanced nuclear reactor in 1.9
 const multiLib = require("multi-lib/library");
 
-const nuclearReactor = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "nuclearReactor", [
+const nuclearReactor = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "nuclear-reactor", [
     /*default form for each recipes. You can change values.
     {
         input:{
