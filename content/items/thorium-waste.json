@@ -1,0 +1,6 @@
+name: Thorium waste
+description: Thorium waste
+color: ffffff
+research: {
+  thorium
+}
