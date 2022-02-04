@@ -1,6 +1,7 @@
 localizedName: thermal-centrifuge
 description: thermal-centrifuge
 size: 3
+drawer: DrawRotator
 health: 750
 category: crafting
 requirements: [
