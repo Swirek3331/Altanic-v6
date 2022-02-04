@@ -399,7 +399,7 @@ macerator.health = 250;
 false: dump items and liquids of output unconditionally*/
 macerator.dumpToggle = false;
 
-const thermal-centrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "thermal-centrifuge", [
+const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "thermal-centrifuge", [
     /*default form for each recipes. You can change values.
     {
         input:{
@@ -461,11 +461,11 @@ hasLiquids
 hasPower
 */
 //using example without .json file. I don't recommand this way because you can't use mod item as requirements.
-thermal-centrifuge.localizedName = "thermal centrifuge";
-thermal-centrifuge.description = "thermal centrifuge";
-thermal-centrifuge.itemCapacity = 30;
-thermal-centrifuge.size = 3;
-thermal-centrifuge.health = 750;
+thermalCentrifuge.localizedName = "thermal centrifuge";
+thermalCentrifuge.description = "thermal centrifuge";
+thermalCentrifuge.itemCapacity = 30;
+thermalCentrifuge.size = 3;
+thermalCentrifuge.health = 750;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
-thermal-centrifuge.dumpToggle = false;
+thermalCentrifuge.dumpToggle = false;
