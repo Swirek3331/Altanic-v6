@@ -1,6 +1,7 @@
 name: Compressed air
 decription: compressed air
 color: ffffff
+viscosity: -1
 alwaysUnlocked: true
 research: {
   parent: water
