@@ -1,5 +1,4 @@
 require("Multicrafter")
-/* 
-require("Attributes")
+//require("Attributes")
 require("powerGeneration")
-*/
+
