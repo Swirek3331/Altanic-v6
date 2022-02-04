@@ -53,7 +53,7 @@ hasPower
 */
 //using example without .json file. I don't recommand this way because you can't use mod item as requirements.
 heatExchanger.localizedName = "Heat Exchanger";
-heatExchanger.description = "Heat Exchanger";
+heatExchanger.description = "heat Exchanger";
 heatExchanger.itemCapacity = 20;
 heatExchanger.size = 2;
 heatExchanger.health = 250;
