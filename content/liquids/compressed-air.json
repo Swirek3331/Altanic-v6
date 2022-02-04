@@ -1,0 +1,7 @@
+name: Compressed air
+decription: compressed air
+color: ffffff
+alwaysUnlocked: true
+research: {
+  parent: water
+}
