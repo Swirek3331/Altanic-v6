@@ -1,0 +1,6 @@
+name: Uranium waste
+description: Uranium waste
+color: ffffff
+research: {
+  uranium
+}
