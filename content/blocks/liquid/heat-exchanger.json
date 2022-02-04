@@ -1,5 +1,5 @@
-name: Heat exchanger
-description: heat exchanger
+localizedName: Heat exchanger
+description: Heat exchanger
 size: 2
 health: 500
 requirements: [
