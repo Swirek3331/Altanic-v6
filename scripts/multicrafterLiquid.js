@@ -61,4 +61,4 @@ heatExchanger.health = 500;
 false: dump items and liquids of output unconditionally*/
 heatExchanger.dumpToggle = false;
 
-//I make this, cus in .json is inpossible to make to liquid input
+//I make this, cus in .json is inpossible to make two liquid input
