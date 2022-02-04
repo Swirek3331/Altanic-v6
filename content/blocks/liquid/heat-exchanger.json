@@ -1,7 +1,7 @@
 name: Heat exchanger
-description: heat exchanger
+description: heat Exchanger
 size: 2
-health: 250
+health: 500
 requirements: [
   zelazo/45
   metaglass/15
