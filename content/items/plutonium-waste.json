@@ -2,5 +2,5 @@ name: Plutonium waste
 description: Plutonium waste
 color: ffffff
 research: {
-  plutonium
+  parent: plutonium
 }
