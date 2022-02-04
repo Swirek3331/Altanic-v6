@@ -55,8 +55,9 @@ hasPower
 heatExchanger.localizedName = "Heat Exchanger";
 heatExchanger.description = "heat Exchanger";
 heatExchanger.itemCapacity = 20;
+heatExchanger.liquidCapacity = 120;
 heatExchanger.size = 2;
-heatExchanger.health = 250;
+heatExchanger.health = 50;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 heatExchanger.dumpToggle = false;
