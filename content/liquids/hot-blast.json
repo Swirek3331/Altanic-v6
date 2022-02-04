@@ -1,0 +1,9 @@
+name: Hot blast
+description: Hot blast
+color: ffffff
+research: {
+  parent: compressed-air
+}
+temperature: 1
+viscosity: -1
+alwaysUnlocked: true
