@@ -461,8 +461,8 @@ hasLiquids
 hasPower
 */
 //using example without .json file. I don't recommand this way because you can't use mod item as requirements.
-thermal-centrifuge.localizedName = "thermal-centrifuge";
-thermal-centrifuge.description = "thermal-centrifuge";
+thermal-centrifuge.localizedName = "thermal centrifuge";
+thermal-centrifuge.description = "thermal centrifuge";
 thermal-centrifuge.itemCapacity = 30;
 thermal-centrifuge.size = 3;
 thermal-centrifuge.health = 750;
