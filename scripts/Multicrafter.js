@@ -430,7 +430,7 @@ const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.G
             power: 5,
         },
         output: {
-            items: ["altanic-uranium/2", "plutonium/4"],
+            items: ["altanic-uranium/2", "altanic-plutonium/4"],
         },
         craftTime: 120
     },
