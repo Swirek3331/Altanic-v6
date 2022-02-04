@@ -1,0 +1,14 @@
+localizedName: thermal-centrifuge
+description: thermal-centrifuge
+size: 3
+health: 750
+category: crafting
+requirements: [
+  lead/300
+  zelazo/165
+  copper/125
+  silicon/245
+  thorium/125
+  metaglass/65
+  plastanium/95
+]
