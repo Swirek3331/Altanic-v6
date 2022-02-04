@@ -1,0 +1,19 @@
+name: Heat exchanger
+description: heat exchanger
+size: 2
+health: 250
+requirements: [
+  zelazo/45
+  metaglass/15
+  copper/50
+]
+category: liquid
+research: {
+  parent: hutairon
+  requirements: [
+    zelazo/4500
+    metaglass/1500
+    copper/5000
+  ]
+}
+  
