@@ -53,11 +53,11 @@ hasPower
 */
 //using example without .json file. I don't recommand this way because you can't use mod item as requirements.
 heatExchanger.localizedName = "Heat Exchanger";
-heatExchanger.description = "heat Exchanger";
+heatExchanger.description = "heat exchanger";
 heatExchanger.itemCapacity = 20;
 heatExchanger.liquidCapacity = 120;
 heatExchanger.size = 2;
-heatExchanger.health = 50;
+heatExchanger.health = 500;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 heatExchanger.dumpToggle = false;
