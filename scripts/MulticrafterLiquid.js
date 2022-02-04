@@ -18,7 +18,6 @@ const heatExchanger = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gener
     {
         input: {
             liquid: ["water/12", "altanic-hot-blast/1"],
-            power: 0.5,
         },
         output: {
           liquid: ["altanic-steam/12"],
@@ -52,8 +51,8 @@ hasLiquids
 hasPower
 */
 //using example without .json file. I don't recommand this way because you can't use mod item as requirements.
-heatExchanger.localizedName = "Heat Exchanger";
-heatExchanger.description = "heat exchanger";
+heatExchanger.localizedName = "Heat exchanger";
+heatExchanger.description = "Heat exchanger";
 heatExchanger.itemCapacity = 20;
 heatExchanger.liquidCapacity = 120;
 heatExchanger.size = 2;
@@ -62,4 +61,4 @@ heatExchanger.health = 500;
 false: dump items and liquids of output unconditionally*/
 heatExchanger.dumpToggle = false;
 
-//I make this, cus in .json i inpossible to make to liquid input
+//I make this, cus in .json is inpossible to make to liquid input
