@@ -13,3 +13,15 @@ requirements: [
   metaglass/65
   plastanium/95
 ]
+research: {
+  parent: coal-centrifuge
+  requirements: [
+     lead/30000
+     zelazo/16500
+     copper/12500
+     silicon/24500
+     thorium/12500
+     metaglass/6500
+     plastanium/9500
+  ]
+}
