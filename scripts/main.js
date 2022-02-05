@@ -1,4 +1,4 @@
 require("multicrafter")
 /*require("attributes")
-require("powerGeneration")*/
-require("multicrafterLiquid")
+require("powerGeneration")
+require("multicrafterLiquid")*/
