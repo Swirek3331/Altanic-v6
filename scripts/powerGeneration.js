@@ -76,12 +76,12 @@ hasLiquids
 hasPower
 */
 //using example without .json file. I don't recommand this way because you can't use mod item as requirements.
-furnace.localizedName = "Electric Furnace";
-furnace.description = "Electir Furnace use power to smelt items";
+nuclearReactor.localizedName = "Electric Furnace";
+nuclearReactor.description = "Electir Furnace use power to smelt items";
 furnace.itemCapacity = 20;
 nuclearReactor.liquidCapacity = 180;
-furnace.size = 4;
-furnace.health = 1000;
+nuclearReactor.size = 4;
+nuclearReactor.health = 1000;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
-furnace.dumpToggle = false;
+nuclearReactor.dumpToggle = false;
