@@ -1,10 +1,10 @@
-localizedName: Electric Furnace
-description: Electir Furnace use power to smelt items
+localizedName: Nuclear reactor
+description: Nuclear reactor require radioactive materials, produce more power than thorium reactor but requires more coolant and produce waste
 itemCapacity: 20
 liquidCapacity: 180
 size: 4
 health: 1000
-category: crafting
+category: power
 requirements: [
   lead/450
   metaglass/125
