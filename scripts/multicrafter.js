@@ -417,30 +417,30 @@ const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.G
     {
         input: {
             items: ["altanic-thorium-waste/10"],
-            power: 10,
+            power: 12,
         },
         output: {
-            items: ["thorium/2", "altanic-uranium/4"],
+            items: ["thorium/8", "altanic-uranium/2"],
         },
         craftTime: 180
     },
     {
         input: {
             items: ["altanic-uranium-waste/10"],
-            power: 10,
+            power: 12,
         },
         output: {
-            items: ["altanic-uranium/2", "altanic-plutonium/4"],
+            items: ["altanic-uranium/8", "altanic-plutonium/2"],
         },
         craftTime: 180
     },
     {
         input: {
             items: ["altanic-plutonium-waste/10"],
-            power: 10,
+            power: 12,
         },
         output: {
-            items: ["altanic-plutonium/10"],
+            items: ["altanic-plutonium/8"],
         },
         craftTime: 180
     },
@@ -484,6 +484,7 @@ hasPower
 thermalCentrifuge.localizedName = "thermal centrifuge";
 thermalCentrifuge.description = "thermal centrifuge";
 thermalCentrifuge.itemCapacity = 30;
+thermalCentrifuge.liquidCapacity = 240;
 thermalCentrifuge.size = 3;
 thermalCentrifuge.health = 750;
 /*true: dump items and liquids of output according to button
