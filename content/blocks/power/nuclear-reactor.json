@@ -1,0 +1,26 @@
+localizedName: Electric Furnace
+description: Electir Furnace use power to smelt items
+itemCapacity: 20
+liquidCapacity: 180
+size: 4
+health: 1000
+category: crafting
+requirements: [
+  lead/450
+  metaglass/125
+  iron/245
+  copper/175
+  titanium/225
+  silicon/235
+]
+research: {
+  parent: thorium-reactor
+  requirements: [
+      lead/450
+      metaglass/125
+      iron/245
+      copper/175
+      titanium/225
+      silicon/235
+  ]
+}
