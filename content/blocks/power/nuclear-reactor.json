@@ -8,7 +8,7 @@ category: crafting
 requirements: [
   lead/450
   metaglass/125
-  iron/245
+  zelazo/245
   copper/175
   titanium/225
   silicon/235
@@ -18,7 +18,7 @@ research: {
   requirements: [
       lead/450
       metaglass/125
-      iron/245
+      zelazo/245
       copper/175
       titanium/225
       silicon/235
