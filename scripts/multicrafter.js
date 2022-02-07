@@ -452,18 +452,18 @@ const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.G
         output: {
             items: ["coal/6"],
         },
-        craftTime: 30
+        craftTime: 45
     },
         {
         input: {
             items: ["sand/4"],
             liquids: ["oil/12"],
-            power: 1,
+            power: 2,
         },
         output: {
             items: ["coal/4", "pyratite/4"],
         },
-        craftTime: 45
+        craftTime: 60
     },
 ], {
     /*you can customize block here. ex) load()*/
@@ -518,37 +518,15 @@ const nuclearReactor = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gene
         craftTime:80,
     },*/
     {
-        input: {
-            items: ["thorium/2"],
+        input:{
+            items: ["thorium/2"],     
             liquids: ["cryofluid/6"],
         },
-        output: {
+        output:{
             items: ["altanic-thorium-waste/2"],
             power: 20,
         },
-        craftTime: 60
-    },
-    {
-        input: {
-            items: ["altanic-uranium/2"],
-            liquids: ["cryofluid/9"],
-        },
-        output: {
-            items: ["altanic-uranium-waste/2"],
-            power: 30,
-        },
-        craftTime: 60
-    },
-    {
-        input: {
-            items: ["altanic-plutonium/2"],
-            liquids: ["cryofluid/12"],
-        },
-        output: {
-            items: ["altanic-plutonium-waste/2"],
-            power: 40,
-        },
-        craftTime: 60
+        craftTime: 60,
     },
 ], {
     /*you can customize block here. ex) load()*/
