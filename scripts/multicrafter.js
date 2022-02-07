@@ -519,13 +519,14 @@ const nuclearReactor = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gene
     },*/
     {
         input: {
-            items: ["altanic-ironore/1"],
-            power: 0.5,
+            items: ["thorium/2"],
+            liquids: ["cryofluid/6"],
         },
         output: {
-            items: ["altanic-zelazo/1"],
+            items: ["altanic-thorium-waste/2"],
+            power: 15
         },
-        craftTime: 30
+        craftTime: 60
     },
 ], {
     /*you can customize block here. ex) load()*/
