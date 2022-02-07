@@ -7,3 +7,4 @@ hidden: false
 dependencies: [
   multi-lib
 ]
+hideBrowser: true
