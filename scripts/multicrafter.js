@@ -524,7 +524,29 @@ const nuclearReactor = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gene
         },
         output: {
             items: ["altanic-thorium-waste/2"],
-            power: 15
+            power: 20,
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["altanic-uranium/2"],
+            liquids: ["cryofluid/9"],
+        },
+        output: {
+            items: ["altanic-uranium-waste/2"],
+            power: 30,
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["altanic-plutonium/2"],
+            liquids: ["cryofluid/12"],
+        },
+        output: {
+            items: ["altanic-plutonium-waste/2"],
+            power: 40,
         },
         craftTime: 60
     },
