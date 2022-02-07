@@ -577,8 +577,8 @@ hasLiquids
 hasPower
 */
 //using example without .json file. I don't recommand this way because you can't use mod item as requirements.
-nuclearReactor.localizedName = "Nuclear reactor";
-nuclearReactor.description = "Nuclear reactor require radioactive materials, produce more power than thorium reactor but requires more coolant and produce waste";
+nuclearReactor.localizedName = "Nuclear reactor"
+nuclearReactor.description = "Nuclear reactor require radioactive materials, produce more power than thorium reactor but requires more coolant and produce waste"
 nuclearReactor.itemCapacity = 20;
 nuclearReactor.liquidCapacity = 120;
 nuclearReactor.size = 4;
