@@ -450,9 +450,20 @@ const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.G
             power: 1,
         },
         output: {
-            items: ["coal/12"],
+            items: ["coal/6"],
         },
-        craftTime: 60
+        craftTime: 30
+    },
+        {
+        input: {
+            items: ["sand/4"],
+            liquids: ["oil/12"],
+            power: 1,
+        },
+        output: {
+            items: ["coal/4", "pyratite/4"],
+        },
+        craftTime: 45
     },
 ], {
     /*you can customize block here. ex) load()*/
