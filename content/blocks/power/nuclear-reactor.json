@@ -1,0 +1,26 @@
+localizedName: 
+description: 
+size:
+health:
+category: crafting
+requirements: [
+  lead/365
+  graphite/175
+  metaglass/125
+  zelazo/185
+  titanium/165
+  thorium/150
+  silicon/200
+]
+research: {
+  parent: thorium-reactor
+  requirements: [
+    lead/365
+    graphite/175
+    metaglass/125
+    zelazo/185
+    titanium/165
+    thorium/150
+    silicon/200
+  ]
+}
