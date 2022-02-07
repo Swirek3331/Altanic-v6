@@ -2,7 +2,7 @@ localizedName: Nuclear reactor
 description: Nuclear reactor require radioactive materials, produce more power than thorium reactor but requires more coolant and produce waste
 size: 4
 health: 1000
-category: crafting
+category: power
 requirements: [
   lead/365
   graphite/175
