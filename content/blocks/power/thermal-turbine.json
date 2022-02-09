@@ -5,6 +5,7 @@ plasma1: ffffff
 plasma2: ffffff
 size: 3
 health: 600
+powerProduction: 15
 consumes: {
   power: 0
   liquid: {
