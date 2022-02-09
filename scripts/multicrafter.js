@@ -567,6 +567,7 @@ hasPower
 radioisotopeThermoelectricBoiler.localizedName = "RTB";
 radioisotopeThermoelectricBoiler.description = "Radioisotope thermoelectric boiler";
 radioisotopeThermoelectricBoiler.itemCapacity = 20;
+radioisotopeThermoelectricBoiler.liquidCapacity = 360;
 radioisotopeThermoelectricBoiler.size = 2;
 radioisotopeThermoelectricBoiler.health = 250;
 /*true: dump items and liquids of output according to button
