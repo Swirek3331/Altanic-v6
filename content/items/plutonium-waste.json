@@ -1,6 +1,0 @@
-name: Plutonium waste
-description: Plutonium waste
-color: ffffff
-research: {
-  parent: plutonium
-}
