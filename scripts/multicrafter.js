@@ -416,28 +416,28 @@ const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.G
     },*/
     {
         input: {
-            items: ["altanic-thorium-waste/10"],
-            power: 12,
+            items: ["thorium/10"],
+            power: 6,
         },
         output: {
-            items: ["thorium/8", "altanic-uranium/2"],
+            items: ["altanic-uranium/8"],
         },
         craftTime: 180
     },
     {
         input: {
-            items: ["altanic-uranium-waste/10"],
-            power: 12,
+            items: ["altanic-uranium/10"],
+            power: 8,
         },
         output: {
-            items: ["altanic-uranium/8", "altanic-plutonium/2"],
+            items: ["altanic-plutonium/8"],
         },
         craftTime: 180
     },
     {
         input: {
-            items: ["altanic-plutonium-waste/10"],
-            power: 12,
+            items: ["uranium/10"],
+            power: 10,
         },
         output: {
             items: ["altanic-plutonium/8"],
