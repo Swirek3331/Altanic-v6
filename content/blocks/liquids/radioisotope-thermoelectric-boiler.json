@@ -1,0 +1,16 @@
+localizedName: RTB
+description: Radioisotope thermoelectric boiler
+size: 2
+health: 300
+category: liquids
+requirements: [
+  lead/100
+  thorium/45
+  metaglass/20
+  plastanium/15
+  phase-fabric/15
+  silicon/50
+]
+research: {
+  parent: rtg-generator
+}
