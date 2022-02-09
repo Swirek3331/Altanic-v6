@@ -1,0 +1,32 @@
+name: Plutonium Reactor
+description: Plutonium reactor
+type: NuclearReactor
+size: 3
+powerProduction: 35
+health: 1000
+consumes: {
+  items: {
+    items: [
+      plutonium/2
+    ]
+  }
+  liquid: cryofluid/0.2
+}
+heating: 0.1
+itemDuration: 540
+smokeThreshold: 0.75
+explosionRadius: 40
+explosionDamage: 200
+flashThreshold: 0.75
+coolantPower: 0.1
+requirements: [
+  lead/350
+  metaglass/65
+  graphite/165
+  thorium/145
+  zelazo/115
+  silicon/235
+]
+research: {
+  parent: uranium-reactor
+}

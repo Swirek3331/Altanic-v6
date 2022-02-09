@@ -1,0 +1,32 @@
+name: Uranium Reactor
+description: Uranium reactor
+type: NuclearReactor
+size: 3
+powerProduction: 25
+health: 850
+consumes: {
+  items: {
+    items: [
+      uranium/2
+    ]
+  }
+  liquid: cryofluid/0.1
+}
+heating: 0.08
+itemDuration: 420
+smokeThreshold: 0.5
+explosionRadius: 25
+explosionDamage: 150
+flashThreshold: 0.5
+coolantPower: 0.75
+requirements: [
+  lead/325
+  metaglass/55
+  graphite/165
+  thorium/145
+  zelazo/115
+  silicon/235
+]
+research: {
+  parent: thorium-reactor
+}
