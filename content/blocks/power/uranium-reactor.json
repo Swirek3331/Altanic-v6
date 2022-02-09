@@ -19,6 +19,7 @@ explosionRadius: 25
 explosionDamage: 150
 flashThreshold: 0.5
 coolantPower: 0.75
+category: power
 requirements: [
   lead/325
   metaglass/55
