@@ -565,7 +565,7 @@ hasPower
 */
 //using example without .json file. I don't recommand this way because you can't use mod item as requirements.
 radioisotopeThermoelectricBoiler.localizedName = "RTB";
-radioisotopeThermoelectricBoiler.description = "Radioisotope thermoelectric boiler;
+radioisotopeThermoelectricBoiler.description = "Radioisotope thermoelectric boiler";
 radioisotopeThermoelectricBoiler.itemCapacity = 20;
 radioisotopeThermoelectricBoiler.size = 2;
 radioisotopeThermoelectricBoiler.health = 250;
