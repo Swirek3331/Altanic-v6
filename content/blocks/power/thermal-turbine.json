@@ -1,6 +1,6 @@
 type: ImpactReactor
-name: Steam turbine
-description: Steam turbine
+name: Thermal turbine
+description: Thermal turbine
 plasma1: ffffff
 plasma2: ffffff
 size: 3
