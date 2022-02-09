@@ -9,15 +9,15 @@ consumes: {
   power: 0
   liquid: {
      liquid: steam
-     amount: 0.1
+     amount: 0.2
   }
 }
 category: power
 requirements: [
-  metaglass/75
-  copper/45
-  zelazo/50
-  silicon/35
+  metaglass/40
+  copper/85
+  zelazo/100
+  silicon/65
 ]
 research: {
   parent: steam-generator
