@@ -19,6 +19,7 @@ requirements: [
   copper/115
   zelazo/125
   silicon/100
+  thorium/85
 ]
 research: {
   parent: steam-generator
