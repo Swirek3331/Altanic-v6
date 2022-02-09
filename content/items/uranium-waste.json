@@ -1,6 +1,0 @@
-name: Uranium waste
-description: Uranium waste
-color: ffffff
-research: {
-  parent: uranium
-}
