@@ -436,16 +436,6 @@ const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.G
     },
     {
         input: {
-            items: ["altanic-uranium/10"],
-            power: 10,
-        },
-        output: {
-            items: ["altanic-plutonium/8"],
-        },
-        craftTime: 180
-    },
-    {
-        input: {
             liquids: ["oil/12"],
             power: 1,
         },
@@ -501,3 +491,84 @@ thermalCentrifuge.health = 750;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 thermalCentrifuge.dumpToggle = false;
+
+const radioisotopeThermoelectricBoiler = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "radioisotope-thermoelectric-boiler", [
+    /*default form for each recipes. You can change values.
+    {
+        input:{
+            items:[],     Modded Item:  "mod-name-item-name/amount", Vanilla Item: "item-name/amount"
+            liquids:[],   Modded Liquid:  "mod-name-liquid-name/amount",  Vanilla liquid: "liquid-name/amount"
+            power:0,
+        },
+        output:{
+            items:[],
+            liquids:[],
+            power:0,
+        },
+        craftTime:80,
+    },*/
+    {
+        input: {
+            items: ["thorium/1"],
+            liquids: ["water/12"],
+        },
+        output: {
+            liquids: ["altanic-steam/12"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["altanic-uranium/1"],
+            liquids: ["water/24"],
+        },
+        output: {
+            liquids: ["altanic-steam/24"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["altanic-plutonium/11"],
+            liquids: ["water/24"],
+        },
+        output: {
+            liquids: ["altanic-steam/24"],
+        },
+        craftTime: 60
+    },
+], {
+    /*you can customize block here. ex) load()*/
+},
+    /*this is Object constructor. This way is much better than literal way{a:123}
+    you can replace this with {} if you don't want to modify entity*/
+    function Extra() {
+        /*you can use customUpdate=function(){}. this function excuted before update()
+        also this.draw=function(){}
+        you can customize entity here.
+        ex)
+        this._myProp=0;
+        this.getMyProp=function(){
+            return this._myProp;
+        };
+        this.setMyProp=function(a){
+            this._myProp=a;
+        };*/
+    });
+/*
+YOU MUST NOT MODIFY VALUE OF THESE
+configurable
+outputsPower
+hasItems
+hasLiquids
+hasPower
+*/
+//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+radioisotopeThermoelectricBoiler.localizedName = "RTB";
+radioisotopeThermoelectricBoiler.description = "Radioisotope thermoelectric boiler;
+radioisotopeThermoelectricBoiler.itemCapacity = 20;
+radioisotopeThermoelectricBoiler.size = 2;
+radioisotopeThermoelectricBoiler.health = 250;
+/*true: dump items and liquids of output according to button
+false: dump items and liquids of output unconditionally*/
+radioisotopeThermoelectricBoiler.dumpToggle = false;
