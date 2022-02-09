@@ -22,5 +22,5 @@ requirements: [
   thorium/85
 ]
 research: {
-  parent: steam-generator
+  parent: steam-turbine
 }
