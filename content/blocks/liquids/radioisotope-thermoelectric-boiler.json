@@ -2,7 +2,7 @@ localizedName: RTB
 description: Radioisotope thermoelectric boiler
 size: 2
 health: 300
-category: liquids
+category: liquid
 requirements: [
   lead/100
   thorium/45
