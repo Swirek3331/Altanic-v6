@@ -5,6 +5,7 @@ plasma1: ffffff
 plasma2: ffffff
 size: 2
 powerProduction: 7.5
+drawer: DrawRotator
 health: 300
 consumes: {
   power: 0
