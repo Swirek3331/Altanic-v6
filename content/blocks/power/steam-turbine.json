@@ -1,8 +1,7 @@
-type: ImpactReactor
+type: SingleTypeGenerator
 name: Steam turbine
 description: Steam turbine
-plasma1: ffffff
-plasma2: ffffff
+itemDuration: 120
 size: 2
 powerProduction: 7.5
 drawer: DrawRotator
