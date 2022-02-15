@@ -1,7 +1,6 @@
 type: ImpactReactor
 name: Steam turbine
 description: Steam turbine
-itemDuration: 120
 plasma1: ffffff
 plasma2: ffffff
 size: 2
