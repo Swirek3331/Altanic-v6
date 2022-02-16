@@ -3,7 +3,7 @@ name: Wiertło elektryczne
 description: Wiertło używające prądu
 size: 2
 tier: 3
-drillTime: 330
+drillTime: 300
 consumes: {
    power: 1 
    liquid: {
