@@ -1,0 +1,44 @@
+name: Deep borehole
+description: Deep borehole
+type: separator
+hasPower: true
+craftTime: 10
+size: 3
+consumes: {
+  power: 2
+  liquid: {
+    liquid: water
+    amount: 0.2
+  }
+}
+results: [
+  sand/7
+  scrap/2
+  copper/50
+  lead/50
+  titanium/30
+  coal/40
+  thorium/10
+]
+category: production
+requirements: [
+  zelazo/125
+  copper/85
+  lead/55
+  titanium/45
+  silicon/95
+  metaglass/40
+  thorium/35
+]
+research: {
+  parent: electric-drill
+  requirements: [
+    zelazo/12500
+    copper/8500
+    lead/5500
+    titanium/4500
+    silicon/9500
+    metaglass/4000
+    thorium/3500
+  ]
+} 
