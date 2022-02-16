@@ -9,6 +9,8 @@ consumes: {
   liquid: {
     liquid: water
     amount: 0.2
+    booster: false
+    optional: false
   }
 }
 requirements: [
