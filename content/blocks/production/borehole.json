@@ -30,11 +30,11 @@ requirements: [
 research: {
   parent: electric-drill
   requirements: [
-    zelazo/85
-    copper/55
-    lead/45
-    titanium/30
-    silicon/60
-    metaglass/25
+    zelazo/8500
+    copper/5500
+    lead/4500
+    titanium/3000
+    silicon/6000
+    metaglass/2500
   ]
 } 
