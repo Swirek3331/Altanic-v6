@@ -1,0 +1,20 @@
+Name: Stirling generator
+description: Stirling generator
+size: 2
+health: 350
+powerProduction: 2.75
+itemDuration: 120
+category: crafting
+requirements: [
+  lead/20
+  copper/30
+  zelazo/50
+]
+research: {
+  parent: combustion-generator
+  requirements: [
+    lead/20
+    copper/30
+    zelazo/50
+  ]
+}
