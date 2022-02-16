@@ -1,10 +1,11 @@
 Name: Stirling generator
 description: Stirling generator
+type: BurnerGenerator
 size: 2
 health: 350
 powerProduction: 2.75
 itemDuration: 120
-category: crafting
+category: power
 requirements: [
   lead/20
   copper/30
