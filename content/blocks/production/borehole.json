@@ -2,8 +2,8 @@ name: Borehole
 description: Borehole
 type: separator
 hasPower: true
-craftTime: 25
-size: 10
+craftTime: 15
+size: 2
 consumes: {
   power: 2
   liquid: {
