@@ -2,7 +2,7 @@ name: Wiertło hydrauliczne
 description: Wiertło używające wody
 type: drill
 size: 3
-drillTime: 340
+drillTime: 350
 tier: 3
 hasPower: false
 consumes: {
