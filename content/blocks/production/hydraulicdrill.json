@@ -3,7 +3,7 @@ description: Wiertło używające wody
 type: drill
 size: 3
 drillTime: 340
-tier: 4
+tier: 3
 hasPower: false
 consumes: {
   liquid: {
@@ -16,6 +16,7 @@ requirements: [
   metaglass/50
   graphite/40
   titanium/60
+  zelazo/95
 ]
 category: production
 research: {
