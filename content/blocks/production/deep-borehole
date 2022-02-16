@@ -12,13 +12,16 @@ consumes: {
   }
 }
 results: [
-  sand/7
+  sand/8
   scrap/2
   copper/50
   lead/50
   titanium/30
   coal/40
   thorium/10
+  ironore/30
+  sulfur/15
+  quartz/20
 ]
 category: production
 requirements: [
