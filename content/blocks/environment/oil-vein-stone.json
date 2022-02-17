@@ -1,4 +1,4 @@
-type: floor
+type: Floor
 blendGroup: stone
 attributes: {
   stone: 1
