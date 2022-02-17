@@ -1,0 +1,5 @@
+type: OreBlock
+mapColor: ffffff
+hasColor: true
+oreDefault: true
+itemDrop: sulfur
