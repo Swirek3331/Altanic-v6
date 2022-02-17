@@ -2,10 +2,11 @@ name: Borehole
 description: Borehole
 type: separator
 hasPower: true
-craftTime: 15
+craftTime: 60
+attribute: stone
 size: 2
 consumes: {
-  power: 2.5
+  power: 4
   liquid: {
     liquid: water
     amount: 0.1
@@ -13,13 +14,12 @@ consumes: {
 }
 results: [
   sand/5
-  copper/30
-  lead/30
-  titanium/10
-  coal/20
-  ironore/15
-  quartz/8
-  sulfur/4
+  copper/25
+  lead/25
+  coal/15
+  ironore/10
+  quartz/4
+  sulfur/2
 ]
 category: production
 requirements: [
