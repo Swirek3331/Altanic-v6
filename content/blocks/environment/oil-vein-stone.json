@@ -1,0 +1,7 @@
+type: floor
+blendGroup: stone
+attributes: {
+  stone: 1
+  oil: 1
+}
+variants: 3
