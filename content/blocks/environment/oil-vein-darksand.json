@@ -1,0 +1,5 @@
+type: Floor
+attributes: {
+  oil: 2.5
+}
+variants: 10
