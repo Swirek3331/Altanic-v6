@@ -1,8 +1,9 @@
 name: Deep borehole
 description: Deep borehole
 type: separator
+attribute: stone
 hasPower: true
-craftTime: 10
+craftTime: 45
 size: 3
 consumes: {
   power: 5
@@ -14,14 +15,13 @@ consumes: {
 results: [
   sand/8
   scrap/2
-  copper/50
-  lead/50
-  titanium/30
-  coal/40
-  thorium/10
-  ironore/30
-  sulfur/15
-  quartz/20
+  copper/35
+  lead/35
+  titanium/10
+  coal/20
+  ironore/15
+  sulfur/10
+  quartz/25
 ]
 category: production
 requirements: [
