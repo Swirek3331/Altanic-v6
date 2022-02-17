@@ -34,7 +34,7 @@ requirements: [
   thorium/35
 ]
 research: {
-  parent: electric-drill
+  parent: borehole
   requirements: [
     zelazo/12500
     copper/8500
