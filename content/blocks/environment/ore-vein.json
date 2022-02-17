@@ -1,6 +1,6 @@
 type: Floor
 blendGroup: stone
 attributes: {
-  stone
+  stone: 3
 }
 variants: 10
