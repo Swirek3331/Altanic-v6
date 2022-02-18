@@ -5,7 +5,7 @@ hasPower: true
 craftTime: 60
 size: 2
 consumes: {
-  power: 4
+  power: 5
   liquid: {
     liquid: water
     amount: 0.1
