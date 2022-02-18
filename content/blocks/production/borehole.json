@@ -3,7 +3,6 @@ description: Borehole
 type: separator
 hasPower: true
 craftTime: 60
-attribute: stone
 size: 2
 consumes: {
   power: 4
