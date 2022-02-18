@@ -1,0 +1,46 @@
+name: Mining well
+description: Mining well
+type: separator
+hasPower: true
+craftTime: 30
+size: 3
+consumes: {
+  power: 12.5
+  liquid: {
+    liquid: water
+    amount: 0.2
+  }
+}
+results: [
+  sand/15
+  scrap/3
+  copper/45
+  lead/45
+  titanium/25
+  coal/30
+  ironore/30
+  sulfur/10
+  quartz/25
+]
+category: production
+requirements: [
+  zelazo/145
+  copper/95
+  lead/65
+  titanium/55
+  silicon/125
+  metaglass/40
+  thorium/55
+]
+research: {
+  parent: borehole
+  requirements: [
+    zelazo/145
+    copper/95
+    lead/65
+    titanium/55
+    silicon/125
+    metaglass/40
+    thorium/55
+  ]
+} 
