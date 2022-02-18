@@ -1,6 +1,0 @@
-type: Floor
-blendGroup: stone
-attributes: {
-  stone: 3
-}
-variants: 10
