@@ -1,12 +1,11 @@
 name: Deep borehole
 description: Deep borehole
 type: separator
-attribute: stone
 hasPower: true
 craftTime: 45
 size: 3
 consumes: {
-  power: 8
+  power: 10
   liquid: {
     liquid: water
     amount: 0.2
