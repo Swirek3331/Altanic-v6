@@ -165,7 +165,7 @@ const inductionFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Ge
             powet: 1
         },
         output: {
-            items: ["silicon"], 
+            items: ["silicon/1"], 
         },
         craftTime: 30
     }, 
