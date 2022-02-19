@@ -150,16 +150,6 @@ const inductionFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Ge
     },
     {
         input: {
-            items: ["coal/5"],
-            power: 2,
-        },
-        output: {
-            items: ["altanic-cokecoal/5"],
-        },
-        craftTime: 60
-    },
-        {
-        input: {
             items: ["altanic-cokecoal/5", "altanic-ironore/5"],
             power: 6,
         },
@@ -169,6 +159,16 @@ const inductionFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Ge
         },
         craftTime: 60
     },
+    {
+        input: {
+            items: ["altanic-quartz/4"],
+            powet: 1
+        },
+        output: {
+            items: ["silicon"], 
+        },
+        craftTime: 30
+    }, 
 ], {
     /*you can customize block here. ex) load()*/
 },
