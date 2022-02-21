@@ -4,8 +4,8 @@ description: Steam turbine
 plasma1: ffffff
 plasma2: ffffff
 size: 2
-explosionRadius: 0
-explosionDamage: 0
+explosionRadius: 1
+explosionDamage: 1
 powerProduction: 7.5
 drawer: DrawRotator
 health: 300
