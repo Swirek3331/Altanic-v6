@@ -4,8 +4,8 @@ description: Thermal turbine
 plasma1: ffffff
 plasma2: ffffff
 size: 3
-explosionRadius: 0
-explosionDamage: 0
+explosionRadius: 1
+explosionDamage: 1
 health: 600
 powerProduction: 15
 consumes: {
