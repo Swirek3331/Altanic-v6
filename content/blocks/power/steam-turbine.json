@@ -4,7 +4,7 @@ description: Steam turbine
 plasma1: ffffff
 plasma2: ffffff
 size: 2
-explosionRadius: ​0
+explosionRadius: 0
 explosionDamage: 0
 powerProduction: 7.5
 drawer: DrawRotator
