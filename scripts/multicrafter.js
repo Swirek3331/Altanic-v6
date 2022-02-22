@@ -55,6 +55,16 @@ const furnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCraf
         },
         craftTime: 30
     },
+    {
+        input: {
+            items: ["altanic-quartz/4"],
+            powet: 1
+        },
+        output: {
+            items: ["silicon/1"], 
+        },
+        craftTime: 90
+    }, 
 ], {
     /*you can customize block here. ex) load()*/
 },
@@ -162,12 +172,22 @@ const inductionFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Ge
     {
         input: {
             items: ["altanic-quartz/4"],
-            powet: 1
+            powet: 1.5
         },
         output: {
-            items: ["silicon/1"], 
+            items: ["silicon/2"], 
         },
-        craftTime: 30
+        craftTime: 45
+    }, 
+    {
+        input: {
+            items: ["copper/3", "lead/4", "titanium/2", "silicon/3"],
+            powet: 4
+        },
+        output: {
+            items: ["surge-alloy/1"], 
+        },
+        craftTime: 75
     }, 
 ], {
     /*you can customize block here. ex) load()*/
@@ -282,6 +302,26 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
         },
         craftTime: 30
     },
+    {
+        input: {
+            items: ["altanic-quartz/4"],
+            powet: 3
+        },
+        output: {
+            items: ["silicon/4"], 
+        },
+        craftTime: 22.5
+    },
+    {
+        input: {
+            items: ["copper/3", "lead/4", "titanium/2", "silicon/3"],
+            powet: 8,
+        },
+        output: {
+            items: ["surge-alloy/1"], 
+        },
+        craftTime: 35
+    }, 
 ], {
     /*you can customize block here. ex) load()*/
 },
@@ -490,7 +530,7 @@ thermalCentrifuge.size = 3;
 thermalCentrifuge.health = 750;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
-thermalCentrifuge.dumpToggle = false;
+thermalCentrifuge.dumpToggle = true;
 
 const radioisotopeThermoelectricBoiler = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "radioisotope-thermoelectric-boiler", [
     /*default form for each recipes. You can change values.
@@ -510,16 +550,6 @@ const radioisotopeThermoelectricBoiler = multiLib.MultiCrafter(GenericCrafter, G
     {
         input: {
             items: ["thorium/1"],
-            liquids: ["water/12"],
-        },
-        output: {
-            liquids: ["altanic-steam/12"],
-        },
-        craftTime: 60
-    },
-    {
-        input: {
-            items: ["altanic-uranium/1"],
             liquids: ["water/24"],
         },
         output: {
@@ -529,11 +559,21 @@ const radioisotopeThermoelectricBoiler = multiLib.MultiCrafter(GenericCrafter, G
     },
     {
         input: {
-            items: ["altanic-plutonium/1"],
+            items: ["altanic-uranium/1"],
             liquids: ["water/36"],
         },
         output: {
             liquids: ["altanic-steam/36"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["altanic-plutonium/1"],
+            liquids: ["water/48"],
+        },
+        output: {
+            liquids: ["altanic-steam/48"],
         },
         craftTime: 60
     },
