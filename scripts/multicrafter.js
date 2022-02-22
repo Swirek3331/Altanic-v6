@@ -99,7 +99,7 @@ furnace.size = 2;
 furnace.health = 250;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
-furnace.dumpToggle = false;
+furnace.dumpToggle = true;
 
 
 
@@ -224,7 +224,7 @@ inductionFurnace.size = 2;
 inductionFurnace.health = 500;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
-inductionFurnace.dumpToggle = false;
+inductionFurnace.dumpToggle = true;
 
 const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "electric-arc-furnace", [
     /*default form for each recipes. You can change values.
@@ -356,7 +356,7 @@ electricArcFurnace.size = 4;
 electricArcFurnace.health = 1000;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
-electricArcFurnace.dumpToggle = false;
+electricArcFurnace.dumpToggle = true;
 
 const macerator = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "macerator", [
     /*default form for each recipes. You can change values.
@@ -437,7 +437,7 @@ macerator.size = 2;
 macerator.health = 250;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
-macerator.dumpToggle = false;
+macerator.dumpToggle = true;
 
 const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "thermal-centrifuge", [
     /*default form for each recipes. You can change values.
