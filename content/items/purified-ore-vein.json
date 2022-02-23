@@ -1,0 +1,6 @@
+name: Purified ore vein
+description: Purified ore vein
+color: 696969
+research: {
+  parent: ore-vein
+}
