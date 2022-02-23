@@ -677,3 +677,19 @@ assembler.health = 250;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 assembler.dumpToggle = true;
+
+//ore washing plant
+
+//centrifuge
+
+//melter
+
+//press/squezer
+
+//compressor
+
+//fermenter
+
+//rafinery
+
+//mixer
