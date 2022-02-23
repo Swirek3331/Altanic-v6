@@ -641,6 +641,7 @@ const assembler = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
     },*/
     //for now, this object is like me.
     //useless
+    //in 1.6.0.3 ratatata
 ], {
     /*you can customize block here. ex) load()*/
 },
