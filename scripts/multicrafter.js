@@ -549,6 +549,16 @@ const radioisotopeThermoelectricBoiler = multiLib.MultiCrafter(GenericCrafter, G
     },*/
     {
         input: {
+            items: ["phase-fabric/1"],
+            liquids: ["water/6"],
+        },
+        output: {
+            liquids: ["altanic-steam/6"],
+        },
+        craftTIme: 60
+    },
+    {
+        input: {
             items: ["thorium/1"],
             liquids: ["water/24"],
         },
