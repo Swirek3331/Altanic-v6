@@ -1,0 +1,6 @@
+name: stone
+description: stone
+color: 696969
+research: {
+  parent: sand
+}
