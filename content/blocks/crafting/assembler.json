@@ -1,0 +1,22 @@
+localizedName: Assembler
+description: Assembler
+size: 3
+health: 750
+category: crafting
+requirements: [
+  copper/65
+  silicon/95
+  zelazo/125
+  metaglass/15
+  graphite/75
+]
+research: {
+  parent: furnace
+  requirements: [
+    copper/65
+    silicon/95
+    zelazo/125
+    metaglass/15
+    graphite/75
+  ]
+}
