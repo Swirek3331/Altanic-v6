@@ -1,0 +1,6 @@
+name: ore vein
+description: ore vein
+color: 696969
+research: {
+  parent: stone
+}
