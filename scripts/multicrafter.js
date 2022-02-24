@@ -695,12 +695,12 @@ const oreWasher = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
     },*/
     {
         input: {
-            items: ["ore-vein/1"],
+            items: ["altanic-ore-vein/1"],
             liquids: ["water/6"],
             power: 2.5,
         },
         output: {
-            items: ["purified-ore-vein/1", "stone/5"],
+            items: ["altanic-purified-ore-vein/1", "altanic-stone/5"],
         },
         craftTime: 120
     },
