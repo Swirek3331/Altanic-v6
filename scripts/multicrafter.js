@@ -639,6 +639,15 @@ const assembler = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
         },
         craftTime:80,
     },*/
+    {
+        input: {
+            items: ["plutonium/10", "stal/50"],
+            liquids: ["oil/60"],
+        },
+        output: {
+            items: ["ARLammo/1"]
+        },
+    },
     //for now, this object is like me.
     //useless
     //in 1.6.0.3 ratatata
