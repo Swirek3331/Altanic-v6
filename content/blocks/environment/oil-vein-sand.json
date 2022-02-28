@@ -1,6 +1,0 @@
-type: Floor
-blendGroup: sand
-attributes: {
-  oil: 1.7
-}
-variants: 3

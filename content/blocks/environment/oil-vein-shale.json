@@ -1,6 +1,0 @@
-type: Floor
-attributes: {
-  stone: 1
-  oil: 2.6
-}
-variants: 3
