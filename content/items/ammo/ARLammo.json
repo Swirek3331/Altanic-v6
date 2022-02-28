@@ -1,0 +1,6 @@
+name: ARL ammunition
+description: ARL ammunition
+color: 696969
+research: {
+  parent: plutonium
+}
