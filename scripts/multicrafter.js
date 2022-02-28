@@ -641,11 +641,12 @@ const assembler = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
     },*/
     {
         input: {
-            items: ["plutonium/10", "stal/50"],
+            items: ["altanic-plutonium/10", "altanic-stal/50"],
             liquids: ["oil/60"],
+            power: 5,
         },
         output: {
-            items: ["ARLammo/1"]
+            items: ["altanic-ARLammo/1"],
         },
     },
     //for now, this object is like me.
@@ -681,6 +682,7 @@ hasPower
 assembler.localizedName = "Assembler";
 assembler.description = "Assembler";
 assembler.itemCapacity = 20;
+melter.liquidCapacity = 60;
 assembler.size = 2;
 assembler.health = 500;
 /*true: dump items and liquids of output according to button
@@ -743,16 +745,76 @@ hasPower
 oreWasher.localizedName = "Ore washer";
 oreWasher.description = "Ore washer";
 oreWasher.itemCapacity = 20;
+melter.liquidCapacity = 60;
 oreWasher.size = 2;
 oreWasher.health = 500;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 oreWasher.dumpToggle = true;
 
-
 //centrifuge
 
-//melter
+const melter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "melter", [
+    /*default form for each recipes. You can change values.
+    {
+        input:{
+            items:[],     Modded Item:  "mod-name-item-name/amount", Vanilla Item: "item-name/amount"
+            liquids:[],   Modded Liquid:  "mod-name-liquid-name/amount",  Vanilla liquid: "liquid-name/amount"
+            power:0,
+        },
+        output:{
+            items:[],
+            liquids:[],
+            power:0,
+        },
+        craftTime:80,
+    },*/
+    {
+        input: {
+            items: ["altanic-ore-vein/1"],
+            power: 2.5,
+        },
+        output: {
+            liquids: ["slag/24"],
+        },
+        craftTime: 60
+    },
+], {
+    /*you can customize block here. ex) load()*/
+},
+    /*this is Object constructor. This way is much better than literal way{a:123}
+    you can replace this with {} if you don't want to modify entity*/
+    function Extra() {
+        /*you can use customUpdate=function(){}. this function excuted before update()
+        also this.draw=function(){}
+        you can customize entity here.
+        ex)
+        this._myProp=0;
+        this.getMyProp=function(){
+            return this._myProp;
+        };
+        this.setMyProp=function(a){
+            this._myProp=a;
+        };*/
+    });
+/*
+YOU MUST NOT MODIFY VALUE OF THESE
+configurable
+outputsPower
+hasItems
+hasLiquids
+hasPower
+*/
+//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+melter.localizedName = "melter";
+melter.description = "melter";
+melter.itemCapacity = 20;
+melter.liquidCapacity = 60;
+melter.size = 2;
+melter.health = 500;
+/*true: dump items and liquids of output according to button
+false: dump items and liquids of output unconditionally*/
+melter.dumpToggle = true;
 
 //press/squezer
 
