@@ -775,7 +775,17 @@ const melter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCraft
             power: 2.5,
         },
         output: {
-            liquids: ["slag/24"],
+            liquids: ["slag/18"],
+        },
+        craftTime: 90
+    },
+    {
+        input: {
+            items: ["altanic-purified-ore-vein/1"],
+            power: 1,
+        },
+        output: {
+            liquids: ["slag/36"],
         },
         craftTime: 60
     },
