@@ -385,11 +385,11 @@ const macerator = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
     },
     {
         input: {
-            items: ["scrap/1"],
+            items: ["scrap/2"],
             power: 0.4
         },
         output: {
-            items: ["altanic-ironore/2"],
+            items: ["altanic-ironore/1"],
         },
         craftTime: 30
     },
@@ -707,11 +707,11 @@ const oreWasher = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
     {
         input: {
             items: ["altanic-ore-vein/1"],
-            liquids: ["water/6"],
+            liquids: ["water/12"],
             power: 2.5,
         },
         output: {
-            items: ["altanic-purified-ore-vein/1", "altanic-stone/5"],
+            items: ["altanic-purified-ore-vein/1", "altanic-stone/15"],
         },
         craftTime: 120
     },
@@ -775,7 +775,7 @@ const melter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCraft
             power: 2.5,
         },
         output: {
-            liquids: ["slag/18"],
+            liquids: ["slag/30"],
         },
         craftTime: 90
     },
@@ -785,7 +785,17 @@ const melter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCraft
             power: 1,
         },
         output: {
-            liquids: ["slag/36"],
+            liquids: ["slag/60"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["scra/5"],
+            power: 1,
+        },
+        output: {
+            liquids: ["slag/60"],
         },
         craftTime: 60
     },
