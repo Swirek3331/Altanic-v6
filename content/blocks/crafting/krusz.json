@@ -9,10 +9,10 @@ itemCapacity: 10
 craftTime: 30
 hasItems: 5
 consumes: {  
-  power: 0.2
+  power: 0.5
   items: {
     items: [
-      scrap/1
+      scrap/4
     ]
   }
 }
@@ -32,4 +32,4 @@ research: {
 }
 ambientSound: griding
 ambientSoundVolume: 0.02
-outputItem: ironore/2
+outputItem: ironore/1
