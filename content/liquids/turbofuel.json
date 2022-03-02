@@ -1,0 +1,8 @@
+name: turbofuel
+color: f0511d
+flammability: 2
+explosiveness: 2
+viscosity: 0.5
+research: {
+  parent: oil
+}
