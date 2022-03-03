@@ -1,0 +1,5 @@
+name: biogas
+description: biogas
+research: {
+  parent: gas
+}
