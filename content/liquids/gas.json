@@ -1,0 +1,5 @@
+name: gas
+description: gas
+research: {
+  parent: oil
+}
