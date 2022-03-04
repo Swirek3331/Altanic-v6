@@ -788,7 +788,7 @@ const melter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCraft
     },
     {
         input: {
-            items: ["scra/5"],
+            items: ["scrap/5"],
             power: 1.5,
         },
         output: {
