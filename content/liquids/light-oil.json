@@ -1,0 +1,5 @@
+name: Light oil
+description: Light oil
+research: {
+  parent: oil
+}
