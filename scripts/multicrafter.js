@@ -649,9 +649,6 @@ const assembler = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
             items: ["altanic-ARLammo/1"],
         },
     },
-    //for now, this object is like me.
-    //useless
-    //in 1.6.0.3 ratatata
 ], {
     /*you can customize block here. ex) load()*/
 },
@@ -682,7 +679,7 @@ hasPower
 assembler.localizedName = "Assembler";
 assembler.description = "Assembler";
 assembler.itemCapacity = 20;
-melter.liquidCapacity = 60;
+assembler.liquidCapacity = 60;
 assembler.size = 2;
 assembler.health = 500;
 /*true: dump items and liquids of output according to button
@@ -745,7 +742,7 @@ hasPower
 oreWasher.localizedName = "Ore washer";
 oreWasher.description = "Ore washer";
 oreWasher.itemCapacity = 20;
-melter.liquidCapacity = 60;
+oreWasher.liquidCapacity = 60;
 oreWasher.size = 2;
 oreWasher.health = 500;
 /*true: dump items and liquids of output according to button
@@ -792,7 +789,7 @@ const melter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCraft
     {
         input: {
             items: ["scra/5"],
-            power: 1,
+            power: 1.5,
         },
         output: {
             liquids: ["slag/60"],
@@ -836,6 +833,77 @@ melter.health = 500;
 false: dump items and liquids of output unconditionally*/
 melter.dumpToggle = true;
 
+const industrialPress = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "industrial-press", [
+    /*default form for each recipes. You can change values.
+    {
+        input:{
+            items:[],     Modded Item:  "mod-name-item-name/amount", Vanilla Item: "item-name/amount"
+            liquids:[],   Modded Liquid:  "mod-name-liquid-name/amount",  Vanilla liquid: "liquid-name/amount"
+            power:0,
+        },
+        output:{
+            items:[],
+            liquids:[],
+            power:0,
+        },
+        craftTime:80,
+    },*/
+    {
+        input: {
+            items: ["coal/4"],
+            power: 0.2
+        },
+        output: {
+            items: ["graphite/2"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["altanic-cokecoal/2"],
+            power: 0.4,
+        },
+        output: {
+            items: ["graphite/2"],
+        },
+        craftTime: 60
+    },
+], {
+    /*you can customize block here. ex) load()*/
+},
+    /*this is Object constructor. This way is much better than literal way{a:123}
+    you can replace this with {} if you don't want to modify entity*/
+    function Extra() {
+        /*you can use customUpdate=function(){}. this function excuted before update()
+        also this.draw=function(){}
+        you can customize entity here.
+        ex)
+        this._myProp=0;
+        this.getMyProp=function(){
+            return this._myProp;
+        };
+        this.setMyProp=function(a){
+            this._myProp=a;
+        };*/
+    });
+/*
+YOU MUST NOT MODIFY VALUE OF THESE
+configurable
+outputsPower
+hasItems
+hasLiquids
+hasPower
+*/
+//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+industrialPress.localizedName = "Industrial Press";
+industrialPress.description = "Industrial Press";
+industrialPress.itemCapacity = 20;
+industrialPress.liquidCapacity = 60;
+industrialPress.size = 2;
+industrialPress.health = 500;
+/*true: dump items and liquids of output according to button
+false: dump items and liquids of output unconditionally*/
+industrialPress.dumpToggle = true;
 //compressor
 
 //fermenter
