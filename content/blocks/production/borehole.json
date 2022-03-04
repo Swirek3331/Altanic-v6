@@ -1,0 +1,38 @@
+name: Borehole
+description: Borehole
+type: separator
+hasPower: true
+craftTime: 45
+size: 2
+consumes: {
+  power: 5
+  liquid: {
+    liquid: water
+    amount: 0.1
+  }
+}
+results: [
+  stone/20
+  sand/5
+  ore-vein/10
+]
+category: production
+requirements: [
+  zelazo/85
+  copper/55
+  lead/45
+  titanium/30
+  silicon/60
+  metaglass/25
+]
+research: {
+  parent: electric-drill
+  requirements: [
+    zelazo/8500
+    copper/5500
+    lead/4500
+    titanium/3000
+    silicon/6000
+    metaglass/2500
+  ]
+} 
