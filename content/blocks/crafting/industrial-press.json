@@ -1,0 +1,15 @@
+name: Industrial press
+description: Industrial press
+size: 2
+category: crafting
+requirements: [
+  lead/45
+  zelazo/75
+  silicon/15
+  graphite/35
+  copper/25
+]
+research: {
+  parent: furnace
+}
+//i tu
