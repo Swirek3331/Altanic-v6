@@ -1,0 +1,5 @@
+name: Heavy oil
+description: Heavy oil
+research: {
+  parent: oil
+}
