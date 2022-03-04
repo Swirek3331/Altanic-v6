@@ -1,0 +1,5 @@
+name: Lava
+description: Lava
+research: {
+  parent: stone
+}
