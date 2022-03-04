@@ -1,0 +1,5 @@
+name: Earth
+description: Earth
+research: {
+  parent: stone
+}
