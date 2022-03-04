@@ -20,7 +20,7 @@ requirements: [
   graphite/45
 ]
 research: {
-  parent: quartzextraktor
+  parent: silicon-smelter
   requirements: [
     copper/2500
     lead/5000
