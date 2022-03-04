@@ -1,0 +1,5 @@
+name: Lubricant
+description: Lubricant
+research: {
+  parent: heavy-oil
+}
