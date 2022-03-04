@@ -1,0 +1,15 @@
+name: Melter
+description: You can melt item with it
+size: 2
+category: liquid
+requirements: [
+  zelazo/75
+  metaglass/30
+  graphite/45
+  copper/35
+  lead/35
+]
+research: {
+  parent: ore-washer
+}
+//tu też
