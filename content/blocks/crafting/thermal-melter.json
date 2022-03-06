@@ -1,7 +1,6 @@
 name: Melter
 description: You can melt item with it
 size: 2
-attribute: heat
 category: liquid
 requirements: [
   zelazo/75
