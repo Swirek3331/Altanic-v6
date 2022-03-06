@@ -1000,9 +1000,30 @@ const mixer = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafte
             power: 1.5
         },
         output: {
-            liquids: ["cryofliud/12"]
+            liquids: ["cryofluid/12"]
         },
         craftTime: 60
+    },
+    {
+        input: {
+            liquids: ["altanic-lubricant/6", "cryofluid/6"],
+            power: 2.5
+        },
+        output: {
+            liquids: ["altanic-coil/6"],
+        },
+        craftTime: 120
+    },
+    {
+        input: {
+            liquids: ["water/6"],
+            items: ["sand/4, altanic-stone/2"],
+            power: 1.5
+        },
+        output: {
+            items: ["altanic-earth/4"],
+        },
+        craftTime: 90
     },
 ], {
     /*you can customize block here. ex) load()*/
@@ -1031,8 +1052,8 @@ hasLiquids
 hasPower
 */
 //using example without .json file. I don't recommand this way because you can't use mod item as requirements.
-mixer.localizedName = "Compressor";
-mixer.description = "Compressor";
+mixer.localizedName = "Mixer";
+mixer.description = "Mixer";
 mixer.itemCapacity = 20;
 mixer.liquidCapacity = 60;
 mixer.size = 2;
