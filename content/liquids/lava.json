@@ -1,5 +1,6 @@
 name: Lava
 description: Lava
+temperature: 1.5
 research: {
   parent: stone
 }
