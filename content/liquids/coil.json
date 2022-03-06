@@ -1,5 +1,7 @@
 name: Coil
 description: Coil
+heatCapacity: 1.5
+temperature: 3
 parent: {
   lubricant
 }
