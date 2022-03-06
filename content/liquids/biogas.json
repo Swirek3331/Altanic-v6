@@ -1,5 +1,8 @@
 name: biogas
 description: biogas
+flammability: 1
+explosiveness: 1
+viscosity: 0
 research: {
   parent: gas
 }
