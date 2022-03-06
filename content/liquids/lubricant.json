@@ -1,5 +1,7 @@
 name: Lubricant
 description: Lubricant
+heatCapacity: 0.9
+viscosity: 0.7
 research: {
   parent: heavy-oil
 }
