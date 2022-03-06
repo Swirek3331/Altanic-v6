@@ -1,5 +1,9 @@
 name: Light oil
 description: Light oil
+flammability: 1.1
+explosiveness: 1.2
+viscosity: 0.5
+heatCapacity: 0.65
 research: {
   parent: oil
 }
