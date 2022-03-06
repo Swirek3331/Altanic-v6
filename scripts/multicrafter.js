@@ -923,7 +923,7 @@ const compressor = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericC
     {
         input: {
             items: ["coal/4"],
-            power: 0.5
+            power: 0.5,
         },
         output: {
             items: ["graphite/4"],
@@ -997,7 +997,7 @@ const mixer = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafte
         input: {
             items: ["titanium/1"],
             liquids: ["water/12"],
-            power: 1.5
+            power: 1.5,
         },
         output: {
             liquids: ["cryofluid/12"]
@@ -1007,7 +1007,7 @@ const mixer = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafte
     {
         input: {
             liquids: ["altanic-lubricant/6", "cryofluid/6"],
-            power: 2.5
+            power: 2.5,
         },
         output: {
             liquids: ["altanic-coil/6"],
@@ -1017,8 +1017,8 @@ const mixer = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafte
     {
         input: {
             liquids: ["water/6"],
-            items: ["sand/4, altanic-stone/2"],
-            power: 1.5
+            items: ["sand/4", "altanic-stone/2"],
+            power: 1.5,
         },
         output: {
             items: ["altanic-earth/4"],
@@ -1061,3 +1061,105 @@ mixer.health = 500;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 mixer.dumpToggle = true;
+
+const chemicalPlant = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "chemical-plant", [
+    /*default form for each recipes. You can change values.
+    {
+        input:{
+            items:[],     Modded Item:  "mod-name-item-name/amount", Vanilla Item: "item-name/amount"
+            liquids:[],   Modded Liquid:  "mod-name-liquid-name/amount",  Vanilla liquid: "liquid-name/amount"
+            power:0,
+        },
+        output:{
+            items:[],
+            liquids:[],
+            power:0,
+        },
+        craftTime:80,
+    },*/
+    {
+        input: {
+            items: ["titanium/1"],
+            liquids: ["water/12"],
+            power: 2,
+        },
+        output: {
+            liquids: ["cryofluid/12"]
+        },
+        craftTime: 30
+    },
+    {
+        input: {
+            liquids: ["altanic-lubricant/6", "cryofluid/6"],
+            power: 2.5,
+        },
+        output: {
+            liquids: ["altanic-coil/12"],
+        },
+        craftTime: 120
+    },
+    {
+        input: {
+            liquids: ["altanic-light-oil/12"],
+            power: 2,
+        },
+        output: {
+            liquids: ["altanic-fuel/6"],
+        },
+        craftTime: 90
+    },
+    {
+        input: {
+            liquids: ["water/6", "altanic-heavy-oil/12"],
+            power: 2.75,
+        },
+        output: {
+            liquids: ["altanic-fuel/6"],
+        },
+    },
+    {
+        input: {
+            liquids: ["altanic-gas/12"],
+            power: 1,
+        },
+        output: {
+            items: ["altanic-sulfur/6"],
+        },
+        craftTime: 60
+    },
+], {
+    /*you can customize block here. ex) load()*/
+},
+    /*this is Object constructor. This way is much better than literal way{a:123}
+    you can replace this with {} if you don't want to modify entity*/
+    function Extra() {
+        /*you can use customUpdate=function(){}. this function excuted before update()
+        also this.draw=function(){}
+        you can customize entity here.
+        ex)
+        this._myProp=0;
+        this.getMyProp=function(){
+            return this._myProp;
+        };
+        this.setMyProp=function(a){
+            this._myProp=a;
+        };*/
+    });
+/*
+YOU MUST NOT MODIFY VALUE OF THESE
+configurable
+outputsPower
+hasItems
+hasLiquids
+hasPower
+*/
+//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+chemicalPlant.localizedName = "Chemical plant";
+chemicalPlant.description = "Chemical plant";
+chemicalPlant.itemCapacity = 30;
+chemicalPlant.liquidCapacity = 120;
+chemicalPlant.size = 3;
+chemicalPlant.health = 750;
+/*true: dump items and liquids of output according to button
+false: dump items and liquids of output unconditionally*/
+chemicalPlant.dumpToggle = true;
