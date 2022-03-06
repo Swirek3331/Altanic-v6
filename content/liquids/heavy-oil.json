@@ -1,5 +1,8 @@
 name: Heavy oil
 description: Heavy oil
+viscosity: 0.85
+flammability: 1
+explosiveness: 1
 research: {
   parent: oil
 }
