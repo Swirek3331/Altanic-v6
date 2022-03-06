@@ -352,7 +352,7 @@ hasPower
 electricArcFurnace.localizedName = "Electric arc furnace";
 electricArcFurnace.description = "Electric arc furnace is a masive structure that requires lots of power to work, but is very fast";
 electricArcFurnace.itemCapacity = 20;
-electricArcFurnace.size = 4;
+electricArcFurnace.size = 5;
 electricArcFurnace.health = 1000;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
@@ -751,7 +751,7 @@ oreWasher.dumpToggle = true;
 
 //centrifuge
 
-const melter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "melter", [
+const geothermalMelter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "geothermal-melter", [
     /*default form for each recipes. You can change values.
     {
         input:{
@@ -823,15 +823,15 @@ hasLiquids
 hasPower
 */
 //using example without .json file. I don't recommand this way because you can't use mod item as requirements.
-melter.localizedName = "melter";
-melter.description = "melter";
-melter.itemCapacity = 20;
-melter.liquidCapacity = 60;
-melter.size = 2;
-melter.health = 500;
+geothermalMelter.localizedName = "melter";
+geothermalMelter.description = "melter";
+geothermalMelter.itemCapacity = 20;
+geothermalMelter.liquidCapacity = 60;
+geothermalMelter.size = 2;
+geothermalMelter.health = 500;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
-melter.dumpToggle = true;
+geothermalMelter.dumpToggle = true;
 
 const industrialPress = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "industrial-press", [
     /*default form for each recipes. You can change values.
