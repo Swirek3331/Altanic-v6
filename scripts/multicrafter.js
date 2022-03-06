@@ -403,6 +403,17 @@ const macerator = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
         },
         craftTime: 60
     },
+    {
+        input: {
+            liquids: ["water/6"],
+            items: ["sand/4", "altanic-stone/1"],
+            power: 1.5,
+        },
+        output: {
+            items: ["altanic-earth/4"],
+        },
+        craftTime: 60
+    },
 ], {
     /*you can customize block here. ex) load()*/
 },
@@ -1163,3 +1174,74 @@ chemicalPlant.health = 750;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 chemicalPlant.dumpToggle = true;
+
+const distillationColumn = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "distillation-column", [
+    /*default form for each recipes. You can change values.
+    {
+        input:{
+            items:[],     Modded Item:  "mod-name-item-name/amount", Vanilla Item: "item-name/amount"
+            liquids:[],   Modded Liquid:  "mod-name-liquid-name/amount",  Vanilla liquid: "liquid-name/amount"
+            power:0,
+        },
+        output:{
+            items:[],
+            liquids:[],
+            power:0,
+        },
+        craftTime:80,
+    },*/
+    {
+        input: {
+            liquids: ["oil/30"],
+            power: 4,
+        },
+        output: {
+            liquids: ["altanic-light-oil/12", "atalnic-gas/12", "altanic-heavy-oil/6"],
+        },
+        craftTime: 120
+    },
+    {
+        input: {
+            liquids: ["oil/60"],
+            power: 8,
+        },
+        output: {
+            liquids: ["altanic-light-oil/24", "atalnic-gas/24", "altanic-heavy-oil/12"],
+        },
+        craftTime: 240
+    },
+], {
+    /*you can customize block here. ex) load()*/
+},
+    /*this is Object constructor. This way is much better than literal way{a:123}
+    you can replace this with {} if you don't want to modify entity*/
+    function Extra() {
+        /*you can use customUpdate=function(){}. this function excuted before update()
+        also this.draw=function(){}
+        you can customize entity here.
+        ex)
+        this._myProp=0;
+        this.getMyProp=function(){
+            return this._myProp;
+        };
+        this.setMyProp=function(a){
+            this._myProp=a;
+        };*/
+    });
+/*
+YOU MUST NOT MODIFY VALUE OF THESE
+configurable
+outputsPower
+hasItems
+hasLiquids
+hasPower
+*/
+//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+distillationColumn.localizedName = "Distillation Column";
+distillationColumn.description = "Distillation Column";
+distillationColumn.liquidCapacity = 180;
+distillationColumn.size = 4;
+distillationColumn.health = 1000;
+/*true: dump items and liquids of output according to button
+false: dump items and liquids of output unconditionally*/
+distillationColumn.dumpToggle = true;
