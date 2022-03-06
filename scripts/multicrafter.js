@@ -1196,7 +1196,7 @@ const distillationColumn = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
             power: 4,
         },
         output: {
-            liquids: ["altanic-light-oil/12", "atalnic-gas/12", "altanic-heavy-oil/6"],
+            liquids: ["altanic-light-oil/12", "altanic-gas/12", "altanic-heavy-oil/6"],
         },
         craftTime: 120
     },
