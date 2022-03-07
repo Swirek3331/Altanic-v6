@@ -1,0 +1,13 @@
+name: Compressor
+description: Compressor
+size: 2
+category: Crafting
+requirements: [
+  zelazo/100
+  copper/30
+  silicon/35
+]
+research: {
+  parent: industrial-press
+}
+//ciul z tym nie chce mi się i nie mam czasu na pisanie
