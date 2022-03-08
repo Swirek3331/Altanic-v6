@@ -1,6 +1,6 @@
 localizedName: Electric arc furnace
 description: Electric arc furnace is a masive structure that requires lots of power to work, but is very fast
-size: 4
+size: 5
 health: 1000
 category: crafting
 requirements: [
