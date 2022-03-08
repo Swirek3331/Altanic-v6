@@ -1,0 +1,14 @@
+name: Mixer
+description: Mixer
+size: 2
+category: crafting
+requirements: [
+  metaglass/45
+  lead/65
+  zelazo/85
+  silicon/50
+  titanium/70
+]
+research: {
+  parent: cryofluid-mixer
+}
