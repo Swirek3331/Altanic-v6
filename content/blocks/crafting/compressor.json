@@ -6,6 +6,8 @@ requirements: [
   zelazo/100
   copper/30
   silicon/35
+  metaglass/5
+  graphite/35
 ]
 research: {
   parent: industrial-press
