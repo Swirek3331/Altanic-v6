@@ -1,0 +1,15 @@
+name: Distillation column
+description: Distillation column
+size: 3
+category: liquid
+requirements: [
+  metaglass/75
+  stal/150
+  titanium/50
+  lead/50
+  silicon/55
+  copper/45
+]
+research: {
+  parent: chemical-plant
+}
