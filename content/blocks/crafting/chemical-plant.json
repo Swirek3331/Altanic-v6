@@ -1,0 +1,16 @@
+name: Chemical plant
+description: Chemical plant
+size: 3
+category: liquid
+requirements: [
+  metaglass/55
+  stal/65
+  zelazo/150
+  copper/45
+  silicon/75
+  titanium/55
+  lead/45
+]
+research: {
+  parent: mixer
+}
