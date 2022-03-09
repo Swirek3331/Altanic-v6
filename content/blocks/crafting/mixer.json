@@ -1,9 +1,9 @@
 name: Mixer
 description: Mixer
 size: 2
-category: crafting
+category: liquid
 requirements: [
-  metaglass/45
+  metaglass/25
   lead/65
   zelazo/85
   silicon/50
