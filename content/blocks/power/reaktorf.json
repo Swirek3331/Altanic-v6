@@ -25,7 +25,7 @@ category: power
 ambientSound: pulse
 ambientSoundVolume: 0.2
 research: {
-  parent: bpgenp
+  parent: reaktore
   requirements: [
     stal/25000
     metaglass/10000
