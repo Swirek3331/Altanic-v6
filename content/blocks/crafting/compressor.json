@@ -1,12 +1,12 @@
 name: Compressor
 description: Compressor
 size: 2
-category: Crafting
+category: crafting
 requirements: [
   zelazo/100
   copper/30
   silicon/35
-  metaglass/5
+  metaglass/10
   graphite/35
 ]
 research: {
