@@ -783,7 +783,7 @@ const thermalMelter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gener
             power: 2.5,
         },
         output: {
-            liquids: ["slag/30"],
+            liquids: ["altanic-lava/30"],
         },
         craftTime: 90
     },
