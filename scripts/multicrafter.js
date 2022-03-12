@@ -414,6 +414,16 @@ const macerator = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
         },
         craftTime: 60
     },
+    {
+        input: {
+            items: ["altanic-stone/1"],
+            power: 0.8,
+        },
+        output: {
+            items: ["sand/4"],
+        },
+        craftTime: 45
+    },
 ], {
     /*you can customize block here. ex) load()*/
 },
@@ -862,7 +872,7 @@ const industrialPress = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gen
     {
         input: {
             items: ["coal/4"],
-            power: 0.2
+            power: 0.5
         },
         output: {
             items: ["graphite/2"],
@@ -872,12 +882,22 @@ const industrialPress = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gen
     {
         input: {
             items: ["altanic-cokecoal/2"],
-            power: 0.4,
+            power: 1,
         },
         output: {
             items: ["graphite/2"],
         },
         craftTime: 90
+    },
+    {
+        input: {
+            items: ["spore-pod/10"],
+            power: 0.75
+        },
+        output: {
+            liquid: ["oil/60"],
+        },
+        craftTime: 30
     },
 ], {
     /*you can customize block here. ex) load()*/
@@ -951,6 +971,16 @@ const compressor = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericC
             items: ["graphite/8"],
         },
         craftTime: 60
+    },
+    {
+        input: {
+            items: ["spore-pod/100"],
+            power: 1.5
+        },
+        output: {
+            liquid: ["oil/600"],
+        },
+        crafTime: 90
     },
 ], {
     /*you can customize block here. ex) load()*/
