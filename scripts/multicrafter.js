@@ -1322,6 +1322,17 @@ const chemicalPlant = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gener
     },
     {
         input: {
+            items: ["sulfur/6"],
+            liquids: ["water/12"],
+            power: 2.75,
+        },
+        output: {
+            liquids: ["sulfuric-acid/12"],
+        },
+        craftTime: 90
+    },
+    {
+        input: {
             items: ["spore-pod/15", "z.p.g.m._mod-siarka/10"],
             liquids: ["water/90"],
             power: 15,
