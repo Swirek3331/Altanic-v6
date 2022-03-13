@@ -358,7 +358,7 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
             powet: 16
         },
         output: {
-            items: ["z.p.g.m_mod-butelka/40"], 
+            items: ["z.p.g.m._mod-butelka/40"], 
         },
         craftTime: 300
     },
@@ -368,7 +368,7 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
             powet: 5
         },
         output: {
-            items: ["z.p.g.m_mod.-butelka/2"], 
+            items: ["z.p.g.m._mod.-butelka/2"], 
         },
         craftTime: 90
     }, 
@@ -548,7 +548,7 @@ const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.G
     {
         input: {
             items: ["thorium/12"],
-            liquids: ["z.p.g.m_mod-lrciecz/19.18"],
+            liquids: ["z.p.g.m._mod-lrciecz/19.18"],
             power: 8,
         },
         output: {
@@ -559,7 +559,7 @@ const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.G
     {
         input: {
             items: ["z.p.g.m._mod-uran/12"],
-            liquids: ["z.p.g.m_mod-mrciecz/19.18"],
+            liquids: ["z.p.g.m._mod-mrciecz/19.18"],
             power: 12,
         },
         output: {
@@ -797,7 +797,7 @@ const assembler = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
             power: 8
         },
         output: {
-            items: ["chemia/2"],
+            items: ["z.p.g.m._mod-chemia/2"],
         },
         craftTime: 300
     },
