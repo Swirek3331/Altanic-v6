@@ -64,6 +64,16 @@ const furnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCraf
             items: ["silicon/1"], 
         },
         craftTime: 90
+    },
+    {
+        input: {
+            items: ["metaglass/20", "titanium/10"],
+            powet: 4
+        },
+        output: {
+            items: ["z.p.g.m_mod-butelka/10"], 
+        },
+        craftTime: 300
     }, 
 ], {
     /*you can customize block here. ex) load()*/
@@ -188,6 +198,26 @@ const inductionFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Ge
             items: ["surge-alloy/1"], 
         },
         craftTime: 75
+    },
+    {
+        input: {
+            items: ["metaglass/40", "titanium/20"],
+            powet: 8
+        },
+        output: {
+            items: ["z.p.g.m_mod-butelka/20"], 
+        },
+        craftTime: 300
+    },
+    {
+        input: {
+            items: ["metaglass/4", "titanium/2"],
+            powet: 2.5
+        },
+        output: {
+            items: ["z.p.g.m_mod-butelka/2"], 
+        },
+        craftTime: 120
     }, 
 ], {
     /*you can customize block here. ex) load()*/
@@ -321,6 +351,26 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
             items: ["surge-alloy/1"], 
         },
         craftTime: 35
+    },
+    {
+        input: {
+            items: ["metaglass/80", "titanium/40"],
+            powet: 16
+        },
+        output: {
+            items: ["z.p.g.m_mod-butelka/40"], 
+        },
+        craftTime: 300
+    },
+    {
+        input: {
+            items: ["metaglass/4", "titanium/2"],
+            powet: 5
+        },
+        output: {
+            items: ["z.p.g.m_mod-butelka/2"], 
+        },
+        craftTime: 90
     }, 
 ], {
     /*you can customize block here. ex) load()*/
@@ -497,6 +547,28 @@ const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.G
     },
     {
         input: {
+            items: ["thorium/12"],
+            liquids: ["lrciecz/19.18"],
+            power: 8,
+        },
+        output: {
+            items: ["z.p.g.m._mod-torzu/10", "z.p.g.m._torwz/2"],
+        },
+        craftTime: 180
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-uran/12"],
+            liquids: ["mrciecz/19.18"],
+            power: 12,
+        },
+        output: {
+            items: ["z.p.g.m._mod-uranzu/10", "z.p.g.m._uranwz/2"],
+        },
+        craftTime: 180
+    },
+    {
+        input: {
             liquids: ["oil/12"],
             power: 1,
         },
@@ -605,6 +677,56 @@ const radioisotopeThermoelectricBoiler = multiLib.MultiCrafter(GenericCrafter, G
         },
         output: {
             liquids: ["altanic-steam/48"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-torwz/1"],
+            liquids: ["water/48"],
+        },
+        output: {
+            liquids: ["altanic-steam/48"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-torzu/1"],
+            liquids: ["water/16.8"],
+        },
+        output: {
+            liquids: ["altanic-steam/16.8"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-uran"],
+            liquids: ["water/120"],
+        },
+        output: {
+            liquids: ["altanic-steam/120"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-uranwz"],
+            liquids: ["water/192"],
+        },
+        output: {
+            liquids: ["altanic-steam/192"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-uranzu"],
+            liquids: ["water/36"],
+        },
+        output: {
+            liquids: ["altanic-steam/36"],
         },
         craftTime: 60
     },
@@ -1065,6 +1187,16 @@ const mixer = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafte
             items: ["altanic-earth/4"],
         },
         craftTime: 90
+    },
+    {
+        input: {
+            items: ["spore-pod/15", "z.p.g.m._mod-siarka/10"],
+            liquids: ["water/90"],
+            power: 10,
+        },
+        output: {
+            liquids: ["zpgm-connector-nitrociecz/9"],
+        },
     },
 ], {
     /*you can customize block here. ex) load()*/
