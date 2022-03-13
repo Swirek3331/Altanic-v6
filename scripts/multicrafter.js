@@ -71,7 +71,7 @@ const furnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCraf
             powet: 4
         },
         output: {
-            items: ["z.p.g.m_mod-butelka/10"], 
+            items: ["z.p.g.m._mod-butelka/10"], 
         },
         craftTime: 300
     }, 
@@ -205,7 +205,7 @@ const inductionFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Ge
             powet: 8
         },
         output: {
-            items: ["z.p.g.m_mod-butelka/20"], 
+            items: ["z.p.g.m._mod-butelka/20"], 
         },
         craftTime: 300
     },
@@ -215,7 +215,7 @@ const inductionFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Ge
             powet: 2.5
         },
         output: {
-            items: ["z.p.g.m_mod-butelka/2"], 
+            items: ["z.p.g.m._mod-butelka/2"], 
         },
         craftTime: 120
     }, 
@@ -368,7 +368,7 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
             powet: 5
         },
         output: {
-            items: ["z.p.g.m_mod-butelka/2"], 
+            items: ["z.p.g.m_mod.-butelka/2"], 
         },
         craftTime: 90
     }, 
@@ -548,7 +548,7 @@ const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.G
     {
         input: {
             items: ["thorium/12"],
-            liquids: ["lrciecz/19.18"],
+            liquids: ["z.p.g.m_mod-lrciecz/19.18"],
             power: 8,
         },
         output: {
@@ -559,7 +559,7 @@ const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.G
     {
         input: {
             items: ["z.p.g.m._mod-uran/12"],
-            liquids: ["mrciecz/19.18"],
+            liquids: ["z.p.g.m_mod-mrciecz/19.18"],
             power: 12,
         },
         output: {
@@ -693,10 +693,10 @@ const radioisotopeThermoelectricBoiler = multiLib.MultiCrafter(GenericCrafter, G
     {
         input: {
             items: ["z.p.g.m._mod-torzu/1"],
-            liquids: ["water/16.8"],
+            liquids: ["water/17"],
         },
         output: {
-            liquids: ["altanic-steam/16.8"],
+            liquids: ["altanic-steam/17"],
         },
         craftTime: 60
     },
@@ -793,7 +793,7 @@ const assembler = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
     },
     {
         input: {
-            items: ["z.p.g.m._mod-baterian/2", "butelkar/6", "butelkaw/8", "butelkaz/4", "siarka/3"],
+            items: ["z.p.g.m._mod-baterian/2", "z.p.g.m._mod-butelkar/6", "z.p.g.m._mod-butelkaw/8", "z.p.g.m._mod-butelkaz/4", "z.p.g.m._mod-siarka/3"],
             power: 8
         },
         output: {
