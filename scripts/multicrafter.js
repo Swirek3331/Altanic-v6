@@ -784,13 +784,22 @@ const assembler = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
     },*/
     {
         input: {
-            items: ["altanic-plutonium/10", "altanic-stal/50"],
-            liquids: ["altanic-turbofuel/10"],
-            power: 5,
+            items: ["thorium/8", "sand/20"],
+            power: 6
         },
         output: {
-            items: ["altanic-ARLammo/1"],
+            items: ["phase-fabric/2"],
         },
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-baterian/2", "butelkar/6", "butelkaw/8", "butelkaz/4", "siarka/3"],
+            power: 8
+        },
+        output: {
+            items: ["chemia/2"],
+        },
+        craftTime: 300
     },
 ], {
     /*you can customize block here. ex) load()*/
@@ -1299,6 +1308,28 @@ const chemicalPlant = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gener
             items: ["altanic-sulfur/6"],
         },
         craftTime: 60
+    },
+    {
+        input: {
+            items: ["spore-pod/150", "z.p.g.m._mod-siarka/100"],
+            liquids: ["water/900"],
+            power: 10,
+        },
+        output: {
+            liquids: ["zpgm-connector-nitrociecz/90"],
+        },
+        craftTime: 300
+    },
+    {
+        input: {
+            items: ["spore-pod/15", "z.p.g.m._mod-siarka/10"],
+            liquids: ["water/90"],
+            power: 15,
+        },
+        output: {
+            liquids: ["zpgm-connector-nitrociecz/9"],
+        },
+        craftTime: 300
     },
 ], {
     /*you can customize block here. ex) load()*/
