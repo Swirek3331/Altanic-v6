@@ -1,5 +1,6 @@
 name: Coil
 description: Coil
+color: 31ED5A
 heatCapacity: 1.5
 temperature: 0.3
 research: {

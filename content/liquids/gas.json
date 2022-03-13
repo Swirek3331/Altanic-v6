@@ -1,5 +1,6 @@
 name: gas
 description: gas
+color: 5D5D5D
 flammability: 1
 explosiveness: 1
 viscosity: 0

@@ -1,5 +1,6 @@
 name: Fuel
 description: Fuel
+color: FF8000
 flammability: 1.3
 explosiveness: 1.1
 viscosity: 0.6

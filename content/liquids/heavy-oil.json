@@ -1,5 +1,6 @@
 name: Heavy oil
 description: Heavy oil
+color: FF4E00
 viscosity: 0.85
 flammability: 1
 explosiveness: 1

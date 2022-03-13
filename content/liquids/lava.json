@@ -1,6 +1,7 @@
 name: Lava
 description: Lava
 temperature: 1.5
+color: FF4E00
 research: {
   parent: stone
 }

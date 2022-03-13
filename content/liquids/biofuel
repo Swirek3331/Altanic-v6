@@ -1,5 +1,6 @@
-name: BIofuel
+name: Biofuel
 description: Biofuel
+color: 0D4712
 flammability: 1.2
 explosiveness: 1.1
 viscosity: 0.6
