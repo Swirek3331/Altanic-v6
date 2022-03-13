@@ -1,10 +1,11 @@
 name: "Altanic"
 author: "swirek3331" 
-description:  "Mindustry mod that adds alternative methods to make already existing item. Modification also change vanilla content requirements like you need first make iron and steel to unlock plastanium compressor"
+description:  "Modyfikacja zmieniająca mindustry. Czyli dodaję receptury używające przedmiotów z modu tworząć rzeczy z mindustry"
 version: "OH NO 1.6.0.2 Matter of carbon"
 minGameVersion: 130
 hidden: false
 dependencies: [
   multi-lib
+  zpgm-connector
 ]
 hideBrowser: false
