@@ -1,11 +1,11 @@
 name: "Altanic"
 author: "swirek3331" 
 description:  "Modyfikacja zmieniająca mindustry. Czyli dodaję receptury używające przedmiotów z modu tworząć rzeczy z mindustry"
-version: "OH NO 1.6.0.2 Matter of carbon"
+version: "NIEPOBIERAĆ"
 minGameVersion: 130
 hidden: false
 dependencies: [
   multi-lib
   zpgm-connector
 ]
-hideBrowser: false
+hideBrowser: true
