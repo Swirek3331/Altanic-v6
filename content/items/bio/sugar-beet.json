@@ -1,0 +1,6 @@
+name: Sugar beet
+description: Sugar beet
+color: ffffff
+research: {
+  parent: biomass
+}
