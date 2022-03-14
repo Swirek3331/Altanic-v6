@@ -1,0 +1,6 @@
+name: sugar cane
+description: sugar cane
+color: ffffff
+research: {
+  parent: biomass
+}
