@@ -1,0 +1,6 @@
+name: Corn
+description: Corn
+color: ffffff
+research: {
+  parent: biomass
+}
