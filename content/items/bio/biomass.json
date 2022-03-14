@@ -1,0 +1,6 @@
+name: Biomass
+description: Biomass
+color: fffffff
+research: {
+  parent: earth
+}
