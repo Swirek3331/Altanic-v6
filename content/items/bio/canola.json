@@ -1,0 +1,6 @@
+name: Canola
+description: Canola
+color: ffffff
+research: {
+  parent: biomass
+}
