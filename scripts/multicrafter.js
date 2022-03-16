@@ -563,7 +563,7 @@ const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.G
             power: 12,
         },
         output: {
-            items: ["z.p.g.m._mod-uranzu/10", "z.p.g.m._uranwz/2"],
+            items: ["z.p.g.m._mod-uranzu/10", "z.p.g.m._mod-uranwz/2"],
         },
         craftTime: 180
     },
@@ -712,7 +712,7 @@ const radioisotopeThermoelectricBoiler = multiLib.MultiCrafter(GenericCrafter, G
     },
     {
         input: {
-            items: ["z.p.g.m._mod-uranwz"],
+            items: ["z.p.g.m._mod-uranwz/1"],
             liquids: ["water/192"],
         },
         output: {
@@ -722,7 +722,7 @@ const radioisotopeThermoelectricBoiler = multiLib.MultiCrafter(GenericCrafter, G
     },
     {
         input: {
-            items: ["z.p.g.m._mod-uranzu"],
+            items: ["z.p.g.m._mod-uranzu/1"],
             liquids: ["water/36"],
         },
         output: {
