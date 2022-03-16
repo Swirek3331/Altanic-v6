@@ -368,7 +368,7 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
             powet: 5
         },
         output: {
-            items: ["z.p.g.m._mod.-butelka/2"], 
+            items: ["z.p.g.m._mod-butelka/2"], 
         },
         craftTime: 90
     }, 
@@ -552,7 +552,7 @@ const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.G
             power: 8,
         },
         output: {
-            items: ["z.p.g.m._mod-torzu/10", "z.p.g.m._torwz/2"],
+            items: ["z.p.g.m._mod-torzu/10", "z.p.g.m._mod-torwz/2"],
         },
         craftTime: 180
     },
@@ -702,7 +702,7 @@ const radioisotopeThermoelectricBoiler = multiLib.MultiCrafter(GenericCrafter, G
     },
     {
         input: {
-            items: ["z.p.g.m._mod-uran"],
+            items: ["z.p.g.m._mod-uran/1"],
             liquids: ["water/120"],
         },
         output: {
@@ -1206,6 +1206,7 @@ const mixer = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafte
         output: {
             liquids: ["zpgm-connector-nitrociecz/9"],
         },
+        craftTime: 600
     },
 ], {
     /*you can customize block here. ex) load()*/
@@ -1313,7 +1314,7 @@ const chemicalPlant = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gener
         input: {
             items: ["spore-pod/150", "z.p.g.m._mod-siarka/100"],
             liquids: ["water/900"],
-            power: 10,
+            power: 15,
         },
         output: {
             liquids: ["zpgm-connector-nitrociecz/90"],
@@ -1322,20 +1323,9 @@ const chemicalPlant = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gener
     },
     {
         input: {
-            items: ["sulfur/6"],
-            liquids: ["water/12"],
-            power: 2.75,
-        },
-        output: {
-            liquids: ["sulfuric-acid/12"],
-        },
-        craftTime: 90
-    },
-    {
-        input: {
             items: ["spore-pod/15", "z.p.g.m._mod-siarka/10"],
             liquids: ["water/90"],
-            power: 15,
+            power: 12.5,
         },
         output: {
             liquids: ["zpgm-connector-nitrociecz/9"],
