@@ -1,6 +1,0 @@
-name: Sulfuric acid
-description: Sulfuric acid
-color: ffffff
-research: {
-  parent: sulfur
-}
