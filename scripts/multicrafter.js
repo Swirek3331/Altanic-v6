@@ -1263,13 +1263,13 @@ const chemicalPlant = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gener
     {
         input: {
             items: ["titanium/1"],
-            liquids: ["water/12"],
-            power: 2,
+            liquids: ["water/18"],
+            power: 3,
         },
         output: {
-            liquids: ["cryofluid/12"]
+            liquids: ["cryofluid/18"]
         },
-        craftTime: 30
+        craftTime: 60
     },
     {
         input: {
@@ -1283,27 +1283,29 @@ const chemicalPlant = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gener
     },
     {
         input: {
-            liquids: ["altanic-light-oil/12"],
+            liquids: ["altanic-naphta/6", "altanic-gasoline/6"],
             power: 2,
         },
         output: {
-            liquids: ["altanic-fuel/6"],
+            items: ["altanic-sulfur/3"],
+            liquids: ["altanic-fuel/9"],
         },
         craftTime: 90
     },
     {
         input: {
-            liquids: ["water/6", "altanic-heavy-oil/12"],
-            power: 2.75,
+            liquids: ["altanic-gas/6"],
+            power: 4,
         },
         output: {
-            liquids: ["altanic-fuel/6"],
+            items: ["altanic-sulfur/3"],
         },
+        craftTime: 60
     },
     {
         input: {
             liquids: ["altanic-gas/12"],
-            power: 1,
+            power: 4,
         },
         output: {
             items: ["altanic-sulfur/6"],
@@ -1386,21 +1388,21 @@ const distillationColumn = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
     },*/
     {
         input: {
-            liquids: ["oil/30"],
-            power: 4,
+            liquids: ["oil/60"],
+            power: 6,
         },
         output: {
-            liquids: ["altanic-light-oil/12", "altanic-gas/12", "altanic-heavy-oil/6"],
+            liquids: ["altanic-gasoline/24", "altanic-naphta/24", "altanic-gas/9", "altanic-heavy-oil/3"],
         },
         craftTime: 120
     },
     {
         input: {
-            liquids: ["oil/60"],
-            power: 8,
+            liquids: ["oil/120"],
+            power: 10,
         },
         output: {
-            liquids: ["altanic-light-oil/24", "altanic-gas/24", "altanic-heavy-oil/12"],
+            liquids: ["altanic-gasoline/48", "altanic-naphta/48", "altanic-gas/18", "altanic-heavy-oil/6"],
         },
         craftTime: 240
     },
