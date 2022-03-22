@@ -1,0 +1,5 @@
+name: Gasoline
+description: Or petrol
+research: {
+  parent: oil
+}
