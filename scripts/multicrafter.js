@@ -130,6 +130,16 @@ const inductionFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Ge
     },*/
     {
         input: {
+            items: ["altanic-ironore/5"],
+            power: 1,
+        },
+        output: {
+            items: ["altanic-zelazo/5"],
+        },
+        craftTime: 15
+    },
+    {
+        input: {
             items: ["altanic-ironore/1"],
             power: 1,
         },
@@ -150,11 +160,31 @@ const inductionFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Ge
     },
     {
         input: {
+            items: ["coal/5", "sand/10"],
+            power: 1,
+        },
+        output: {
+            items: ["silicon/1"],
+        },
+        craftTime: 15
+    },
+    {
+        input: {
             items: ["coal/2", "altanic-ironore/1"],
             power: 3,
         },
         output: {
             items: ["altanic-stal/1"],
+        },
+        craftTime: 45
+    },
+    {
+        input: {
+            items: ["coal/4", "altanic-ironore/2"],
+            power: 3,
+        },
+        output: {
+            items: ["altanic-stal/2"],
         },
         craftTime: 45
     },
@@ -170,12 +200,33 @@ const inductionFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Ge
     },
     {
         input: {
+            items: ["lead/5", "sand/5"],
+            power: 1,
+        },
+        output: {
+            items: ["metaglass/5"],
+        },
+        craftTime: 15
+    },
+    {
+        input: {
             items: ["altanic-cokecoal/5", "altanic-ironore/5"],
             power: 6,
         },
         output: {
             items: ["altanic-stal/5"],
-            liquids: ["slag/3"],
+            liquids: ["slag/6"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["altanic-cokecoal/10", "altanic-ironore/10"],
+            power: 6,
+        },
+        output: {
+            items: ["altanic-stal/10"],
+            liquids: ["slag/12"],
         },
         craftTime: 60
     },
@@ -188,6 +239,16 @@ const inductionFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Ge
             items: ["silicon/2"], 
         },
         craftTime: 45
+    },
+    {
+        input: {
+            items: ["altanic-quartz/8"],
+            powet: 1.5
+        },
+        output: {
+            items: ["silicon/4"], 
+        },
+        craftTime: 45
     }, 
     {
         input: {
@@ -196,6 +257,16 @@ const inductionFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Ge
         },
         output: {
             items: ["surge-alloy/1"], 
+        },
+        craftTime: 75
+    },
+    {
+        input: {
+            items: ["copper/6", "lead/8", "titanium/4", "silicon/6"],
+            powet: 4
+        },
+        output: {
+            items: ["surge-alloy/2"], 
         },
         craftTime: 75
     },
@@ -283,11 +354,31 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
     },
     {
         input: {
+            items: ["altanic-ironore/10"],
+            power: 2,
+        },
+        output: {
+            items: ["altanic-zelazo/10"],
+        },
+        craftTime: 7.5
+    },
+    {
+        input: {
             items: ["coal/1", "sand/2"],
             power: 2,
         },
         output: {
             items: ["silicon/1"],
+        },
+        craftTime: 7.5
+    },
+    {
+        input: {
+            items: ["coal/10", "sand/20"],
+            power: 2,
+        },
+        output: {
+            items: ["silicon/10"],
         },
         craftTime: 7.5
     },
@@ -303,6 +394,16 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
     },
     {
         input: {
+            items: ["coal/8", "altanic-ironore/4"],
+            power: 6,
+        },
+        output: {
+            items: ["altanic-stal/4"],
+        },
+        craftTime: 25
+    },
+    {
+        input: {
             items: ["lead/1", "sand/1"],
             power: 2,
         },
@@ -313,22 +414,34 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
     },
     {
         input: {
-            items: ["coal/5"],
-            power: 4,
+            items: ["lead/10", "sand/10"],
+            power: 2,
         },
         output: {
-            items: ["altanic-cokecoal/5"],
+            items: ["metaglass/10"],
         },
-        craftTime: 30
+        craftTime: 7.5
     },
-        {
+    {
         input: {
             items: ["altanic-cokecoal/5", "altanic-ironore/5"],
             power: 12,
         },
         output: {
             items: ["altanic-stal/5"],
-            liquids: ["slag/1.5"],
+            liquids: ["slag/6"],
+        },
+        craftTime: 30
+    },
+    },
+        {
+        input: {
+            items: ["altanic-cokecoal/20", "altanic-ironore/20"],
+            power: 12,
+        },
+        output: {
+            items: ["altanic-stal/20"],
+            liquids: ["slag/"24],
         },
         craftTime: 30
     },
@@ -344,7 +457,27 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
     },
     {
         input: {
+            items: ["altanic-quartz/16"],
+            powet: 3
+        },
+        output: {
+            items: ["silicon/16"], 
+        },
+        craftTime: 22.5
+    },
+    {
+        input: {
             items: ["copper/3", "lead/4", "titanium/2", "silicon/3"],
+            powet: 8,
+        },
+        output: {
+            items: ["surge-alloy/1"], 
+        },
+        craftTime: 35
+    },
+    {
+        input: {
+            items: ["copper/12", "lead/16", "titanium/8", "silicon/12"],
             powet: 8,
         },
         output: {
@@ -365,7 +498,7 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
     {
         input: {
             items: ["metaglass/4", "titanium/2"],
-            powet: 5
+            power: 5
         },
         output: {
             items: ["z.p.g.m._mod-butelka/2"], 
@@ -570,23 +703,12 @@ const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.G
     {
         input: {
             liquids: ["oil/12"],
-            power: 1,
+            power: 3,
         },
         output: {
             items: ["coal/6"],
         },
-        craftTime: 45
-    },
-        {
-        input: {
-            items: ["sand/4"],
-            liquids: ["oil/12"],
-            power: 2,
-        },
-        output: {
-            items: ["coal/4", "pyratite/4"],
-        },
-        craftTime: 60
+        craftTime: 30
     },
 ], {
     /*you can customize block here. ex) load()*/
@@ -1288,7 +1410,7 @@ const chemicalPlant = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gener
         },
         output: {
             items: ["altanic-sulfur/3"],
-            liquids: ["altanic-fuel/9"],
+            liquids: ["altanic-refined-fuel/9"],
         },
         craftTime: 90
     },
