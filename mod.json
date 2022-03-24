@@ -5,7 +5,7 @@ version: "OH NO 1.6.0.1 The matter of carbon"
 minGameVersion: 130
 hidden: false
 dependencies: [
-  multi-lib
+  multi-lib2
   zpgm-connector
 ]
 hideBrowser: true
