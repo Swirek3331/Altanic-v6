@@ -1,4 +1,4 @@
-const multiLib = require("multi-lib/library");
+//const multiLib = require("multi-lib/library");
 
 const furnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "furnace", [
     /*default form for each recipes. You can change values.
