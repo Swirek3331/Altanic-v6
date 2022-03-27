@@ -5,7 +5,7 @@ version: "DANGEROUS, PLS DON'T DOWNLOAD THIS"
 minGameVersion: 130
 hidden: false
 dependencies: [
-  multi-lib2
+  multi-lib
   zpgm-connector
 ]
 hideBrowser: true
