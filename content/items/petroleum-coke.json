@@ -1,0 +1,8 @@
+name: Petroleum coke
+description: Coal made of oil
+color: 000000
+explosiveness: 0.5
+flammability: 1.8
+research: {
+    parent: cokecoal
+}

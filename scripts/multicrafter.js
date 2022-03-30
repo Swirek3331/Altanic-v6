@@ -1239,9 +1239,31 @@ const compressor = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericC
             power: 1.5
         },
         output: {
-            liquid: ["oil/600"],
+            liquids: ["oil/600"],
         },
         crafTime: 90
+    },
+    {
+        input: {
+            items: ["titanium/2"],
+            liquids: ["altanic-naphta/12"],//nie pamiętam jaki mi procent ropy na inne produkty wyszedł, a zgubiłem kartkę z obliczeniami
+            power: 2
+        },
+        output: {
+            items: ["plastanium/1"]
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["titanium/12"],
+            liquids: ["altanic-heavy-oil/12"],
+            power: 5
+        },
+        output: {
+            items: ["plastanium/6"],
+        },
+        crafTime: 120
     },
 ], {
     /*you can customize block here. ex) load()*/
@@ -1305,16 +1327,6 @@ const mixer = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafte
             liquids: ["cryofluid/12"]
         },
         craftTime: 60
-    },
-    {
-        input: {
-            liquids: ["altanic-lubricant/6", "cryofluid/6"],
-            power: 2.5,
-        },
-        output: {
-            liquids: ["altanic-coil/6"],
-        },
-        craftTime: 120
     },
     {
         input: {
@@ -1522,7 +1534,7 @@ const distillationColumn = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
             power: 6,
         },
         output: {
-            liquids: ["altanic-gasoline/24", "altanic-naphta/24", "altanic-gas/9", "altanic-heavy-oil/3"],
+            liquids: ["altanic-gasoline/24", "altanic-naphta/18", "altanic-gas/12", "altanic-heavy-oil/6"],
         },
         craftTime: 120
     },
@@ -1532,7 +1544,7 @@ const distillationColumn = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
             power: 10,
         },
         output: {
-            liquids: ["altanic-gasoline/48", "altanic-naphta/48", "altanic-gas/18", "altanic-heavy-oil/6"],
+            liquids: ["altanic-gasoline/48", "altanic-naphta/36", "altanic-gas/24", "altanic-heavy-oil/12"],
         },
         craftTime: 240
     },
