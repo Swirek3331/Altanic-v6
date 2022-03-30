@@ -433,15 +433,14 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
         },
         craftTime: 30
     },
-    },
-        {
+    {
         input: {
             items: ["altanic-cokecoal/20", "altanic-ironore/20"],
             power: 12,
         },
         output: {
             items: ["altanic-stal/20"],
-            liquids: ["slag/"24],
+            liquids: ["slag/24"],
         },
         craftTime: 30
     },
