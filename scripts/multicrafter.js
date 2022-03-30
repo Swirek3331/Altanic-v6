@@ -221,17 +221,6 @@ const inductionFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Ge
     },
     {
         input: {
-            items: ["altanic-cokecoal/10", "altanic-ironore/10"],
-            power: 6,
-        },
-        output: {
-            items: ["altanic-stal/10"],
-            liquids: ["slag/12"],
-        },
-        craftTime: 60
-    },
-    {
-        input: {
             items: ["altanic-quartz/4"],
             powet: 1.5
         },
@@ -354,6 +343,16 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
     },
     {
         input: {
+            items: ["altanic-ironore/5"],
+            power: 2
+        },
+        output: {
+            items: ["altanic-zelazo/5"],
+        },
+        craftTime: 7.5
+    },
+    {
+        input: {
             items: ["altanic-ironore/10"],
             power: 2,
         },
@@ -371,6 +370,16 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
             items: ["silicon/1"],
         },
         craftTime: 7.5
+    },
+    {
+        input: {
+            items: ["coal/5", "sand/10"],
+            power: 1,
+        },
+        output: {
+            items: ["silicon/1"],
+        },
+        craftTime: 15
     },
     {
         input: {
@@ -435,12 +444,12 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
     },
     {
         input: {
-            items: ["altanic-cokecoal/20", "altanic-ironore/20"],
+            items: ["altanic-cokecoal/10", "altanic-ironore/10"],
             power: 12,
         },
         output: {
-            items: ["altanic-stal/20"],
-            liquids: ["slag/24"],
+            items: ["altanic-stal/10"],
+            liquids: ["slag/12"],
         },
         craftTime: 30
     },
@@ -769,7 +778,7 @@ const radioisotopeThermoelectricBoiler = multiLib.MultiCrafter(GenericCrafter, G
         output: {
             liquids: ["altanic-steam/12"],
         },
-        craftTIme: 60
+        craftTime: 60
     },
     {
         input: {
