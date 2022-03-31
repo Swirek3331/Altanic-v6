@@ -74,7 +74,7 @@ const furnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCraf
             items: ["z.p.g.m._mod-butelka/10"], 
         },
         craftTime: 300
-    }, 
+    },
 ], {
     /*you can customize block here. ex) load()*/
 },
