@@ -1,0 +1,9 @@
+name: Stal
+description: Związek ciężki i wytrzymały. Głównie używany w opancerzeniu cięższych obiektów.
+color: 969696
+research: {
+  parent: ironore
+  requirements: [
+     zelazo/1
+  ]
+}

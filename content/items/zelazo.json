@@ -1,9 +1,0 @@
-name: Żelazo
-description: Przetworzona ruda żelaza
-color: BEBDC5
-research: {
-  parent: ironore
-  requirements: [
-     ironore/1
-  ]
-}
