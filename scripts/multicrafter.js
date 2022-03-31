@@ -1241,7 +1241,7 @@ const compressor = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericC
         output: {
             liquids: ["oil/600"],
         },
-        crafTime: 90
+        craftTime: 90
     },
     {
         input: {
@@ -1263,7 +1263,7 @@ const compressor = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericC
         output: {
             items: ["plastanium/6"],
         },
-        crafTime: 120
+        craftTime: 120
     },
 ], {
     /*you can customize block here. ex) load()*/
