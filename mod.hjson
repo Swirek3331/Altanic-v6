@@ -8,4 +8,4 @@ dependencies: [
   multi-lib
   zpgm-connector
 ]
-hideBrowser: true
+hideBrowser: false
