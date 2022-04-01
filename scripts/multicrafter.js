@@ -1,5 +1,7 @@
 const multiLib = require("multi-lib/library");
 
+//crafting
+
 const furnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "furnace", [
     /*default form for each recipes. You can change values.
     {
@@ -651,252 +653,6 @@ macerator.health = 250;
 false: dump items and liquids of output unconditionally*/
 macerator.dumpToggle = true;
 
-const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "thermal-centrifuge", [
-    /*default form for each recipes. You can change values.
-    {
-        input:{
-            items:[],     Modded Item:  "mod-name-item-name/amount", Vanilla Item: "item-name/amount"
-            liquids:[],   Modded Liquid:  "mod-name-liquid-name/amount",  Vanilla liquid: "liquid-name/amount"
-            power:0,
-        },
-        output:{
-            items:[],
-            liquids:[],
-            power:0,
-        },
-        craftTime:80,
-    },*/
-    {
-        input: {
-            items: ["thorium/10"],
-            power: 6,
-        },
-        output: {
-            items: ["altanic-uranium/8"],
-        },
-        craftTime: 180
-    },
-    {
-        input: {
-            items: ["altanic-uranium/10"],
-            power: 8,
-        },
-        output: {
-            items: ["altanic-plutonium/8"],
-        },
-        craftTime: 180
-    },
-    {
-        input: {
-            items: ["thorium/12"],
-            liquids: ["z.p.g.m._mod-lrciecz/19.18"],
-            power: 8,
-        },
-        output: {
-            items: ["z.p.g.m._mod-torzu/10", "z.p.g.m._mod-torwz/2"],
-        },
-        craftTime: 180
-    },
-    {
-        input: {
-            items: ["z.p.g.m._mod-uran/12"],
-            liquids: ["z.p.g.m._mod-mrciecz/19.18"],
-            power: 12,
-        },
-        output: {
-            items: ["z.p.g.m._mod-uranzu/10", "z.p.g.m._mod-uranwz/2"],
-        },
-        craftTime: 180
-    },
-    {
-        input: {
-            liquids: ["oil/12"],
-            power: 3,
-        },
-        output: {
-            items: ["coal/6"],
-        },
-        craftTime: 30
-    },
-], {
-    /*you can customize block here. ex) load()*/
-},
-    /*this is Object constructor. This way is much better than literal way{a:123}
-    you can replace this with {} if you don't want to modify entity*/
-    function Extra() {
-        /*you can use customUpdate=function(){}. this function excuted before update()
-        also this.draw=function(){}
-        you can customize entity here.
-        ex)
-        this._myProp=0;
-        this.getMyProp=function(){
-            return this._myProp;
-        };
-        this.setMyProp=function(a){
-            this._myProp=a;
-        };*/
-    });
-/*
-YOU MUST NOT MODIFY VALUE OF THESE
-configurable
-outputsPower
-hasItems
-hasLiquids
-hasPower
-*/
-//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
-thermalCentrifuge.localizedName = "thermal centrifuge";
-thermalCentrifuge.description = "thermal centrifuge";
-thermalCentrifuge.itemCapacity = 30;
-thermalCentrifuge.liquidCapacity = 240;
-thermalCentrifuge.size = 3;
-thermalCentrifuge.health = 750;
-/*true: dump items and liquids of output according to button
-false: dump items and liquids of output unconditionally*/
-thermalCentrifuge.dumpToggle = true;
-
-const radioisotopeThermoelectricBoiler = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "radioisotope-thermoelectric-boiler", [
-    /*default form for each recipes. You can change values.
-    {
-        input:{
-            items:[],     Modded Item:  "mod-name-item-name/amount", Vanilla Item: "item-name/amount"
-            liquids:[],   Modded Liquid:  "mod-name-liquid-name/amount",  Vanilla liquid: "liquid-name/amount"
-            power:0,
-        },
-        output:{
-            items:[],
-            liquids:[],
-            power:0,
-        },
-        craftTime:80,
-    },*/
-    {
-        input: {
-            items: ["phase-fabric/1"],
-            liquids: ["water/12"],
-        },
-        output: {
-            liquids: ["altanic-steam/12"],
-        },
-        craftTime: 60
-    },
-    {
-        input: {
-            items: ["thorium/1"],
-            liquids: ["water/24"],
-        },
-        output: {
-            liquids: ["altanic-steam/24"],
-        },
-        craftTime: 60
-    },
-    {
-        input: {
-            items: ["altanic-uranium/1"],
-            liquids: ["water/36"],
-        },
-        output: {
-            liquids: ["altanic-steam/36"],
-        },
-        craftTime: 60
-    },
-    {
-        input: {
-            items: ["altanic-plutonium/1"],
-            liquids: ["water/48"],
-        },
-        output: {
-            liquids: ["altanic-steam/48"],
-        },
-        craftTime: 60
-    },
-    {
-        input: {
-            items: ["z.p.g.m._mod-torwz/1"],
-            liquids: ["water/48"],
-        },
-        output: {
-            liquids: ["altanic-steam/48"],
-        },
-        craftTime: 60
-    },
-    {
-        input: {
-            items: ["z.p.g.m._mod-torzu/1"],
-            liquids: ["water/17"],
-        },
-        output: {
-            liquids: ["altanic-steam/17"],
-        },
-        craftTime: 60
-    },
-    {
-        input: {
-            items: ["z.p.g.m._mod-uran/1"],
-            liquids: ["water/120"],
-        },
-        output: {
-            liquids: ["altanic-steam/120"],
-        },
-        craftTime: 60
-    },
-    {
-        input: {
-            items: ["z.p.g.m._mod-uranwz/1"],
-            liquids: ["water/192"],
-        },
-        output: {
-            liquids: ["altanic-steam/192"],
-        },
-        craftTime: 60
-    },
-    {
-        input: {
-            items: ["z.p.g.m._mod-uranzu/1"],
-            liquids: ["water/36"],
-        },
-        output: {
-            liquids: ["altanic-steam/36"],
-        },
-        craftTime: 60
-    },
-], {
-    /*you can customize block here. ex) load()*/
-},
-    /*this is Object constructor. This way is much better than literal way{a:123}
-    you can replace this with {} if you don't want to modify entity*/
-    function Extra() {
-        /*you can use customUpdate=function(){}. this function excuted before update()
-        also this.draw=function(){}
-        you can customize entity here.
-        ex)
-        this._myProp=0;
-        this.getMyProp=function(){
-            return this._myProp;
-        };
-        this.setMyProp=function(a){
-            this._myProp=a;
-        };*/
-    });
-/*
-YOU MUST NOT MODIFY VALUE OF THESE
-configurable
-outputsPower
-hasItems
-hasLiquids
-hasPower
-*/
-//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
-radioisotopeThermoelectricBoiler.localizedName = "RTB";
-radioisotopeThermoelectricBoiler.description = "Radioisotope thermoelectric boiler";
-radioisotopeThermoelectricBoiler.itemCapacity = 20;
-radioisotopeThermoelectricBoiler.liquidCapacity = 360;
-radioisotopeThermoelectricBoiler.size = 2;
-radioisotopeThermoelectricBoiler.health = 250;
-/*true: dump items and liquids of output according to button
-false: dump items and liquids of output unconditionally*/
-radioisotopeThermoelectricBoiler.dumpToggle = false;
-
 const assembler = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "assembler", [
     /*default form for each recipes. You can change values.
     {
@@ -1302,6 +1058,112 @@ compressor.health = 500;
 false: dump items and liquids of output unconditionally*/
 compressor.dumpToggle = true;
 
+const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "thermal-centrifuge", [
+    /*default form for each recipes. You can change values.
+    {
+        input:{
+            items:[],     Modded Item:  "mod-name-item-name/amount", Vanilla Item: "item-name/amount"
+            liquids:[],   Modded Liquid:  "mod-name-liquid-name/amount",  Vanilla liquid: "liquid-name/amount"
+            power:0,
+        },
+        output:{
+            items:[],
+            liquids:[],
+            power:0,
+        },
+        craftTime:80,
+    },*/
+    {
+        input: {
+            items: ["thorium/10"],
+            power: 6,
+        },
+        output: {
+            items: ["altanic-uranium/8"],
+        },
+        craftTime: 180
+    },
+    {
+        input: {
+            items: ["altanic-uranium/10"],
+            power: 8,
+        },
+        output: {
+            items: ["altanic-plutonium/8"],
+        },
+        craftTime: 180
+    },
+    {
+        input: {
+            items: ["thorium/12"],
+            liquids: ["z.p.g.m._mod-lrciecz/19.18"],
+            power: 8,
+        },
+        output: {
+            items: ["z.p.g.m._mod-torzu/10", "z.p.g.m._mod-torwz/2"],
+        },
+        craftTime: 180
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-uran/12"],
+            liquids: ["z.p.g.m._mod-mrciecz/19.18"],
+            power: 12,
+        },
+        output: {
+            items: ["z.p.g.m._mod-uranzu/10", "z.p.g.m._mod-uranwz/2"],
+        },
+        craftTime: 180
+    },
+    {
+        input: {
+            liquids: ["oil/12"],
+            power: 3,
+        },
+        output: {
+            items: ["coal/6"],
+        },
+        craftTime: 30
+    },
+], {
+    /*you can customize block here. ex) load()*/
+},
+    /*this is Object constructor. This way is much better than literal way{a:123}
+    you can replace this with {} if you don't want to modify entity*/
+    function Extra() {
+        /*you can use customUpdate=function(){}. this function excuted before update()
+        also this.draw=function(){}
+        you can customize entity here.
+        ex)
+        this._myProp=0;
+        this.getMyProp=function(){
+            return this._myProp;
+        };
+        this.setMyProp=function(a){
+            this._myProp=a;
+        };*/
+    });
+/*
+YOU MUST NOT MODIFY VALUE OF THESE
+configurable
+outputsPower
+hasItems
+hasLiquids
+hasPower
+*/
+//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+thermalCentrifuge.localizedName = "thermal centrifuge";
+thermalCentrifuge.description = "thermal centrifuge";
+thermalCentrifuge.itemCapacity = 30;
+thermalCentrifuge.liquidCapacity = 240;
+thermalCentrifuge.size = 3;
+thermalCentrifuge.health = 750;
+/*true: dump items and liquids of output according to button
+false: dump items and liquids of output unconditionally*/
+thermalCentrifuge.dumpToggle = true;
+
+//liquids
+
 const mixer = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "mixer", [
     /*default form for each recipes. You can change values.
     {
@@ -1584,3 +1446,145 @@ distillationColumn.health = 1000;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 distillationColumn.dumpToggle = true;
+
+const radioisotopeThermoelectricBoiler = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "radioisotope-thermoelectric-boiler", [
+    /*default form for each recipes. You can change values.
+    {
+        input:{
+            items:[],     Modded Item:  "mod-name-item-name/amount", Vanilla Item: "item-name/amount"
+            liquids:[],   Modded Liquid:  "mod-name-liquid-name/amount",  Vanilla liquid: "liquid-name/amount"
+            power:0,
+        },
+        output:{
+            items:[],
+            liquids:[],
+            power:0,
+        },
+        craftTime:80,
+    },*/
+    {
+        input: {
+            items: ["phase-fabric/1"],
+            liquids: ["water/12"],
+        },
+        output: {
+            liquids: ["altanic-steam/12"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["thorium/1"],
+            liquids: ["water/24"],
+        },
+        output: {
+            liquids: ["altanic-steam/24"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["altanic-uranium/1"],
+            liquids: ["water/36"],
+        },
+        output: {
+            liquids: ["altanic-steam/36"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["altanic-plutonium/1"],
+            liquids: ["water/48"],
+        },
+        output: {
+            liquids: ["altanic-steam/48"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-torwz/1"],
+            liquids: ["water/48"],
+        },
+        output: {
+            liquids: ["altanic-steam/48"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-torzu/1"],
+            liquids: ["water/17"],
+        },
+        output: {
+            liquids: ["altanic-steam/17"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-uran/1"],
+            liquids: ["water/120"],
+        },
+        output: {
+            liquids: ["altanic-steam/120"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-uranwz/1"],
+            liquids: ["water/192"],
+        },
+        output: {
+            liquids: ["altanic-steam/192"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["z.p.g.m._mod-uranzu/1"],
+            liquids: ["water/36"],
+        },
+        output: {
+            liquids: ["altanic-steam/36"],
+        },
+        craftTime: 60
+    },
+], {
+    /*you can customize block here. ex) load()*/
+},
+    /*this is Object constructor. This way is much better than literal way{a:123}
+    you can replace this with {} if you don't want to modify entity*/
+    function Extra() {
+        /*you can use customUpdate=function(){}. this function excuted before update()
+        also this.draw=function(){}
+        you can customize entity here.
+        ex)
+        this._myProp=0;
+        this.getMyProp=function(){
+            return this._myProp;
+        };
+        this.setMyProp=function(a){
+            this._myProp=a;
+        };*/
+    });
+/*
+YOU MUST NOT MODIFY VALUE OF THESE
+configurable
+outputsPower
+hasItems
+hasLiquids
+hasPower
+*/
+//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+radioisotopeThermoelectricBoiler.localizedName = "RTB";
+radioisotopeThermoelectricBoiler.description = "Radioisotope thermoelectric boiler";
+radioisotopeThermoelectricBoiler.itemCapacity = 20;
+radioisotopeThermoelectricBoiler.liquidCapacity = 360;
+radioisotopeThermoelectricBoiler.size = 2;
+radioisotopeThermoelectricBoiler.health = 250;
+/*true: dump items and liquids of output according to button
+false: dump items and liquids of output unconditionally*/
+radioisotopeThermoelectricBoiler.dumpToggle = false;
