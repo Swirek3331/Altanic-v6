@@ -1,7 +1,7 @@
 name: "Altanic"
 author: "swirek3331"
 description:  "Modyfikacja zmieniająca mindustry. Czyli dodaję receptury używające przedmiotów z modu tworząć rzeczy z mindustry"
-version: "1.6.0.2 OH-NO VERSION"
+version: "0.6.0.2 OH-NO VERSION"
 minGameVersion: 130
 hidden: false
 dependencies: [
