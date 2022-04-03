@@ -1310,8 +1310,8 @@ const chemicalPlant = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gener
             power: 2.25,
         },
         output: {
-            items: ["altanic-petroleum-coke/3"],
-            liquids: ["altanic-lubricant/9"]
+            items: ["altanic-petroleum-coke/6"],
+            liquids: ["altanic-lubricant/6"]
         },
         craftTime: 90
     },
