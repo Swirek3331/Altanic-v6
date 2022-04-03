@@ -787,90 +787,6 @@ oreWasher.health = 500;
 false: dump items and liquids of output unconditionally*/
 oreWasher.dumpToggle = true;
 
-//centrifuge
-
-const thermalMelter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "thermal-melter", [
-    /*default form for each recipes. You can change values.
-    {
-        input:{
-            items:[],     Modded Item:  "mod-name-item-name/amount", Vanilla Item: "item-name/amount"
-            liquids:[],   Modded Liquid:  "mod-name-liquid-name/amount",  Vanilla liquid: "liquid-name/amount"
-            power:0,
-        },
-        output:{
-            items:[],
-            liquids:[],
-            power:0,
-        },
-        craftTime:80,
-    },*/
-    {
-        input: {
-            items: ["altanic-ore-vein/1"],
-            power: 2.5,
-        },
-        output: {
-            liquids: ["altanic-lava/30"],
-        },
-        craftTime: 90
-    },
-    {
-        input: {
-            items: ["altanic-purified-ore-vein/1"],
-            power: 1,
-        },
-        output: {
-            liquids: ["slag/60"],
-        },
-        craftTime: 60
-    },
-    {
-        input: {
-            items: ["scrap/5"],
-            power: 1.5,
-        },
-        output: {
-            liquids: ["slag/60"],
-        },
-        craftTime: 60
-    },
-], {
-    /*you can customize block here. ex) load()*/
-},
-    /*this is Object constructor. This way is much better than literal way{a:123}
-    you can replace this with {} if you don't want to modify entity*/
-    function Extra() {
-        /*you can use customUpdate=function(){}. this function excuted before update()
-        also this.draw=function(){}
-        you can customize entity here.
-        ex)
-        this._myProp=0;
-        this.getMyProp=function(){
-            return this._myProp;
-        };
-        this.setMyProp=function(a){
-            this._myProp=a;
-        };*/
-    });
-/*
-YOU MUST NOT MODIFY VALUE OF THESE
-configurable
-outputsPower
-hasItems
-hasLiquids
-hasPower
-*/
-//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
-thermalMelter.localizedName = "melter";
-thermalMelter.description = "melter";
-thermalMelter.itemCapacity = 20;
-thermalMelter.liquidCapacity = 60;
-thermalMelter.size = 2;
-thermalMelter.health = 500;
-/*true: dump items and liquids of output according to button
-false: dump items and liquids of output unconditionally*/
-thermalMelter.dumpToggle = true;
-
 const industrialPress = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "industrial-press", [
     /*default form for each recipes. You can change values.
     {
@@ -1248,6 +1164,88 @@ mixer.health = 500;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 mixer.dumpToggle = true;
+
+const thermalMelter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "thermal-melter", [
+    /*default form for each recipes. You can change values.
+    {
+        input:{
+            items:[],     Modded Item:  "mod-name-item-name/amount", Vanilla Item: "item-name/amount"
+            liquids:[],   Modded Liquid:  "mod-name-liquid-name/amount",  Vanilla liquid: "liquid-name/amount"
+            power:0,
+        },
+        output:{
+            items:[],
+            liquids:[],
+            power:0,
+        },
+        craftTime:80,
+    },*/
+    {
+        input: {
+            items: ["altanic-ore-vein/1"],
+            power: 2.5,
+        },
+        output: {
+            liquids: ["altanic-lava/30"],
+        },
+        craftTime: 90
+    },
+    {
+        input: {
+            items: ["altanic-purified-ore-vein/1"],
+            power: 1,
+        },
+        output: {
+            liquids: ["slag/60"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["scrap/5"],
+            power: 1.5,
+        },
+        output: {
+            liquids: ["slag/60"],
+        },
+        craftTime: 60
+    },
+], {
+    /*you can customize block here. ex) load()*/
+},
+    /*this is Object constructor. This way is much better than literal way{a:123}
+    you can replace this with {} if you don't want to modify entity*/
+    function Extra() {
+        /*you can use customUpdate=function(){}. this function excuted before update()
+        also this.draw=function(){}
+        you can customize entity here.
+        ex)
+        this._myProp=0;
+        this.getMyProp=function(){
+            return this._myProp;
+        };
+        this.setMyProp=function(a){
+            this._myProp=a;
+        };*/
+    });
+/*
+YOU MUST NOT MODIFY VALUE OF THESE
+configurable
+outputsPower
+hasItems
+hasLiquids
+hasPower
+*/
+//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+thermalMelter.localizedName = "melter";
+thermalMelter.description = "melter";
+thermalMelter.itemCapacity = 20;
+thermalMelter.liquidCapacity = 60;
+thermalMelter.size = 2;
+thermalMelter.health = 500;
+/*true: dump items and liquids of output according to button
+false: dump items and liquids of output unconditionally*/
+thermalMelter.dumpToggle = true;
 
 const chemicalPlant = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "chemical-plant", [
     /*default form for each recipes. You can change values.
