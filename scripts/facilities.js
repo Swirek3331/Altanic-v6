@@ -91,5 +91,6 @@ metalurgicFacilityMK1.localizedName = "Metalurgic Facility MK1";
 metalurgicFacilityMK1.description = "Metalurgic Facility MK1";
 metalurgicFacilityMK1.itemCapacity = 200;
 metalurgicFacilityMK1.health = 1500;
-metalurgicFacilityMK1.size = 5
+metalurgicFacilityMK1.size = 5;
 metalurgicFacilityMK1.dumpToggle = true;
+metalurgicFacilityMK1.requirements(Category.crafting,ItemStack.with(Items.stal, 1000, Items.zelazo, 785, Items.lead, 715, Items.copper, 925, Items.silicon, 125, Items.graphite, 500, Items.metaglass, 350));

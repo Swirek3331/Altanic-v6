@@ -103,7 +103,7 @@ hasItems
 hasLiquids
 hasPower
 */
-//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+//using example without .hjson file. I don't recommand this way because you can't use mod item as requirements.
 furnace.localizedName = "Electric Furnace";
 furnace.description = "Electir Furnace use power to smelt items";
 furnace.itemCapacity = 20;
@@ -307,7 +307,7 @@ hasItems
 hasLiquids
 hasPower
 */
-//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+//using example without .hjson file. I don't recommand this way because you can't use mod item as requirements.
 inductionFurnace.localizedName = "Induction furnce";
 inductionFurnace.description = "Induction smelter use power to smelt even faster, and also can use more advanced metalurgic proces";
 inductionFurnace.itemCapacity = 40;
@@ -541,7 +541,7 @@ hasItems
 hasLiquids
 hasPower
 */
-//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+//using example without .hjson file. I don't recommand this way because you can't use mod item as requirements.
 electricArcFurnace.localizedName = "Electric arc furnace";
 electricArcFurnace.description = "Electric arc furnace is a masive structure that requires lots of power to work, but is very fast";
 electricArcFurnace.itemCapacity = 20;
@@ -643,7 +643,7 @@ hasItems
 hasLiquids
 hasPower
 */
-//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+//using example without .hjson file. I don't recommand this way because you can't use mod item as requirements.
 macerator.localizedName = "Macerator";
 macerator.description = "Macerator";
 macerator.itemCapacity = 20;
@@ -713,7 +713,7 @@ hasItems
 hasLiquids
 hasPower
 */
-//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+//using example without .hjson file. I don't recommand this way because you can't use mod item as requirements.
 assembler.localizedName = "Assembler";
 assembler.description = "Assembler";
 assembler.itemCapacity = 20;
@@ -776,7 +776,7 @@ hasItems
 hasLiquids
 hasPower
 */
-//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+//using example without .hjson file. I don't recommand this way because you can't use mod item as requirements.
 oreWasher.localizedName = "Ore washer";
 oreWasher.description = "Ore washer";
 oreWasher.itemCapacity = 20;
@@ -858,7 +858,7 @@ hasItems
 hasLiquids
 hasPower
 */
-//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+//using example without .hjson file. I don't recommand this way because you can't use mod item as requirements.
 industrialPress.localizedName = "Industrial Press";
 industrialPress.description = "Industrial Press";
 industrialPress.itemCapacity = 20;
@@ -963,7 +963,7 @@ hasItems
 hasLiquids
 hasPower
 */
-//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+//using example without .hjson file. I don't recommand this way because you can't use mod item as requirements.
 compressor.localizedName = "Compressor";
 compressor.description = "Compressor";
 compressor.itemCapacity = 20;
@@ -1067,7 +1067,7 @@ hasItems
 hasLiquids
 hasPower
 */
-//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+//using example without .hjson file. I don't recommand this way because you can't use mod item as requirements.
 thermalCentrifuge.localizedName = "thermal centrifuge";
 thermalCentrifuge.description = "thermal centrifuge";
 thermalCentrifuge.itemCapacity = 30;
@@ -1154,7 +1154,7 @@ hasItems
 hasLiquids
 hasPower
 */
-//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+//using example without .hjson file. I don't recommand this way because you can't use mod item as requirements.
 mixer.localizedName = "Mixer";
 mixer.description = "Mixer";
 mixer.itemCapacity = 20;
@@ -1236,7 +1236,7 @@ hasItems
 hasLiquids
 hasPower
 */
-//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+//using example without .hjson file. I don't recommand this way because you can't use mod item as requirements.
 thermalMelter.localizedName = "melter";
 thermalMelter.description = "melter";
 thermalMelter.itemCapacity = 20;
@@ -1363,7 +1363,7 @@ hasItems
 hasLiquids
 hasPower
 */
-//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+//using example without .hjson file. I don't recommand this way because you can't use mod item as requirements.
 chemicalPlant.localizedName = "Chemical plant";
 chemicalPlant.description = "Chemical plant";
 chemicalPlant.itemCapacity = 30;
@@ -1435,7 +1435,7 @@ hasItems
 hasLiquids
 hasPower
 */
-//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+//using example without .hjson file. I don't recommand this way because you can't use mod item as requirements.
 distillationColumn.localizedName = "Distillation Column";
 distillationColumn.description = "Distillation Column";
 distillationColumn.liquidCapacity = 180;
@@ -1576,7 +1576,7 @@ hasItems
 hasLiquids
 hasPower
 */
-//using example without .json file. I don't recommand this way because you can't use mod item as requirements.
+//using example without .hjson file. I don't recommand this way because you can't use mod item as requirements.
 radioisotopeThermoelectricBoiler.localizedName = "RTB";
 radioisotopeThermoelectricBoiler.description = "Radioisotope thermoelectric boiler";
 radioisotopeThermoelectricBoiler.itemCapacity = 20;
