@@ -979,7 +979,7 @@ const fermenter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
             power: 3,
         },
         output: {
-            liqids: ["altanic-biogas/45"],
+            liquids: ["altanic-biogas/45"],
         },
     },
     
