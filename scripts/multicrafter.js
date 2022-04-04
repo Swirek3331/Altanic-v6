@@ -838,7 +838,7 @@ const industrialPress = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gen
             power: 0.75
         },
         output: {
-            liquds: ["altanic-plant-oil/120"],
+            liquids: ["altanic-plant-oil/120"],
         },
         craftTime: 30
     },
@@ -916,7 +916,7 @@ const fermenter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
     {
         input: {
             items: ["altanic-sugar-beet/10"],
-            power: 2.75
+            power: 2.75,
         },
         output: {
             liquids: ["altanic-ethanol/120"],
@@ -1010,8 +1010,8 @@ hasLiquids
 hasPower
 */
 //using example without .hjson file. I don't recommand this way because you can't use mod item as requirements.
-fermenter.localizedName = "Compressor";
-fermenter.description = "Compressor";
+fermenter.localizedName = "Fermenter";
+fermenter.description = "Fermenter";
 fermenter.itemCapacity = 20;
 fermenter.liquidCapacity = 60;
 fermenter.size = 2;
