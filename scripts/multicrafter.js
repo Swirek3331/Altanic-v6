@@ -913,7 +913,7 @@ const fermenter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
         },
         craftTime: 600
     },
-    /*{
+    {
         input: {
             items: ["altanic-sugar-beet/10"],
             power: 2.75,
@@ -922,14 +922,14 @@ const fermenter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
             liquids: ["altanic-ethanol/120"],
         },
         craftTime: 600
-    },*/
+    },
     {
         input: {
             items: ["altanic-corn/10"],
             power: 2.75,
         },
         output: {
-            items: ["altanic-ethanol/30"],
+            liquids: ["altanic-ethanol/30"],
         },
         craftTime: 600
     },
