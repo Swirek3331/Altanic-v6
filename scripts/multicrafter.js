@@ -825,13 +825,32 @@ const industrialPress = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gen
     {
         input: {
             items: ["spore-pod/10"],
-            power: 0.75
+            power: 1
         },
         output: {
-            liquid: ["oil/60"],
+            liquids: ["oil/60"],
         },
         craftTime: 30
     },
+    {
+        input: {
+            items: ["altanic-canola/10"],
+            power: 0.75
+        },
+        output: {
+            liquds: ["altanic-plant-oil/120"],
+        },
+        craftTime: 30
+    },
+    {
+        input: {
+            items: ["altanic-biomas/10"],
+            power: 0.75,
+        },
+        output: {
+            liquids: ["altanic-plant-oil/60"],
+        }
+    }
 ], {
     /*you can customize block here. ex) load()*/
 },
@@ -868,6 +887,138 @@ industrialPress.health = 500;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 industrialPress.dumpToggle = true;
+
+const fermenter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "fermenter", [
+/*default form for each recipes. You can change values.
+    {
+        input:{
+            items:[],     Modded Item:  "mod-name-item-name/amount", Vanilla Item: "item-name/amount"
+            liquids:[],   Modded Liquid:  "mod-name-liquid-name/amount",  Vanilla liquid: "liquid-name/amount"
+            power:0,
+        },
+        output:{
+            items:[],
+            liquids:[],
+            power:0,
+        },
+        craftTime:80,
+    },*/
+    {
+        input: {
+            items: ["altanic-sugar-cane/10"],
+            power: 2.75,
+        },
+        output: {
+            liquids: ["altanic-ethanol/60"],
+        },
+        craftTime: 600
+    },
+    {
+        input: {
+            items: ["altanic-sugar-beet/10"],
+            power: 2.75
+        },
+        output: {
+            liquids: ["altanic-ethanol/120"]
+        },
+        craftTime: 600
+    },
+    {
+        input: {
+            items: ["altanic-corn/10"],
+            power: 2.75,
+        },
+        output: {
+            items: ["altanic-ethanol/30"],
+        },
+        craftTime: 600
+    },
+    {
+        input: {
+            items: ["altanic-biomas"],
+            power: 2.75,
+        },
+        output: {
+            liquids: ["altanic-ehtanol"],
+        },
+        craftTime: 600
+    },
+    //biogaz
+    {
+        input: {
+            items: ["altanic-sugar-beet/10"],
+            power: 3,
+        },
+        output: {
+            items: ["altanic-biogas/90"]
+        },
+        craftTime: 600
+    },
+    {
+        input: {
+            items: ["altanic-sugar-cane/10"],
+            power: 3,
+        },
+        output: {
+            liquids: ["altanic-biogas/30"],
+        },
+        craftTime: 600
+    },
+    {
+        input: {
+            items: ["altanic-corn/10"],
+            power: 3,
+        },
+        output: {
+            liquids: ["altanic-biogas/15"]
+        },
+    },
+    {
+        input: {
+            items: ["altanic-biomas/10"],
+            power: 3,
+        },
+        output: {
+            liqids: ["altanic-biogas/45"]
+        },
+    },
+    
+], {
+    /*you can customize block here. ex) load()*/
+},
+    /*this is Object constructor. This way is much better than literal way{a:123}
+    you can replace this with {} if you don't want to modify entity*/
+    function Extra() {
+        /*you can use customUpdate=function(){}. this function excuted before update()
+        also this.draw=function(){}
+        you can customize entity here.
+        ex)
+        this._myProp=0;
+        this.getMyProp=function(){
+            return this._myProp;
+        };
+        this.setMyProp=function(a){
+            this._myProp=a;
+        };*/
+    });
+/*
+YOU MUST NOT MODIFY VALUE OF THESE
+configurable
+outputsPower
+hasItems
+hasLiquids
+hasPower
+*/
+//using example without .hjson file. I don't recommand this way because you can't use mod item as requirements.
+fermenter.localizedName = "Compressor";
+fermenter.description = "Compressor";
+fermenter.itemCapacity = 20;
+fermenter.liquidCapacity = 60;
+fermenter.size = 2;
+fermenter.health = 500;
+/*true: dump items and liquids of output according to button
+false: dump items and liquids of output unconditionally*/
+fermenter.dumpToggle = true;
 
 const compressor = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "compressor", [
     /*default form for each recipes. You can change values.

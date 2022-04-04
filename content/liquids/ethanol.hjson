@@ -1,0 +1,8 @@
+name: Ethanol
+description: Ethanol
+color: ffffff
+flammability: 0.8
+explosiveness: 0.6
+research: {
+    parent: biomas
+}

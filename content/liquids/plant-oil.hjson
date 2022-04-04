@@ -1,0 +1,8 @@
+name: Plant oil
+description: Plant oil
+color: F3EF02
+flammability: 0.4
+explosiveness: 0.6
+research: {
+    parent: biomas
+}
