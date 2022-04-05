@@ -1191,6 +1191,16 @@ const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.G
         },
         craftTime: 30
     },
+    {
+        input: {
+            liquids: ["altanic-heavy-oil/12"],
+            power: 4,
+        },
+        output: {
+            items: ["altanic-petroleum-coke/6"],
+        },
+        craftTime: 60
+    },
 ], {
     /*you can customize block here. ex) load()*/
 },
@@ -1457,13 +1467,12 @@ const chemicalPlant = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gener
     {
         input: {
             liquids: ["altanic-heavy-oil/12"],
-            power: 2.25,
+            power: 3.25,
         },
         output: {
-            items: ["altanic-petroleum-coke/6"],
-            liquids: ["altanic-lubricant/6"]
+            liquids: ["altanic-lubricant/12"]
         },
-        craftTime: 90
+        craftTime: 120
     },
     {
         input: {
@@ -1541,23 +1550,13 @@ const distillationColumn = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
     },*/
     {
         input: {
-            liquids: ["oil/60"],
-            power: 6,
-        },
-        output: {
-            liquids: ["altanic-gasoline/24", "altanic-naphta/18", "altanic-gas/12", "altanic-heavy-oil/6"],
-        },
-        craftTime: 120
-    },
-    {
-        input: {
             liquids: ["oil/120"],
             power: 10,
         },
         output: {
             liquids: ["altanic-gasoline/48", "altanic-naphta/36", "altanic-gas/24", "altanic-heavy-oil/12"],
         },
-        craftTime: 240
+        craftTime: 300
     },
 ], {
     /*you can customize block here. ex) load()*/
