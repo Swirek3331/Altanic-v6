@@ -1,0 +1,6 @@
+Jeżeli to czytasz znaczy, że szperałeś gdzieś w tym gównie.
+O instrukcje tego co uczyniłem pytaj.
+Wiele rzeczy zrobiłem nie tak jak trzeba, nie kopiuj całego jeżeli chcesz aby działało, jak przy zadaniu otwartym czyli z głową.
+Multicraftery, zelżnośći i wszystko inne działa z .hjson, ale ja kiedy zaczynałem gra nie widziała plików .hjson.
+Dlatego pisałem .json, a to że nie wiedziałem czym się różni to pisałem go jak w hjson i działało. 
+Tylko, że program szlak trafiał i mundre osoby też.
