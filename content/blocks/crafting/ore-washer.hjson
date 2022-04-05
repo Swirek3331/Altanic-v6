@@ -9,11 +9,12 @@ consumes: {
       ore-vein/1
     ]
   }
-  liquid: [
+  liquid: {
     liquid: water
     amount: 0.2
-  ]
+  }
 }
+craftTime: 120
 results: [
   purified-ore-vein/1
   stone/15
