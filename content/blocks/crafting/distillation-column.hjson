@@ -16,7 +16,7 @@ consumes: {
 }
 results: [
   gasoline-can/4
-  naphtha-can/3
+  naphta-can/3
   gas-can/2
   heavy-oil-can/1
 ]
