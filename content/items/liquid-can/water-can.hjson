@@ -1,0 +1,6 @@
+name: Water can
+description: Water can
+color: ffffff
+research: {
+    parent: liquid-can
+}

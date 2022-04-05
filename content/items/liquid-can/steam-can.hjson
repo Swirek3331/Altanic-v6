@@ -1,0 +1,6 @@
+name: Steam can
+description: Steam can
+color: ffffff
+research: {
+    parent: water-can
+}

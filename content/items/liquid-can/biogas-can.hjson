@@ -1,0 +1,6 @@
+name: Biogas can
+description: Biogas can
+color: ffffff
+research: {
+    parent: biofuel-can
+}

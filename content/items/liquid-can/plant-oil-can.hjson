@@ -1,0 +1,6 @@
+name: Plant oil can
+description: Plant oil can
+color: ffffff
+research: {
+    parent: water-can
+}

@@ -1,0 +1,6 @@
+name: Biofuel can
+description: Biofuel can
+color: ffffff
+research: {
+    parent: ehtanol-can
+}

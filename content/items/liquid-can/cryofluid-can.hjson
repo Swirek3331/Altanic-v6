@@ -1,0 +1,6 @@
+name: Cryofluid can
+description: Cryofluid can
+color: ffffff
+research: {
+    parent: water-can
+}

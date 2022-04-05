@@ -1,0 +1,6 @@
+name: Ethanol can
+description: Ethanol can
+color: ffffff
+research: {
+    parent: water-can
+}

@@ -1,0 +1,6 @@
+name: Coil can
+description: Coil can
+color: ffffff
+research: {
+    parent: cryofluid-can
+}

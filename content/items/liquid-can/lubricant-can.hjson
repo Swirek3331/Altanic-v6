@@ -1,0 +1,6 @@
+name: Lubricant can
+description: Lubricant can
+color: ffffff
+research: {
+    parent: heavy-oil-can
+}

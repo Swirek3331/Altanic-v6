@@ -1,0 +1,6 @@
+name: Rafined fuel can
+description: Refined fuel can
+color: ffffff
+research: {
+    parent: gasoline-can
+}

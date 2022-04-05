@@ -1,0 +1,6 @@
+name: Lava can
+description: Lava can
+color: ffffff
+research: {
+    parent: slag-can
+}

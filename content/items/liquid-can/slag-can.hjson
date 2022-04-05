@@ -1,0 +1,6 @@
+name: Slag can
+description: Slag can
+color: ffffff
+research: {
+    parent: liquid-can
+}
