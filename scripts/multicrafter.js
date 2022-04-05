@@ -834,6 +834,15 @@ const industrialPress = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gen
     },
     {
         input: {
+            items: ["altanic-biomass/10"],
+            power: 0.75,
+        },
+        output: {
+            liquids: ["altanic-plant-oil/60"],
+        },
+    },
+    {
+        input: {
             items: ["altanic-canola/10"],
             power: 0.75
         },
@@ -841,15 +850,6 @@ const industrialPress = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gen
             liquids: ["altanic-plant-oil/120"],
         },
         craftTime: 30
-    },
-    {
-        input: {
-            items: ["altanic-biomass/10"],
-            power: 0.75,
-        },
-        output: {
-            liquids: ["altanic-plant-oil/60"],
-        },
     },
 ], {
     /*you can customize block here. ex) load()*/
@@ -905,11 +905,31 @@ const fermenter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
     },*/
     {
         input: {
+            items: ["altanic-corn/10"],
+            power: 2.75,
+        },
+        output: {
+            liquids: ["altanic-ethanol/30"],
+        },
+        craftTime: 600
+    },
+    {
+        input: {
             items: ["altanic-sugar-cane/10"],
             power: 2.75,
         },
         output: {
             liquids: ["altanic-ethanol/60"],
+        },
+        craftTime: 600
+    },
+    {
+        input: {
+            items: ["altanic-biomass/10"],
+            power: 2.75,
+        },
+        output: {
+            liquids: ["altanic-ehtanol/90"],
         },
         craftTime: 600
     },
@@ -923,36 +943,15 @@ const fermenter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
         },
         craftTime: 600
     },
-    {
-        input: {
-            items: ["altanic-corn/10"],
-            power: 2.75,
-        },
-        output: {
-            liquids: ["altanic-ethanol/30"],
-        },
-        craftTime: 600
-    },
-    {
-        input: {
-            items: ["altanic-biomass"],
-            power: 2.75,
-        },
-        output: {
-            liquids: ["altanic-ehtanol"],
-        },
-        craftTime: 600
-    },
     //biogaz
     {
         input: {
-            items: ["altanic-sugar-beet/10"],
+            items: ["altanic-corn/10"],
             power: 3,
         },
         output: {
-            items: ["altanic-biogas/90"],
+            liquids: ["altanic-biogas/15"],
         },
-        craftTime: 600
     },
     {
         input: {
@@ -966,15 +965,6 @@ const fermenter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
     },
     {
         input: {
-            items: ["altanic-corn/10"],
-            power: 3,
-        },
-        output: {
-            liquids: ["altanic-biogas/15"],
-        },
-    },
-    {
-        input: {
             items: ["altanic-biomass/10"],
             power: 3,
         },
@@ -982,7 +972,16 @@ const fermenter = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
             liquids: ["altanic-biogas/45"],
         },
     },
-    
+    {
+        input: {
+            items: ["altanic-sugar-beet/10"],
+            power: 3,
+        },
+        output: {
+            items: ["altanic-biogas/90"],
+        },
+        craftTime: 600
+    },
 ], {
     /*you can customize block here. ex) load()*/
 },
