@@ -1,6 +1,23 @@
 name: Distillation column
 description: Distillation column
+type: separator
 size: 3
+consumes: {
+  power: 10
+  items: {
+    liquid-can/10
+  }
+  liquids: {
+    liquid: oil
+    amount: 2
+  }
+}
+results: [
+  gasoline-can/4
+  naphtha-can/3
+  gas-can/2
+  heavy-oil-can/1
+]
 category: liquid
 requirements: [
   metaglass/75

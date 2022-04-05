@@ -1,0 +1,6 @@
+name: Gasoline can
+description: Gasoline can
+color: ffffff
+research: {
+    parent: oil-can
+}

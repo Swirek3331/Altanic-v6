@@ -1,0 +1,6 @@
+name: Oil can
+description: Oil can
+color: ffffff
+research: {
+    parent: can
+}

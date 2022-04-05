@@ -1,0 +1,6 @@
+name: liquid can
+description: Nie jestem butelką
+color: ffffff
+research: {
+    parent: metaglass
+}

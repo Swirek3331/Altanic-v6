@@ -1,6 +1,23 @@
 name: Ore washer
 description: Ore washer
+type: separator
 size: 2
+consumes: {
+  power: 2.5
+  items: {
+    items: [
+      ore-vein/1
+    ]
+  }
+  liquids: [
+    liquid: water
+    amount: 0.2
+  ]
+}
+results: [
+  purified-ore-vein/1
+  stone/15
+]
 category: crafting
 requirements: [
   zelazo/85

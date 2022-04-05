@@ -1,0 +1,6 @@
+name: Heavy oil can
+description: Heavy oil can
+color: ffffff
+research: {
+    parent: oil-can
+}

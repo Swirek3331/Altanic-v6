@@ -1,0 +1,6 @@
+name: Naphta can
+description: Naphta can
+color: ffffff
+research: {
+    parent: oil-can
+}
