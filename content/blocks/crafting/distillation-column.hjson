@@ -5,9 +5,11 @@ size: 3
 consumes: {
   power: 10
   items: {
-    liquid-can/10
+    items: [
+      liquid-can/10
+    ]
   }
-  liquids: {
+  liquid: {
     liquid: oil
     amount: 2
   }

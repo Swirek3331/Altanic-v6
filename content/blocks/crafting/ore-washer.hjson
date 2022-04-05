@@ -9,7 +9,7 @@ consumes: {
       ore-vein/1
     ]
   }
-  liquids: [
+  liquid: [
     liquid: water
     amount: 0.2
   ]
