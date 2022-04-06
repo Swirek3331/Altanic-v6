@@ -1,6 +1,7 @@
 localizedName: Induction furnce
 description: Induction smelter use power to smelt even faster, and also can use more advanced metalurgic proces
 itemCapacity: 40
+drawer: DrawSmelter
 liquidCapacity: 20
 size: 3
 health: 500
