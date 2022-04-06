@@ -670,6 +670,16 @@ const assembler = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
     },*/
     {
         input: {
+            items: ["metaglass/1", "altanic-zelazo/4"],
+            power: 0.35,
+        },
+        output: {
+            items: ["altanic-liquid-can/10"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
             items: ["thorium/8", "sand/20"],
             power: 6
         },
@@ -1385,13 +1395,23 @@ const chemicalPlant = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gener
     {
         input: {
             liquids: ["altanic-naphta/6", "altanic-gasoline/6"],
-            power: 2,
+            power: 3.75,
         },
         output: {
             items: ["altanic-sulfur/3"],
             liquids: ["altanic-refined-fuel/9"],
         },
-        craftTime: 90
+        craftTime: 120
+    },
+    {
+        input: {
+            liquids: ["altanic-ethanol/6", "altanic-plant-oil/6"],
+            power: 3
+        },
+        output: {
+            liquids: ["altanic-biofuel/12"],
+        },
+        craftTime: 100
     },
     {
         input: {
