@@ -670,7 +670,7 @@ const assembler = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
     },*/
     {
         input: {
-            items: ["metaglass/1", "altanic-zelazo/4"],
+            items: ["metaglass/4"],
             power: 0.35,
         },
         output: {
