@@ -1,0 +1,6 @@
+type: OreBlock
+itemDrop: stone
+mapColor: 696969
+//to szary ty zbereźńiku
+hasColor: true
+oreDefault: true
