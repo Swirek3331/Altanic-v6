@@ -1,5 +1,7 @@
 name: Uranium Reactor
 description: Uranium reactor
+outputsItems: true //test
+outputItem: uranium/2 //test
 type: NuclearReactor
 size: 3
 powerProduction: 25

@@ -1,4 +1,6 @@
 type: ImpactReactor
+explosionDamage: 0
+explosionRadius: 0
 name: Steam turbine
 description: Steam turbine
 plasma1: ffffff

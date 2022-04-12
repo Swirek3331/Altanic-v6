@@ -1,5 +1,7 @@
 type: ImpactReactor
 name: Thermal turbine
+explosionDamage: 0
+explosionRadius: 0
 description: Thermal turbine
 plasma1: ffffff
 plasma2: ffffff
