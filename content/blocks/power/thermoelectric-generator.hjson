@@ -8,7 +8,7 @@ itemDuration: 300
 category: power
 consumes: {
     liquid: {
-        amount: 0.5
+        amount: 0.01
         liquid: cryofluid
     }
 }
