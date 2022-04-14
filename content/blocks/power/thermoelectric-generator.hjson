@@ -1,0 +1,25 @@
+name: Thermoelectric generator
+type: BurnerGenerator
+description: A thermoelectric generator is a type of power generator that uses heat differences to produce electricity.
+size: 3
+health: 750
+powerProduction: 15
+itemDuration: 300
+category: power
+consumes: {
+    liquid: {
+        amount: 0.5
+        liquid: cryofluid
+    }
+}
+requirements: [
+    zelazo/75
+    silicon/65
+    metaglass/45
+    copper/65
+    stal/35
+    titanium/25
+]
+research: {
+    parent: diffrential-generator
+}

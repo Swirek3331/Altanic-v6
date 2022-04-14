@@ -1,0 +1,6 @@
+name: Leaf
+description: Leaf
+color: ffffff
+research: {
+    parent: wood
+}

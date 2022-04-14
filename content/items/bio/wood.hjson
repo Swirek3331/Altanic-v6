@@ -1,0 +1,6 @@
+name: Wood
+description: Wood
+color: ffffff
+research: {
+    parent: earth
+}

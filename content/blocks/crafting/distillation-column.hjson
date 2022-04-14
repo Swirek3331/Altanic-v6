@@ -14,7 +14,7 @@ consumes: {
     amount: 2
   }
 }
-craftTime: 300
+craftTime: 30
 results: [
   gasoline-can/4
   naphta-can/3

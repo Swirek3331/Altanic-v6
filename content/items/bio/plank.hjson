@@ -1,0 +1,6 @@
+name: Plank
+descriptioN: Plank
+color: ffffff
+research: {
+    parent: wood
+}

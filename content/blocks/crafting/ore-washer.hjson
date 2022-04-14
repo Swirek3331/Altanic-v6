@@ -14,7 +14,7 @@ consumes: {
     amount: 0.2
   }
 }
-craftTime: 120
+craftTime: 10
 results: [
   purified-ore-vein/1
   stone/15
