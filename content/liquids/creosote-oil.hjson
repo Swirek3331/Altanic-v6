@@ -1,0 +1,6 @@
+name: Creosote oil
+description: Creosote oil
+color: ffffff
+research: {
+    parent: wood
+}
