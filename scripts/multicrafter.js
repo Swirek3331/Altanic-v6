@@ -1073,6 +1073,88 @@ compressor.health = 500;
 false: dump items and liquids of output unconditionally*/
 compressor.dumpToggle = true;
 
+const centrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "centrifuge", [
+    /*default form for each recipes. You can change values.
+    {
+        input:{
+            items:[],     Modded Item:  "mod-name-item-name/amount", Vanilla Item: "item-name/amount"
+            liquids:[],   Modded Liquid:  "mod-name-liquid-name/amount",  Vanilla liquid: "liquid-name/amount"
+            power:0,
+        },
+        output:{
+            items:[],
+            liquids:[],
+            power:0,
+        },
+        craftTime:80,
+    },*/
+    {
+        input: {
+            liquids: ["oil/6"],
+            power: 0.7,
+        },
+        output: {
+            items: ["coal/1"],
+        },
+        craftTime: 30
+    },
+    {
+        input: {
+            liquids: ["altanic-heavy-oil/6"],
+            power: 1.45,
+        },
+        output: {
+            items: ["altanic-petroleum-coke/1"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            liquids: ["slag/48"],
+            power: 3.75,
+        },
+        output: {
+            items: ["copper/5", "lead/3", "graphite/2", "titanium/2"],
+        },
+        craftTime: 300
+    },
+], {
+    /*you can customize block here. ex) load()*/
+},
+    /*this is Object constructor. This way is much better than literal way{a:123}
+    you can replace this with {} if you don't want to modify entity*/
+    function Extra() {
+        /*you can use customUpdate=function(){}. this function excuted before update()
+        also this.draw=function(){}
+        you can customize entity here.
+        ex)
+        this._myProp=0;
+        this.getMyProp=function(){
+            return this._myProp;
+        };
+        this.setMyProp=function(a){
+            this._myProp=a;
+        };*/
+    });
+/*
+YOU MUST NOT MODIFY VALUE OF THESE
+configurable
+outputsPower
+hasItems
+hasLiquids
+hasPower
+*/
+//using example without .hjson file. I don't recommand this way because you can't use mod item as requirements.
+centrifuge.localizedName = "Centrifuge";
+centrifuge.description = "Centrifuge";
+centrifuge.itemCapacity = 20;
+centrifuge.liquidCapacity = 60;
+centrifuge.size = 2;
+centrifuge.health = 500;
+/*true: dump items and liquids of output according to button
+false: dump items and liquids of output unconditionally*/
+centrifuge.dumpToggle = true;
+
 const thermalCentrifuge = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "thermal-centrifuge", [
     /*default form for each recipes. You can change values.
     {
