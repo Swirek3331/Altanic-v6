@@ -1,11 +1,11 @@
 name: "Altanic"
 author: "swirek3331"
 description:  "Modyfikacja zmieniająca mindustry. Czyli dodaję receptury używające przedmiotów z modu tworząć rzeczy z mindustry"
-version: "0.6.0.2 OH-NO VERSION"
+version: "KURWIUM SIĘ STAŁO NIE POBIERAJ"
 minGameVersion: 130
 hidden: false
 dependencies: [
   multi-lib
   zpgm-connector
 ]
-hideBrowser: false
+hideBrowser: true
