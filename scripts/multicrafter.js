@@ -59,13 +59,13 @@ const furnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCraf
     },
     {
         input: {
-            items: ["altanic-quartz/4"],
-            powet: 1
+            items: ["altanic-quartz/2", "coal/2"],
+            powet: 0.5
         },
         output: {
-            items: ["silicon/1"], 
+            items: ["silicon/4"], 
         },
-        craftTime: 90
+        craftTime: 40
     },
     {
         input: {
@@ -223,23 +223,23 @@ const inductionFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Ge
     },
     {
         input: {
-            items: ["altanic-quartz/4"],
-            powet: 1.5
-        },
-        output: {
-            items: ["silicon/2"], 
-        },
-        craftTime: 45
-    },
-    {
-        input: {
-            items: ["altanic-quartz/8"],
+            items: ["altanic-quartz/4", "coal/4"],
             powet: 1.5
         },
         output: {
             items: ["silicon/4"], 
         },
-        craftTime: 45
+        craftTime: 20
+    },
+    {
+        input: {
+            items: ["altanic-quartz/8", "coal/8"],
+            powet: 1.5
+        },
+        output: {
+            items: ["silicon/8"], 
+        },
+        craftTime: 20
     }, 
     {
         input: {
@@ -457,23 +457,33 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
     },
     {
         input: {
-            items: ["altanic-quartz/4"],
+            items: ["altanic-quartz/4", "altanic-coal/4"],
             powet: 3
         },
         output: {
             items: ["silicon/4"], 
         },
-        craftTime: 22.5
+        craftTime: 10
     },
     {
         input: {
-            items: ["altanic-quartz/16"],
+            items: ["altanic-quartz/8", "altanic-coal/8"],
+            powet: 3
+        },
+        output: {
+            items: ["silicon/8"],
+        },
+        craftTime: 10
+    },
+    {
+        input: {
+            items: ["altanic-quartz/16", "coal/16"],
             powet: 3
         },
         output: {
             items: ["silicon/16"], 
         },
-        craftTime: 22.5
+        craftTime: 10
     },
     {
         input: {

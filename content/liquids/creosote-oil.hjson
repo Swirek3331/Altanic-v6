@@ -1,6 +1,7 @@
 name: Creosote oil
 description: Creosote oil
 color: ffffff
+flammability: 0.3
 research: {
     parent: wood
 }

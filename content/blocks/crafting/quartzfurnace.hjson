@@ -1,0 +1,31 @@
+type: genericCrafter
+name: Piec kwarcowy
+description: Przetwarza kwarc robiąc krzem
+health: 500
+drawer: DrawSmelter
+size: 2
+craftingTime: 40
+consumes: {
+   power: 0.5
+   items: {
+     items: [
+       quartz/2
+       coal/2
+     ]
+   }
+}
+category: crafting
+requirements: [
+  copper/25
+  lead/50
+  graphite/45
+]
+research: {
+  parent: silicon-smelter
+  requirements: [
+    copper/2500
+    lead/5000
+    graphite/4500
+  ]
+}
+outputItem: silicon/2
