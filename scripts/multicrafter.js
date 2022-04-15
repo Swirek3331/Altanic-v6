@@ -121,7 +121,7 @@ const pyrolysisPlant = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gene
         },
         output: {
             items: ["coal/1"],
-            liquids: ["creosote-oil/6"],
+            liquids: ["altanic-creosote-oil/6"],
         },
         craftTime: 300
     },
@@ -132,7 +132,7 @@ const pyrolysisPlant = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gene
         },
         output: {
             items: ["altanic-cokecoal/5"],
-            liquids: ["creosote-oil/12"],
+            liquids: ["altanic-creosote-oil/12"],
         },
         craftTime: 120
     },
