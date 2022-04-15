@@ -113,7 +113,7 @@ furnace.health = 250;
 false: dump items and liquids of output unconditionally*/
 furnace.dumpToggle = true;
 
-const pyrolysisPlant = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "pyrolysisPlant", [
+const pyrolysisPlant = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "pyrolysis-plant", [
     {
         input: {
             items: ["altanic-wood/5"],

@@ -1,0 +1,12 @@
+name: Pyrolysis plant
+description: Pyrolysis plant
+category: crafting
+requirements: [
+  zelazo/150
+  copper/75
+  lead/55
+  metaglass/40
+]
+research: {
+    parent: electric-furnace
+}
