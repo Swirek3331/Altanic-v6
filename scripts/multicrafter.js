@@ -1382,17 +1382,6 @@ const mixer = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafte
         },
         craftTime: 90
     },
-    {
-        input: {
-            items: ["spore-pod/15", "z.p.g.m._mod-siarka/10"],
-            liquids: ["water/90"],
-            power: 10,
-        },
-        output: {
-            liquids: ["zpgm-connector-nitrociecz/9"],
-        },
-        craftTime: 600
-    },
 ], {
     /*you can customize block here. ex) load()*/
 },
@@ -1588,17 +1577,6 @@ const chemicalPlant = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gener
             liquids: ["altanic-lubricant/12"]
         },
         craftTime: 120
-    },
-    {
-        input: {
-            items: ["spore-pod/150", "z.p.g.m._mod-siarka/100"],
-            liquids: ["water/900"],
-            power: 15,
-        },
-        output: {
-            liquids: ["zpgm-connector-nitrociecz/90"],
-        },
-        craftTime: 300
     },
     {
         input: {
