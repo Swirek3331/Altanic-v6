@@ -1,5 +1,0 @@
-type: OreBlock
-itemDrop: stone
-mapColor: 000000
-hasColor: true
-oreDefault: true
