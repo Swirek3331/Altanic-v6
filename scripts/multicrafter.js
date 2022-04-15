@@ -60,7 +60,7 @@ const furnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCraf
     {
         input: {
             items: ["altanic-quartz/2", "coal/2"],
-            powet: 0.5
+            powet: 0.5,
         },
         output: {
             items: ["silicon/4"], 
@@ -70,7 +70,7 @@ const furnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCraf
     {
         input: {
             items: ["metaglass/20", "titanium/10"],
-            powet: 4
+            powet: 4,
         },
         output: {
             items: ["z.p.g.m._mod-butelka/10"], 
@@ -166,6 +166,7 @@ hasPower
 pyrolysisPlant.localizedName = "Pyrolysis Plant";
 pyrolysisPlant.description = "Pyrolysis Plant";
 pyrolysisPlant.itemCapacity = 20;
+pyrolysisPlant.liquidCapacity = 30;
 pyrolysisPlant.size = 2;
 pyrolysisPlant.health = 250;
 /*true: dump items and liquids of output according to button
@@ -566,7 +567,7 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
     {
         input: {
             items: ["metaglass/80", "titanium/40"],
-            powet: 16
+            powet: 16,
         },
         output: {
             items: ["z.p.g.m._mod-butelka/40"], 
@@ -576,7 +577,7 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
     {
         input: {
             items: ["metaglass/4", "titanium/2"],
-            power: 5
+            power: 5,
         },
         output: {
             items: ["z.p.g.m._mod-butelka/2"], 
@@ -637,7 +638,7 @@ const macerator = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
     {
         input: {
             items: ["scrap/1"],
-            power: 0.4
+            power: 0.4,
         },
         output: {
             items: ["sand/2"],
@@ -647,7 +648,7 @@ const macerator = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
     {
         input: {
             items: ["scrap/2"],
-            power: 0.4
+            power: 0.4,
         },
         output: {
             items: ["altanic-ironore/1"],
@@ -657,7 +658,7 @@ const macerator = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
     {
         input: {
             items: ["sand/2"],
-            power: 0.5
+            power: 0.5,
         },
         output: {
             items: ["altanic-quartz/2"],
@@ -749,7 +750,7 @@ const assembler = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
     {
         input: {
             items: ["thorium/8", "sand/20"],
-            power: 6
+            power: 6,
         },
         output: {
             items: ["phase-fabric/2"],
@@ -758,7 +759,7 @@ const assembler = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCr
     {
         input: {
             items: ["z.p.g.m._mod-baterian/2", "z.p.g.m._mod-butelkar/6", "z.p.g.m._mod-butelkaw/8", "z.p.g.m._mod-butelkaz/4", "z.p.g.m._mod-siarka/3"],
-            power: 8
+            power: 8,
         },
         output: {
             items: ["z.p.g.m._mod-chemia/2"],
@@ -820,7 +821,7 @@ const industrialPress = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gen
     {
         input: {
             items: ["coal/4"],
-            power: 0.5
+            power: 0.5,
         },
         output: {
             items: ["graphite/2"],
@@ -840,7 +841,7 @@ const industrialPress = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gen
     {
         input: {
             items: ["spore-pod/10"],
-            power: 1
+            power: 1,
         },
         output: {
             liquids: ["oil/60"],
@@ -859,7 +860,7 @@ const industrialPress = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gen
     {
         input: {
             items: ["altanic-canola/10"],
-            power: 0.75
+            power: 0.75,
         },
         output: {
             liquids: ["altanic-plant-oil/120"],
