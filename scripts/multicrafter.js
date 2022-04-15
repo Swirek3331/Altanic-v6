@@ -167,6 +167,7 @@ pyrolysisPlant.localizedName = "Pyrolysis Plant";
 pyrolysisPlant.description = "Pyrolysis Plant";
 pyrolysisPlant.itemCapacity = 20;
 pyrolysisPlant.liquidCapacity = 30;
+pyrolysisPlant.liquidCapacity = 30;
 pyrolysisPlant.size = 2;
 pyrolysisPlant.health = 250;
 /*true: dump items and liquids of output according to button
@@ -370,6 +371,7 @@ hasPower
 inductionFurnace.localizedName = "Induction furnce";
 inductionFurnace.description = "Induction smelter use power to smelt even faster, and also can use more advanced metalurgic proces";
 inductionFurnace.itemCapacity = 40;
+inductionFurnace.liquidCapacity = 15;
 inductionFurnace.liquidCapacity = 20;
 inductionFurnace.size = 2;
 inductionFurnace.health = 500;
@@ -560,7 +562,7 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
             powet: 8,
         },
         output: {
-            items: ["surge-alloy/1"], 
+            items: ["surge-alloy/4"], 
         },
         craftTime: 35
     },
@@ -614,6 +616,7 @@ hasPower
 electricArcFurnace.localizedName = "Electric arc furnace";
 electricArcFurnace.description = "Electric arc furnace is a masive structure that requires lots of power to work, but is very fast";
 electricArcFurnace.itemCapacity = 20;
+inductionFurnace.liquidCapacity = 30;
 electricArcFurnace.size = 5;
 electricArcFurnace.health = 1000;
 /*true: dump items and liquids of output according to button
@@ -716,6 +719,7 @@ hasPower
 macerator.localizedName = "Macerator";
 macerator.description = "Macerator";
 macerator.itemCapacity = 20;
+macerator.liquidCapacity = 12;
 macerator.size = 2;
 macerator.health = 250;
 /*true: dump items and liquids of output according to button
@@ -796,6 +800,7 @@ hasPower
 assembler.localizedName = "Assembler";
 assembler.description = "Assembler";
 assembler.itemCapacity = 20;
+assembler.liquidCapacity = 12;
 assembler.liquidCapacity = 60;
 assembler.size = 2;
 assembler.health = 500;
@@ -897,7 +902,7 @@ hasPower
 industrialPress.localizedName = "Industrial Press";
 industrialPress.description = "Industrial Press";
 industrialPress.itemCapacity = 20;
-industrialPress.liquidCapacity = 60;
+industrialPress.liquidCapacity = 240;
 industrialPress.size = 2;
 industrialPress.health = 500;
 /*true: dump items and liquids of output according to button
@@ -1076,7 +1081,7 @@ const compressor = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericC
     {
         input: {
             items: ["spore-pod/100"],
-            power: 1.5
+            power: 1.5,
         },
         output: {
             liquids: ["oil/600"],
@@ -1087,7 +1092,7 @@ const compressor = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericC
         input: {
             items: ["titanium/2"],
             liquids: ["altanic-naphta/12"],//nie pamiętam jaki mi procent ropy na inne produkty wyszedł, a zgubiłem kartkę z obliczeniami
-            power: 2
+            power: 2,
         },
         output: {
             items: ["plastanium/1"]
@@ -1098,7 +1103,7 @@ const compressor = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericC
         input: {
             items: ["titanium/12"],
             liquids: ["altanic-heavy-oil/12"],
-            power: 5
+            power: 5,
         },
         output: {
             items: ["plastanium/6"],
@@ -1418,7 +1423,7 @@ hasPower
 mixer.localizedName = "Mixer";
 mixer.description = "Mixer";
 mixer.itemCapacity = 20;
-mixer.liquidCapacity = 60;
+mixer.liquidCapacity = 120;
 mixer.size = 2;
 mixer.health = 500;
 /*true: dump items and liquids of output according to button
@@ -1500,7 +1505,7 @@ hasPower
 thermalMelter.localizedName = "melter";
 thermalMelter.description = "melter";
 thermalMelter.itemCapacity = 20;
-thermalMelter.liquidCapacity = 60;
+thermalMelter.liquidCapacity = 120;
 thermalMelter.size = 2;
 thermalMelter.health = 500;
 /*true: dump items and liquids of output according to button
@@ -1836,6 +1841,17 @@ const canner = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCraft
     {
         input: {
             items: ["altanic-liquid-can/1"],
+            liquids: ["altanic-creosote-oil/12"],
+            power: 0.1,
+        },
+        output: {
+            items: ["altanic-creosote-oil-can/1"],
+        },
+        craftTime: 30
+    },
+    {
+        input: {
+            items: ["altanic-liquid-can/1"],
             liquids: ["cryofluid/12"],
             power: 0.1,
         },
@@ -2020,6 +2036,16 @@ const canner = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCraft
             liquids: ["altanic-coil/12"],
         },
         craftTime: 30
+    },
+    {
+        input: {
+            items: ["altanic-creosote-oil-can/1"],
+            power: 0.1,
+        },
+        output: {
+            items: ["altanic-liquid-can/1"],
+            liquids: ["altanic-creosote-oil/12"],
+        },
     },
     {
         input: {

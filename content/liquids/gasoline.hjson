@@ -1,4 +1,5 @@
 name: Gasoline
+color: C1850D
 description: Or petrol
 research: {
   parent: oil

@@ -1,6 +1,7 @@
 name: Plutonium
 description: It's plutonium
 explosiveness: 0.3
+color: 133A9F
 hardness: 4
 radioactivity: 2.5
 research: {

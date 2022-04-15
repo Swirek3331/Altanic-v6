@@ -1,5 +1,6 @@
 name: Earth
 description: Earth
+color: 7C4F3E
 research: {
   parent: stone
 }

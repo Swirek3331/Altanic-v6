@@ -1,7 +1,7 @@
 name: biogas
 description: biogas
 flammability: 1
-color: 56A658
+color: 7F6A00
 explosiveness: 1
 viscosity: 0
 research: {

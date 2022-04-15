@@ -1,6 +1,7 @@
 name: uranium
 description: It's uranium
 explosiveness: 0.25
+color: 3E702E
 hardness: 4
 radioactivity: 1.25
 research: {
