@@ -14,7 +14,7 @@ consumes: {
   }
 }
 outputItem: coal/1
-outputLiquid: creosote-oil/30
+outputLiquid: creosoteOil/30
 category: crafting
 requirements: [
   zelazo/50
