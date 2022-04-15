@@ -1,0 +1,5 @@
+name: Creosote oil can
+description: Creosote oil can
+research: {
+    parent: oil-can
+}
