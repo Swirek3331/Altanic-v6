@@ -457,7 +457,7 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
     },
     {
         input: {
-            items: ["altanic-quartz/4", "altanic-coal/4"],
+            items: ["altanic-quartz/4", "coal/4"],
             powet: 3
         },
         output: {
@@ -467,7 +467,7 @@ const electricArcFurnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.
     },
     {
         input: {
-            items: ["altanic-quartz/8", "altanic-coal/8"],
+            items: ["altanic-quartz/8", "coal/8"],
             powet: 3
         },
         output: {
