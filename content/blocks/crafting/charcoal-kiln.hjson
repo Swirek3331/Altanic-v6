@@ -4,7 +4,7 @@ description:
 health: 500
 drawer: DrawSmelter
 size: 2
-craftTime: 180
+craftTime: 300
 consumes: {
   power: 1
   items: {
@@ -14,7 +14,7 @@ consumes: {
   }
 }
 outputItem: coal/1
-outputLiquid: creosote-oil/10
+outputLiquid: creosote-oil/30
 category: crafting
 requirements: [
   zelazo/50
