@@ -108,7 +108,7 @@ furnace.localizedName = "Electric Furnace";
 furnace.description = "Electir Furnace use power to smelt items";
 furnace.itemCapacity = 20;
 furnace.size = 2;
-furnace.health = 250;
+furnace.health = 500;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 furnace.dumpToggle = true;
@@ -374,7 +374,7 @@ inductionFurnace.itemCapacity = 40;
 inductionFurnace.liquidCapacity = 15;
 inductionFurnace.liquidCapacity = 20;
 inductionFurnace.size = 2;
-inductionFurnace.health = 500;
+inductionFurnace.health = 750;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 inductionFurnace.dumpToggle = true;
@@ -721,7 +721,7 @@ macerator.description = "Macerator";
 macerator.itemCapacity = 20;
 macerator.liquidCapacity = 12;
 macerator.size = 2;
-macerator.health = 250;
+macerator.health = 500;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 macerator.dumpToggle = true;
@@ -803,7 +803,7 @@ assembler.itemCapacity = 20;
 assembler.liquidCapacity = 12;
 assembler.liquidCapacity = 60;
 assembler.size = 2;
-assembler.health = 500;
+assembler.health = 750;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 assembler.dumpToggle = true;
@@ -1041,6 +1041,8 @@ fermenter.health = 500;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 fermenter.dumpToggle = true;
+//test
+fermenter.requirements(Category.crafting,ItemStack.with(Items.copper,75));
 
 const compressor = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "compressor", [
     /*default form for each recipes. You can change values.
@@ -1087,6 +1089,25 @@ const compressor = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericC
             liquids: ["oil/600"],
         },
         craftTime: 90
+    },
+    {
+        input: {
+            items: ["altanic-biomass/100"],
+            power: 3,
+        },
+        output: {
+            liquids: ["altanic-plant-oil/600"],
+        },
+    },
+    {
+        input: {
+            items: ["altanic-canola/100"],
+            power: 3,
+        },
+        output: {
+            liquids: ["altanic-plant-oil/1200"],
+        },
+        craftTime: 30
     },
     {
         input: {
@@ -2210,8 +2231,8 @@ canner.localizedName = "Canner";
 canner.description = "Canner";
 canner.itemCapacity = 4;
 canner.liquidCapacity = 24;
-canner.size = 1;
-canner.health = 100;
+canner.size = 2;
+canner.health = 250;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 canner.dumpToggle = true;

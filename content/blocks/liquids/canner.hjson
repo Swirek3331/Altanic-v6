@@ -1,0 +1,16 @@
+name: Canner
+description: Canner
+size: 2
+health: 500
+category: liquid
+requirements: [
+    metaglass/65
+    zelazo/75
+    copper/35
+    silicon/5
+    lead/25
+    graphite/25
+]
+research: {
+    parent: assembler
+}
