@@ -14,7 +14,7 @@ consumes: {
 results: [
   stone/20
   sand/5
-  ore-vein/10
+  ore-vein/4
 ]
 category: production
 requirements: [
@@ -27,12 +27,4 @@ requirements: [
 ]
 research: {
   parent: electicdrill
-  requirements: [
-    zelazo/8500
-    copper/5500
-    lead/4500
-    titanium/3000
-    silicon/6000
-    metaglass/2500
-  ]
 } 
