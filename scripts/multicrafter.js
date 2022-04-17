@@ -1041,8 +1041,7 @@ fermenter.health = 500;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 fermenter.dumpToggle = true;
-//test
-fermenter.requirements(Category.crafting,ItemStack.with(Items.copper,75));
+fermenter.requirements(Category.crafting, ItemStack.with(Items.copper, 75));
 
 const compressor = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "compressor", [
     /*default form for each recipes. You can change values.
