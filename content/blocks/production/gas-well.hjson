@@ -1,0 +1,23 @@
+type: Fracker
+name: Gas well
+description: Now you can have your own LNG.
+size: 3
+baseEfficiency: -1
+consumes: {
+   power: 4
+}
+attribute: oil
+pumpAmount: 0.1
+result: gas
+category: production
+requirements: [
+  copper/65
+  metaglass/85
+  titanium/50
+  steal/65
+  lead/70
+  silicon/45
+]
+research: {
+  parent: oil-well
+}

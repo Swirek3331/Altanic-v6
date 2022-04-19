@@ -1,0 +1,23 @@
+name: Lava well
+type: fracker
+description: Lava from ground
+result: lava
+size: 2
+health: 500
+baseEfficiency: -0.45
+attribute: hot
+//nie myśl o tym
+pumpAmount: 0.2
+category: production
+requirements: [
+    metaglass/25
+    stal/60
+    titanium/45
+    silicon/10
+    thorium/20
+    graphite/45
+    copper/30
+]
+research: {
+    parent: seperator
+}

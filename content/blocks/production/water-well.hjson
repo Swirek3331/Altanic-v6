@@ -1,0 +1,23 @@
+name: Water well
+type: SolidPump
+description: Water from ground
+result: water
+size: 2
+health: 500
+baseEfficiency: 0.25
+consumes: {
+   power: 2
+}
+attribute: water
+pumpAmount: 0.5
+category: production
+requiremnts: [
+    metaglass/45
+    titanium/50
+    zelazo/45
+    copper/25
+    silicon/10
+]
+research: {
+    parent: water-extractor
+}

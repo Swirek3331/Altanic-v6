@@ -1,0 +1,31 @@
+type: drill
+name: Wiertło elektryczne
+description: Wiertło używające prądu
+size: 2
+tier: 3
+drillTime: 300
+consumes: {
+   power: 1 
+   liquid: {
+    liquid: water
+    amount: 0.08
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  copper/35
+  silicon/25
+  graphite/35
+  lead/45
+]
+category: production
+research: {
+  parent: pneumatic-drill
+  requirements: [
+    copper/3500
+    graphite/3500
+    silicon/2500
+    lead/4500
+  ]
+}
