@@ -2,6 +2,7 @@ type: Fracker
 name: Odwiert naftowy
 description: Wydobywa pokłady ropy znajdujące się podziemią
 size: 2
+health: 500
 baseEfficiency: -0.5
 consumes: {
    power: 2.5

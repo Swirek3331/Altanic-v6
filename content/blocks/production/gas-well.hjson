@@ -1,6 +1,7 @@
 type: Fracker
 name: Gas well
 description: Now you can have your own LNG.
+health: 750
 size: 3
 baseEfficiency: -1
 consumes: {
