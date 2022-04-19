@@ -5,8 +5,7 @@ result: lava
 size: 2
 health: 500
 baseEfficiency: -0.45
-attribute: hot
-//nie myśl o tym
+attribute: heat
 pumpAmount: 0.2
 category: production
 requirements: [
