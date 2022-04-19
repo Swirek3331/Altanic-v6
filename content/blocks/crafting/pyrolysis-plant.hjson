@@ -8,5 +8,5 @@ requirements: [
   metaglass/40
 ]
 research: {
-    parent: electric-furnace
+    parent: furnace
 }

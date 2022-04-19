@@ -9,7 +9,7 @@ requirements: [
   copper/45
 ]
 research: {
-  parent: electric-furnace
+  parent: furnace
   requirements: [
     graphite/3000
     zelazo/5500

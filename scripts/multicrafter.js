@@ -1392,6 +1392,26 @@ const mixer = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafte
     },
     {
         input: {
+            items: ["altanic-cokecoal/1", "sand/2"],
+            power: 1,
+        },
+        output: {
+            items: ["pyratite/1"],
+        },
+        craftTime: 90
+    },
+    {
+        input: {
+            items: ["altanic-sulfur/1", "sand/2"],
+            power: 1.5,
+        },
+        output: {
+            items: ["blast-compound/1"],
+        },
+        craftTime: 90
+    },
+    {
+        input: {
             liquids: ["water/6"],
             items: ["sand/4", "altanic-stone/2"],
             power: 1.5,
@@ -1553,6 +1573,37 @@ const chemicalPlant = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Gener
         },
         output: {
             liquids: ["altanic-coil/12"],
+        },
+        craftTime: 120
+    },
+    {
+        input: {
+            items: ["altanic-cokecoal/2", "sand/4"],
+            power: 1
+        },
+        output: {
+            items: ["pyratite/2"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["altanic-sulfur/2", "sand/4"],
+            power: 1.5,
+        },
+        output: {
+            items: ["blast-compound/2"],
+        },
+        craftTime: 60
+    },
+    {
+        input: {
+            items: ["sand/10"],
+            liquids: ["oil/12"],
+            power: 2.5,
+        },
+        output: {
+            items: ["pyratite/3", "blast-compound/2"],
         },
         craftTime: 120
     },
