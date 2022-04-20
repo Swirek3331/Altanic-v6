@@ -11,7 +11,7 @@ consumes: {
   }
   liquid: {
     liquid: oil
-    amount: 0.02
+    amount: 0.1
   }
 }
 craftTime: 30
