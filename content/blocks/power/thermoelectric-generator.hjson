@@ -21,5 +21,5 @@ requirements: [
     titanium/25
 ]
 research: {
-    parent: diffrential-generator
+    parent: differential-generator
 }
