@@ -1458,7 +1458,7 @@ mixer.health = 500;
 false: dump items and liquids of output unconditionally*/
 mixer.dumpToggle = true;
 
--const oreWasher = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "ore-washer", [
+const oreWasher = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "ore-washer", [
     /*default form for each recipes. You can change values.
     {
         input:{
