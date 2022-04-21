@@ -5,5 +5,5 @@ color: 7F6A00
 explosiveness: 1
 viscosity: 0
 research: {
-  parent: gas
+  parent: biomass
 }
