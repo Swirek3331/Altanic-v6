@@ -1,8 +1,8 @@
 name: Biofuel can
 description: Biofuel can
 color: ffffff
-flammability: 1.2
-explosiveness: 1
+flammability: 1.75
+explosiveness: 0.5
 research: {
     parent: ehtanol-can
 }

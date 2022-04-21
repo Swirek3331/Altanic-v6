@@ -1,7 +1,7 @@
 name: Plant oil can
 description: Plant oil can
 color: F3EF02
-flammability: 0.8
+flammability: 1.2
 explosiveness: 0.6
 research: {
     parent: water-can
