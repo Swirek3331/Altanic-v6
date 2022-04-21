@@ -1,6 +1,8 @@
 name: Biogas can
 description: Biogas can
 color: ffffff
+explosiveness: 2
+flammability: 1.4
 research: {
     parent: biofuel-can
 }

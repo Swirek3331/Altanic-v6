@@ -1,6 +1,8 @@
 name: Gas can
 description: Gas can
-color: ffffff
+flammability: 2.6
+explosiveness: 2
+color: 5D5D5D
 research: {
     parent: oil-can
 }

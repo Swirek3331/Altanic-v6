@@ -1,6 +1,8 @@
 name: Heavy oil can
 description: Heavy oil can
-color: ffffff
+flammability: 1.5
+explosiveness: 1.2
+color: 720000
 research: {
     parent: oil-can
 }

@@ -1,8 +1,8 @@
 name: Refined fuel
 description: Fuel
 color: FF8000
-flammability: 1.3
-explosiveness: 1.1
+flammability: 1.5
+explosiveness: 0.6
 viscosity: 0.6
 heatCapacity: 0.5
 research: {

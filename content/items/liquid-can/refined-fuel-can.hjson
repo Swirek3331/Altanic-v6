@@ -1,6 +1,8 @@
 name: Rafined fuel can
 description: Refined fuel can
-color: ffffff
+color: FF8000
+flammability: 3
+explosiveness: 1.2
 research: {
     parent: gasoline-can
 }

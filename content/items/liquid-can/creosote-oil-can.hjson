@@ -1,5 +1,6 @@
 name: Creosote oil can
 description: Creosote oil can
+flammability: 0.3
 research: {
     parent: oil-can
 }

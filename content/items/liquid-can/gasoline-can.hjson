@@ -1,5 +1,7 @@
 name: Gasoline can
 description: Gasoline can
+flammability: 2.8
+explosiveness: 2
 color: ffffff
 research: {
     parent: oil-can

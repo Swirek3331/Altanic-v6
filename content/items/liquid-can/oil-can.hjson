@@ -1,6 +1,8 @@
 name: Oil can
 description: Oil can
-color: ffffff
+color: 000000
+flammability: 2
+explosiveness: 1.4
 research: {
     parent: liquid-can
 }

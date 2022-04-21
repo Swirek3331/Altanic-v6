@@ -1,5 +1,6 @@
 name: Biomass
 description: Biomass
+flammability: 0.2
 color: fffffff
 research: {
   parent: earth

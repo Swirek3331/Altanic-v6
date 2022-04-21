@@ -1,6 +1,8 @@
 name: Ethanol can
 description: Ethanol can
 color: ffffff
+flammability: 0.8
+explosiveness: 0.6
 research: {
     parent: water-can
 }
