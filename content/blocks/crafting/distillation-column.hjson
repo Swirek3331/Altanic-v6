@@ -6,7 +6,7 @@ consumes: {
   power: 10
   items: {
     items: [
-      liquid-can/10
+      liquid-can/1
     ]
   }
   liquid: {
