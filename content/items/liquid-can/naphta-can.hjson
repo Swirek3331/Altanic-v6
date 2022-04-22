@@ -2,7 +2,6 @@ name: Naphta can
 description: Naphta can
 color: FFD800
 flammability: 2.6
-explosiveness: 0.9
 research: {
     parent: oil-can
 }

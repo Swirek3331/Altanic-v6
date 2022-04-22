@@ -2,7 +2,6 @@ name: Oil can
 description: Oil can
 color: 000000
 flammability: 2
-explosiveness: 0.75
 research: {
     parent: liquid-can
 }
