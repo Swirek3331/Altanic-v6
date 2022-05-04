@@ -3,7 +3,7 @@ class NukeBulletType extends BombBulletType {
         super (2500, 30, sprite);
     }
     splashDamageRadius = radius;
-    splashDamage = damage;
+    splashDamage = damage * 3;
     collidesTiles = false;
     collides = false;
     shrinkY = 0.7;
@@ -14,6 +14,9 @@ class NukeBulletType extends BombBulletType {
     hitSound = explosionbig;
     shootEffect = shootBig;
     hitEffect = reactorExplosion;
+    ammoMultiplier = 1;
 }
 
 //class MissileNukeBullet extends NukeBulletType {}
+
+//class ArtilleryNukeBullet extends NukeBulletType {}
