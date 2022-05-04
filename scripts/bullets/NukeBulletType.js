@@ -20,3 +20,5 @@ class NukeBulletType extends BombBulletType {
 //class MissileNukeBullet extends NukeBulletType {}
 
 //class ArtilleryNukeBullet extends NukeBulletType {}
+
+module.export = NukeBulletType
