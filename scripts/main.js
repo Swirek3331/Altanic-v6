@@ -1,3 +1,3 @@
 require("multicrafter")
 
-require("nukeBulletType")
+require("NukeBulletType")
