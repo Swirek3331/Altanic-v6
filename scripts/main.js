@@ -1,3 +1,4 @@
 require("multicrafter")
 
-require("nukeBullet")
+require("nukeBulletType")
+require("reactorExplosionEffect")

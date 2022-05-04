@@ -4,6 +4,9 @@ description: Lava from ground
 result: lava
 size: 2
 health: 500
+consumes: {
+   power: 3
+}
 baseEfficiency: -0.45
 attribute: heat
 pumpAmount: 0.2
