@@ -21,4 +21,8 @@ class NukeBulletType extends BombBulletType {
 
 //class ArtilleryNukeBullet extends NukeBulletType {}
 
-module.export = NukeBulletType
+module.export = {
+    NukeBulletType: NukeBulletType,
+    //MissileNukeBullet: MissileNukeBullet,
+    //ArtilleryNukeBullet: ArtilleryNukeBullet
+}
